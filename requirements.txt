@@ -1,0 +1,14 @@
+cffi==2.1.1
+cloudpickle==3.1.2
+Farama-Notifications==0.0.6
+gymnasium==1.4.0
+kymnasium==1.2.9
+minigrid==3.2.0
+numpy==2.5.4
+plumbum==2.0.2
+pycparser==3.12
+pygame==2.6.1
+pygame-ce==2.5.8
+pymunk==7.3.1
+rpyc==6.0.2
+typing_extensions==4.16.0

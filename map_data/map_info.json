@@ -1,0 +1,9 @@
+{
+  "width_px": 1296,
+  "height_px": 864,
+  "tile_size_px": 48,
+  "rows": 18,
+  "cols": 27,
+  "background_tiles": 42,
+  "object_tiles": 82
+}
