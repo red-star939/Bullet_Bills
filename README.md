@@ -1,6 +1,11 @@
 # Bullet Bills
 
-슈퍼 마리오 환경에서 킬러(Bullet Bill) 추적, 차선(Lane) 관리 및 위험도 추정(Risk Estimator)을 수행하는 강화학습/시뮬레이션 환경 프로젝트입니다.
+슈퍼 마리오 환경(`kymnasium/BulletBill-Continuous-Hard-Stage-2`)에서 킬러(Bullet Bill) 추적, 레인(Lane) 관리 및 충돌 위험도 추정(Risk Estimator)을 수행하는 강화학습/시뮬레이션 환경 프로젝트입니다.
+
+상세한 구현 현황, 물리 분석 및 아키텍처는 **[Development_Process.md](Development_Process.md)** 문서를 참고하세요.
+
+## 📄 개발 및 구현 현황 문서
+- **[Development_Process.md](Development_Process.md)**: 레인 분류, 포탄 추적(BulletTracker), 1차 TTC 및 위험도 추정 구현 검증 결과와 분석 내용이 상세히 정리되어 있습니다.
 
 ## 프로젝트 구조
 
@@ -32,3 +37,4 @@ python test_agent_env.py
 python test_bullet_tracker.py
 python test_risk_env.py
 ```
+
