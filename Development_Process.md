@@ -1,517 +1,347 @@
-# Bullet Bills! — 레인 기반 포탄 추적 및 충돌 위험 예측
+# Bullet Bills! Continuous Hard Stage 2 — 생존 에이전트 개발
 
-> **프로젝트 상태:** 환경 및 맵 분석 완료 · 포탄 추적과 1차 TTC/위험도 추정 구현 및 검증 · 강화학습 에이전트 개발 전  
-> **기준일:** 2026-11-05  
-> **환경 ID:** `kymnasium/BulletBill-Continuous-Hard-Stage-2`
+> **프로젝트:** 강화학습-v / Mario BulletBill 연구 프로젝트  
+> **환경 ID:** `kymnasium/BulletBill-Continuous-Hard-Stage-2`  
+> **문서 갱신:** 2026-11-06  
+> **현재 단계:** 정밀 물리·충돌 예측 및 규칙 기반 행동 평가기 개발 완료, 플랫폼 안전성 분석과 **신규 시드 일반화 검증 진행 중**  
+> **학습된 `.pt` 체크포인트:** 아직 없음. 아래 실험은 강화학습 성능이 아니라 **규칙 기반 정책** 성능임.
 
-## 1. 프로젝트 소개
+## 1. 목표와 개발 전략
 
-이 프로젝트는 **Bullet Bills! (연속 행동, Hard, Stage 2)** 환경에서 마리오가 포탄을 회피하며 오래 생존하도록 하는 강화학습 에이전트를 개발하기 위한 연구·구현 프로젝트입니다.
+마리오가 무작위로 출현하는 Bullet Bill(포탄)을 피하고, 발판에서 추락하지 않으면서 최대한 오래 생존하는 에이전트를 개발한다. 최종적으로 PyTorch 신경망 정책을 학습·평가하고 `.pt` 파일로 저장하는 것이 목표다.
 
-현재까지는 학습 알고리즘을 바로 작성하기보다, **환경의 실제 물리 동작을 확인하고, 포탄의 위치 및 충돌 위험을 재현 가능하게 계산하는 분석 계층**을 먼저 구축했습니다.
+개발 전략은 다음과 같다.
 
-핵심 파이프라인은 다음과 같습니다.
+1. 게임 엔진의 물리·충돌 규칙을 검증한다.
+2. 현재 관측값을 기반으로 미래 상태를 시뮬레이션한다.
+3. 학습 없이 작동하는 **재현 가능한 규칙 기반 정책**을 성능 기준선으로 확보한다.
+4. 사망 원인과 일반화 성능을 검증하고 정책을 개선한다.
+5. 검증된 정책으로 학습 데이터를 생성하여 Behavior Cloning(BC)과 이후 강화학습(PPO 등)으로 연결한다.
 
-```text
-Gymnasium / Kymnasium observation
-             │
-             ▼
-    LaneManager (레인 분류)
-             │
-             ▼
-    BulletTracker (포탄 식별 및 초기 상태 기록)
-             │
-             ▼
-    risk_estimator (현재 TTC 및 위험도)
-             │
-             ▼
-    [예정] Mario Motion Predictor → State Encoder → RL Agent
-```
+**중요:** 현재의 `ForwardSimulator`는 *관측된 포탄을 기준으로 한 조건부 미래 예측*이다. 아직 등장하지 않은 무작위 포탄을 미리 알지 못하므로, 미래 전체의 생존을 보장하지 않는다.
 
-### 현재 구현 범위
+## 2. 환경·물리 규칙 요약
 
-- 18개 수평 레인 정의 및 객체의 점유 레인 계산
-- 관측 배열에서 포탄 검출, 프레임 간 매칭, 고유 ID 부여 및 추적 종료 처리
-- 포탄의 실제 정수 픽셀 이동 규칙을 반영하는 유효 수평 속도 계산
-- 포탄 **최초 관측** 시점의 마리오·포탄 좌표, 중심 간 거리, 충돌 간격, 상대속도 및 초기 TTC 저장
-- 프레임별 현재 TTC, 위험 점수, 가장 위험한 포탄 계산
-- 단위 테스트와 실제 환경(`seed=42`, 정지 마리오)을 사용한 동작 검증
+| 항목 | 확인된 설정 |
+|---|---|
+| 월드 크기 | 1296 × 864 px |
+| 내부 물리 갱신 | 60 FPS |
+| 기본 `frame_skip` | 4 (행동 1스텝 ≈ 0.0667초) |
+| 수평 레인 | 48px 높이 기준 18개 |
+| 수평 입력 | `action[0]` ∈ [-1, 1] |
+| 점프 입력 | `action[1]` ∈ [0, 1] |
+| 행동 자료형 | `np.float32` 배열 사용 |
+| 중력 | 2000 px/s² |
+| 점프 힘 | 1000 |
+| 포탄 밟기 반동 | 수직 속도 -500 px/s |
+| 지상/공중 최고 수평속도 | 750 / 500 px/s |
+| 지상/공중 최대 이동 힘 | 100 / 75 |
+| 수평 마찰 | 매 내부 프레임 속도 × 0.9 |
 
-**아직 구현되지 않은 기능:** 마리오의 미래 운동 궤적 예측, 후보 행동별 2차원 충돌 예측, 강화학습 정책·보상 함수·학습 루프·학습된 가중치. 파일을 미리 생성했더라도 본 README의 *예정* 표기는 구현·검증 완료를 뜻하지 않습니다.
+관측의 주요 키는 `mario`, `bullet_bills`다. 마리오는 `[left, top, right, bottom, vx, vy, invincible, jumping]`, 포탄은 `[left, top, right, bottom, vx]` 형식을 사용한다.
 
----
+실제 엔진은 마리오의 위치 이동에서 `int(velocity / 60)` 형태의 **정수 픽셀 이동**을 사용한다. 따라서 실수 속도의 극히 작은 오차도 경계에서 1px 차이와 충돌 시간 1프레임 차이로 이어질 수 있다.
 
-## 2. 개발 환경 및 설치
+### 충돌 판정에서 검증된 사실
 
-기존 개발 환경은 Windows + PowerShell + VS Code이며, 프로젝트 경로는 다음을 기준으로 했습니다.
-
-```text
-C:\Users\USER\Desktop\HONG_LB\mario_pj
-```
-
-사용 라이브러리는 `gymnasium`, `kymnasium`, `numpy`, `pygame`입니다. 개발 과정에서 `kymnasium 1.2.9`를 사용했습니다. Python 3.12 계열 가상환경(`.venv`)에서 실행을 검증했으며, 다른 버전과의 호환성은 별도 확인이 필요합니다.
-
-### 기존 가상환경 실행
-
-프로젝트 루트에서:
-
-```powershell
-.\.venv\Scripts\python.exe -c "import gymnasium, kymnasium, numpy, pygame; print('Imports OK')"
-```
-
-### 새 환경에 설치할 경우
-
-```powershell
-py -3.12 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install gymnasium kymnasium==1.2.9 numpy pygame
-```
-
-> 위 명령은 프로젝트의 최소 의존성 예시입니다. 배포용 `requirements.txt` 및 모든 버전 고정은 아직 확정하지 않았습니다.
-
-### 환경 생성 및 시드
-
-```python
-import gymnasium as gym
-
-ENV_ID = "kymnasium/BulletBill-Continuous-Hard-Stage-2"
-env = gym.make(ENV_ID, render_mode="none", bgm=False)
-obs, info = env.reset(seed=42)
-
-# ...
-env.close()
-```
-
-**주의:** 이 환경에서는 시드를 `gym.make(..., seed=42)`가 아니라 **`env.reset(seed=42)`**에 전달해야 합니다.
-
----
+- 활성 포탄과 마리오의 AABB가 실제로 겹쳐야 충돌이 발생한다. 경계만 맞닿는 것은 충돌이 아니다.
+- 위에서 내려오며 포탄을 밟는 조건을 만족하면 포탄이 `fallen`으로 전환되고 마리오는 반동한다.
+- 무적 상태에서 포탄과 겹치면 포탄이 `fallen`으로 전환된다.
+- 그 외 활성 포탄과의 치명적 겹침에서는 사망한다.
+- 포탄과 별의 내부 상태, 생성 이벤트 등 관측에 없는 정보는 장기 예측의 불확실성 요인이다.
 
 ## 3. 프로젝트 구조
 
-아래는 실제 개발 과정에서 사용한 파일과 계획된 구성입니다. 개발자 로컬의 파일 존재 여부는 이 README가 자동으로 검증하지 않으며, 일부 분석용 파일은 생성 여부가 다를 수 있습니다.
+다음은 **지금까지 구현·검증에 사용한 주요 파일**이다. 실제 Windows 프로젝트에서는 관련 파일을 동일한 상대 경로에 배치해야 한다.
 
 ```text
 mario_pj/
-├── .venv/                       # Python 가상환경
-├── README.md                    # 이 문서
-├── agent_env.py                 # 환경 생성 헬퍼 (로컬 프로젝트)
-├── manual_play.py               # 수동 플레이 (환경 점검용)
-├── test_env.py                  # 기초 환경 점검
-├── extract_map.py               # 배경/오브젝트 타일 추출
-├── build_collision_map.py       # 충돌 타일 맵 생성용 스크립트
-│
-├── map_data/                    # 맵 분석 결과
-│   ├── map_info.json
-│   ├── initial_entities.json
-│   ├── background_tiles.csv
-│   ├── object_tiles.csv
-│   └── collision_map.json       # 생성했을 경우
-│
+├── agent_env.py                         # 사용자 로컬 환경 생성 헬퍼
+├── map_data/
+│   └── object_tiles.csv                 # 정적 발판/물체 지도
 ├── models/
-│   ├── __init__.py
-│   ├── lane_manager.py          # 구현: 레인/수직 범위 관리
-│   ├── bullet_tracker.py        # 구현: 다중 포탄 추적 + 최초 관측 상태
-│   ├── risk_estimator.py        # 구현: 함수형 TTC/위험도 계산
-│   ├── mario_motion_predictor.py # 예정
-│   ├── state_encoder.py         # 예정
-│   ├── reward.py                # 예정
-│   ├── agent.py                 # 예정
-│   └── checkpoints/             # 예정: 학습 가중치
-│
-├── test_lane_manager.py         # 레인 계산 확인
-├── test_bullet_tracker.py       # 포탄 ID/매칭 단위 테스트
-├── test_tracker_env.py          # 실제 환경에서 추적 검증
-├── test_risk_estimator.py       # 함수형 TTC 계산 단위 테스트
-├── test_initial_range.py        # 최초 거리/TTC 단위 테스트
-├── test_risk_env.py             # 실제 환경에서 TTC/위험도 검증
-├── train.py                     # 예정
-└── evaluate.py                  # 예정
+│   ├── lane_manager.py                  # 레인 분류 (초기 단계)
+│   ├── bullet_tracker.py                # 포탄 추적 (초기 단계)
+│   ├── risk_estimator.py                # TTC/위험도 (초기 단계, 함수 API)
+│   ├── mario_motion_predictor.py        # 마리오 물리 예측
+│   ├── collision_predictor.py           # 엔진 충돌 규칙 재현
+│   ├── interaction_simulator.py         # 마리오-포탄 상호작용
+│   ├── collision_event_audit.py         # 실제 충돌 사건 판정
+│   ├── forward_simulator.py             # Nominal/Robust 미래 예측
+│   ├── action_evaluator.py              # v1 규칙 기반 행동 평가
+│   ├── action_evaluator_v2.py           # v2 장기 추락 예측 보강
+│   ├── failure_analyzer.py              # 실패 분석 v1
+│   ├── failure_analyzer_v2.py           # 실제 치명적 포탄 연결
+│   ├── failure_analyzer_v21.py          # 사망 경로/내부 포탄 ID 진단
+│   ├── mpc_controller.py                # 실험적 MPC v1 (성능 저하, 보류)
+│   └── platform_safety_evaluator.py     # 착지/지지/발판 경계 진단
+├── collect_failure_cases.py
+├── collect_failure_cases_v2.py
+├── collect_failure_cases_v21.py
+├── benchmark_action_evaluator_v2.py
+├── benchmark_mpc.py
+├── benchmark_generalization.py
+├── test_forward_simulator.py
+├── test_forward_simulator_robust.py
+├── test_action_evaluator.py
+├── test_action_evaluator_v2.py
+├── test_failure_analyzer_v21.py
+├── test_mpc_controller.py
+├── test_platform_safety_evaluator.py
+├── test_benchmark_generalization.py
+└── logs/                                # 실험 실행 시 생성
 ```
 
-### 모듈 간 인터페이스
+> `agent_env.py` 및 `map_data/object_tiles.csv` 등은 로컬 프로젝트 의존 파일이다. 파일 구성은 개발 시점과 실제 프로젝트 복사 상태에 따라 달라질 수 있다.
 
-```python
-from models.bullet_tracker import BulletTracker
-from models.risk_estimator import (
-    analyze_bullets,
-    get_most_dangerous,
-    get_total_risk,
-)
+## 4. 핵심 모듈과 구현 경과
 
-tracker = BulletTracker(fps=60, frame_skip=4)
-# 각 에피소드 reset 시 tracker.reset() 호출
-
-# env.step(action) 이후:
-bullets = tracker.update(
-    obs,
-    time_elapsed=float(info["time_elapsed"]),
-)
-risks = analyze_bullets(obs, tracked_bullets=bullets)
-most_dangerous = get_most_dangerous(risks)
-total_risk = get_total_risk(risks)
-```
-
-**중요한 API 결정:** 현재 `models/risk_estimator.py`는 **함수형 구현**입니다. 초기 개발 중 제안되었던 `RiskEstimator` 클래스는 현재 사용하지 않습니다. `from models.risk_estimator import RiskEstimator` 또는 `estimator.analyze(...)`는 현재 코드와 맞지 않습니다.
-
----
-
-## 4. 환경 사양
-
-### 4.1 화면과 시간
-
-| 항목 | 값 | 비고 |
-|---|---:|---|
-| 플레이 영역 | 1296 × 864 px | 상태 표시줄 제외 |
-| 표시줄 높이 | 50 px | `render_mode="human"` 화면에 추가 |
-| 타일 크기 | 48 × 48 px | 스케일 반영 후 |
-| 맵 크기 | 27열 × 18행 | 총 486개 격자 위치 |
-| 내부 물리 FPS | 60 | `dt_internal = 1/60`초 |
-| 기본 `frame_skip` | 4 | `env.step()`당 최대 4개 내부 프레임 |
-| 기본 행동 간격 | 4/60 ≈ 0.066667초 | 약 15회/게임 시간 1초 |
-| 최대 게임 시간 | 180초 | 환경 설정 기준 |
-
-종료 직전에는 내부 프레임 루프가 조기 중단될 수 있으므로 마지막 `env.step()`의 경과 시간은 `4/60`보다 짧을 수 있습니다. 정밀한 시간 측정에는 `info["time_elapsed"]`를 사용합니다.
-
-### 4.2 관측 구조
-
-```python
-observation = {
-    "mario":        # shape=(8,)
-        # [left, top, right, bottom, vx, vy, invincible, jumping]
-    "bullet_bills": # shape=(30, 5)
-        # 각 행: [left, top, right, bottom, vx]
-    "stars":        # Stage 2에서 확인한 shape=(2, 4)
-        # 각 행: [left, top, right, bottom]
-}
-```
-
-`bullet_bills`의 비어 있는 행은 모두 0입니다. 포탄의 **배열 행 번호는 고유 ID가 아니므로** `BulletTracker`가 별도의 `bullet_id`를 부여합니다.
-
-행동은 `numpy.float32` 2원소 연속 벡터입니다.
-
-```python
-action = np.array([horizontal_force, jump_force], dtype=np.float32)
-# horizontal_force: -1.0 ~ 1.0
-# jump_force:        0.0 ~ 1.0
-```
-
-현재 분석 단계의 테스트는 `action=[0.0, 0.0]`(정지)을 사용합니다. 원본 환경의 스텝 보상은 0이므로 향후 학습 시 보상 설계가 필요합니다.
-
-### 4.3 맵 및 충돌 지형
-
-`extract_map.py`를 이용해 Stage 2의 배경 및 오브젝트 레이어를 별도로 추출했습니다. 초기 상태에서 확인한 마리오의 바운딩 박스는 `[624, 720, 672, 768]`, 별은 좌우 `[0, 384, 48, 432]`, `[1248, 384, 1296, 432]`였습니다.
-
-게임 소스의 스테이지 생성 로직상:
-
-- **배경 레이어:** 시각적 타일
-- **오브젝트 레이어:** 마리오/별 타일을 제외한 항목을 플랫폼 충돌 객체로 생성
-
-즉, 보기에는 비어 있는 블록처럼 보이는 타일도 **오브젝트 레이어에 있으면 충돌 객체일 수 있습니다.** 맵 경로 및 점프 예측에는 배경 그림이 아닌 충돌 오브젝트를 사용해야 합니다.
-
----
-
-## 5. 알고리즘 구현 상세
-
-### 5.1 `LaneManager` — 레인 분류
-
-게임 영역의 Y축을 48px 단위로 나누어 총 18개 레인을 관리합니다.
-
-\[
-L(y)=\left\lfloor \frac{y}{48}\right\rfloor,
-\quad 0\le y<864
-\]
-
-- 레인 `0`: `0 ≤ y < 48`
-- 레인 `1`: `48 ≤ y < 96`
-- …
-- 레인 `17`: `816 ≤ y < 864`
-
-**대표 레인:** 객체 중심 Y좌표가 속한 레인.  
-**점유 레인:** 객체 바운딩 박스 `[top, bottom)`이 실제로 교차하는 모든 레인.
-
-예를 들어 포탄 `[left, 600, right, 648]`은 중심 Y가 `624`이므로 대표 레인은 `13`, 점유 레인은 `[12, 13]`입니다.
-
-레인 분류는 객체 관리용이며, 실제 충돌 판정은 **픽셀 단위 바운딩 박스의 교차**로 수행합니다.
-
-### 5.2 `BulletTracker` — 포탄 검출 및 다중 객체 추적
-
-각 `env.step()` 후 새 관측을 받아 다음 순서로 처리합니다.
-
-1. `bullet_bills`에서 모두 0인 행을 제외하고 포탄 검출
-2. 포탄의 중심 좌표·Y레인·점유 레인 계산
-3. 기존 포탄에 대한 다음 관측 위치 예측
-4. 위치·Y좌표·속도·방향이 허용 오차 내인 쌍을 탐욕적(greedy) 매칭
-5. 매칭된 포탄은 ID 유지, 매칭되지 않은 관측은 신규 ID 부여
-6. 일정 횟수 이상 관측되지 않은 추적은 제거 (`lost_ids`)
-
-주요 결과 필드:
-
-| 필드 | 의미 |
-|---|---|
-| `bullet_id` | 추적기가 발급한 고유 ID |
-| `bbox` | `[left, top, right, bottom]` |
-| `vx` | 환경이 보고하는 원래 수평 속도 |
-| `effective_vx` | 정수 픽셀 이동을 반영한 유효 속도 |
-| `lane`, `occupied_lanes` | 대표 및 점유 레인 |
-| `first_seen_frame`, `first_seen_time` | 최초 **관측** 시점 |
-| `age_frames`, `missed_frames` | 추적 갱신 횟수 및 연속 미관측 횟수 |
-| `is_new` | 이번 관측에서 신규 트랙인지 여부 |
-
-**한계:** 현재 구현은 greedy 매칭입니다. 거의 같은 위치·높이·속도의 포탄이 겹쳐 등장하면 ID가 바뀔 수 있습니다. 또한 `age_frames`는 내부 물리 프레임 수가 아니라 `update()` 호출 기반의 추적 경과 횟수입니다.
-
-### 5.3 속도 보정 — 엔진의 실제 픽셀 이동
-
-처음에는 `vx`를 곧바로 픽셀/초 이동 속도로 가정했지만, 실제 로그에서 `vx≈285.86`, `vx≈297.56`인 두 포탄 모두 **측정 이동 속도 240px/s**를 보였습니다.
-
-원본 `objs.py`에서 원인을 확인했습니다.
-
-```python
-# BulletBill.tick_frame 내부
-self.rect.centerx += int(self._velocity * dt)
-```
-
-내부 `dt = 1/60`이므로 **매 내부 프레임의 소수 이동량이 0 방향으로 절삭되며 다음 프레임에 누적되지 않습니다.**
-
-\[
-\Delta x_{internal}=\operatorname{trunc}(v_x/60)
-\]
-
-\[
-\boxed{v_x^{effective}=60\,\operatorname{trunc}(v_x/60)}
-\]
-
-`frame_skip=4`이고 포탄이 계속 활성 상태라면 스텝당 수평 이동량은:
-
-\[
-\Delta x_{step}=4\,\operatorname{trunc}(v_x/60)
-\]
-
-예: `vx=285.86` → 내부 프레임당 `+4px` → 스텝당 `+16px` → `effective_vx=+240px/s`. 음수 `vx`도 Python `int()`와 같이 0 방향 절삭으로 계산합니다.
-
-**설계 원칙:** 원래 `vx`와 유효 속도 `effective_vx`를 구분하고, 포탄 위치 예측과 TTC에는 유효 속도를 사용합니다. 원본 물리 엔진 자체는 수정하지 않습니다.
-
-### 5.4 최초 관측 거리 및 초기 TTC
-
-포탄이 새로 발견되면 그 순간의 마리오·포탄 상태를 저장합니다. **포탄이 내부적으로 생성된 시점이나 화면 가장자리에 정확히 1px 진입한 순간과는 다릅니다.** `frame_skip=4`에서는 중간 내부 프레임을 직접 관측하지 못할 수 있습니다.
-
-최초 관측 순간의 포탄 중심을 `x_b0`, 마리오 중심을 `x_m0`라고 할 때:
-
-\[
-D_0=|x_{m0}-x_{b0}|
-\]
-
-하지만 실제 바운딩 박스 접촉 시각은 중심 간 거리 대신 **경계 간 충돌 간격**을 사용해야 합니다.
-
-왼쪽에서 오는 포탄:
-
-\[
-G_0=x_{m,left}-x_{b,right}
-\]
-
-\[
-c_0=v_b^{effective}-v_m
-\]
-
-오른쪽에서 오는 포탄:
-
-\[
-G_0=x_{b,left}-x_{m,right}
-\]
-
-\[
-c_0=v_m-v_b^{effective}
-\]
-
-현재 수직 바운딩 박스가 겹치고, 포탄이 접근 중이며(`c_0>0`), 간격이 양수이면:
-
-\[
-\boxed{TTC_0=G_0/c_0}
-\]
-
-이미 수평·수직으로 겹쳐 있으면 `TTC_0=0`, 현재 수직이 겹치지 않거나 접근하지 않으면 `TTC_0=inf`로 처리합니다.
-
-추적기에 저장하는 초기값은 이후 프레임에서 덮어쓰지 않습니다.
-
-```text
-initial_bullet_x      최초 포탄 중심 X
-initial_mario_x       최초 마리오 중심 X
-initial_distance      최초 중심 간 거리 D0
-initial_collision_gap 최초 바운딩 박스 간격 G0
-initial_relative_vx   부호를 포함한 상대속도 (vb_effective - vm)
-initial_closing_speed 접근 속도의 양의 방향 성분
-initial_ttc           최초 TTC
-first_seen_time       환경의 time_elapsed
-```
-
-**단위 테스트 사례:** 마리오 `[624, 720, 672, 768]`, 포탄 `[384, 720, 432, 768, 285.86]`일 때:
-
-- 중심 간 거리 `D0 = 648 - 408 = 240px`
-- 경계 간 거리 `G0 = 624 - 432 = 192px`
-- 유효 포탄 속도 `240px/s`, 마리오 정지
-- 최초 TTC `192 / 240 = 0.800초`
-- 1회 `env.step()` 후 포탄이 16px 이동하면 현재 TTC `176 / 240 ≈ 0.733초`
-
-### 5.5 `risk_estimator.py` — 현재 TTC와 위험 점수
-
-현재 구현은 **함수형 API**이며 `analyze_bullets()`가 포탄별 **딕셔너리**를 반환합니다.
-
-- `calculate_ttc(mario, bullet)`: 현재 바운딩 박스 기준 TTC
-- `analyze_bullets(observation, tracked_bullets=None)`: 포탄별 위험도 계산
-- `get_most_dangerous(results)`: 위험 점수가 가장 높은 포탄
-- `get_total_risk(results)`: 모든 포탄 위험 점수의 최댓값
-
-수직 범위가 겹치는 조건:
-
-\[
-y_{b,top}<y_{m,bottom}
-\quad\land\quad
-y_{b,bottom}>y_{m,top}
-\]
-
-현재 TTC는 해당 수직 범위가 겹친다는 전제에서 수평 경계 사이 간격을 접근 상대속도로 나누어 계산합니다.
-
-위험 점수(기본 `tau=1.0`):
-
-\[
-R=\exp(-TTC/\tau)
-\]
-
-- 무적 상태 또는 `TTC=inf` → `R=0`
-- 현재 바운딩 박스가 겹침 → `TTC=0`, `R=1` (무적 제외)
-- `R ≥ 0.70`: `HIGH`
-- `0.35 ≤ R < 0.70`: `MEDIUM`
-- `0 < R < 0.35`: `LOW`
-- `R = 0`: `NONE`
-
-**주의:** 이 위험 점수는 임의 설계한 시간 기반 지표이며 **사망 확률이 아닙니다.** 현재 수직 범위가 겹치지 않아도 이후 점프·낙하로 충돌할 수 있습니다. 무적 상태일 때 `R=0`으로 설정하는 것도 무적 잔여 시간까지 예측한 것은 아닙니다.
-
----
-
-## 6. 테스트 방법 및 확인된 결과
-
-모든 명령은 **프로젝트 루트**에서 실행합니다.
-
-### 6.1 단위 테스트
-
-```powershell
-.\.venv\Scripts\python.exe test_lane_manager.py
-.\.venv\Scripts\python.exe test_bullet_tracker.py
-.\.venv\Scripts\python.exe test_risk_estimator.py
-.\.venv\Scripts\python.exe test_initial_range.py
-```
-
-검증 현황은 실제 제출된 콘솔 로그를 기준으로 기록했습니다.
-
-| 테스트 | 확인된 결과 |
-|---|---|
-| `test_bullet_tracker.py` | `All BulletTracker tests passed!` — 신규 ID, 배열 재정렬 매칭, 소멸 처리 통과 |
-| `test_initial_range.py` | `All initial range tests passed!` — 최초 D0·TTC0, 현재 TTC, 우측 접근, 초기값 보존 통과 |
-| `test_lane_manager.py` | 구현 및 테스트 코드 작성; 본 README 기준 별도 최종 콘솔 결과 미확인 |
-| `test_risk_estimator.py` | 함수형 테스트 코드 작성; 본 README 기준 별도 최종 콘솔 결과 미확인 |
-
-### 6.2 실제 게임 환경 테스트
-
-```powershell
-.\.venv\Scripts\python.exe test_tracker_env.py
-.\.venv\Scripts\python.exe test_risk_env.py
-```
-
-`test_risk_env.py`는 `seed=42`, `action=[0.0, 0.0]`으로 정지한 마리오를 대상으로 수행했습니다. 이 설정에서 포탄 최초 관측과 실제 게임 종료 로그를 비교했습니다.
-
-**포탄 ID 1 최초 관측:**
-
-```text
-Time=1.467s
-BulletX0=-16.0 | MarioX0=648.0
-D0=664.0px | CollisionGap0=616.0px
-RelativeVX0=240.0px/s | ClosingSpeed0=240.0px/s
-TTC0=2.567s
-```
-
-**포탄 ID 1의 진행 경과:**
-
-| 게임 시간(s) | 현재 TTC(s) | 위험도 |
-|---:|---:|---:|
-| 1.733 | 2.300 | 0.100 |
-| 2.067 | 1.967 | 0.140 |
-| 2.400 | 1.633 | 0.195 |
-| 2.733 | 1.300 | 0.273 |
-| 3.067 | 0.967 | 0.380 |
-| 3.400 | 0.633 | 0.531 |
-| 3.733 | 0.300 | 0.741 |
-| 4.050 | 0.000 | 1.000 |
-
-예측한 최초 수평 접촉 시간은 대략 `1.467 + 2.567 = 4.034초`였고 실제 게임 종료 로그는 `4.050초`였습니다. 차이는 **약 0.016초(물리 프레임 1개 수준)**였습니다.
-
-이는 **seed=42, 정지 마리오, 해당 포탄**에서 일치한 결과이며, 이동·점프 중인 마리오 또는 다른 시드에서 같은 정확도가 확보되었다는 의미는 아닙니다. 실제 사망 판정은 엔진의 내부 프레임 충돌 검사에서 이루어집니다.
-
----
-
-## 7. 구현 과정과 핵심 의사결정
-
-| 순서 | 수행 내용 | 확인·결정된 사항 |
-|---:|---|---|
-| 1 | 환경 생성 및 관측 구조 확인 | `env.reset(seed=...)`, 연속 행동/상태 배열 확인 |
-| 2 | 스테이지 맵 추출 | 27×18, 타일 48px, 배경/충돌 오브젝트 분리 |
-| 3 | 18개 레인 등록 | 대표 레인 및 실제 점유 레인 별도 관리 |
-| 4 | 포탄 추적기 구현 | 관측 행 번호 대신 포탄 고유 ID 사용 |
-| 5 | 실제 게임 추적 테스트 | 신규 포탄 검출 및 다중 포탄 ID 유지 확인 |
-| 6 | 시간 오차 조사 | `env.step()` 내부 `frame_skip=4` 확인 |
-| 7 | 이동 속도 차이 조사 | `int(velocity * dt)`에 의한 픽셀 정수화 확인 |
-| 8 | 포탄 유효 속도 도입 | 보고 속도 285.86·297.56 → 실제 240px/s와 일치 |
-| 9 | 최초 관측 사거리 도입 | `D0`, 충돌 간격, 상대속도, 초기 TTC 고정 저장 |
-| 10 | 실시간 위험도 분석 | `TTC`, `exp(-TTC)`, 가장 위험한 포탄 계산 |
-| 11 | 단위 및 실환경 검증 | 초기 TTC 0.800→0.733, 정지 마리오 충돌 예측 확인 |
-
-### 개발 중 해결한 호환성 이슈
-
-- Kymnasium 수동 플레이 래퍼는 설치된 환경에서 `from kymnasium.envs.bullet_bill import ManualPlayWrapper`로 임포트했습니다.
-- 일부 설치 버전의 수동 플레이 디버그 로그에서 NumPy 배열에 `action or default_action`을 적용하면 모호한 truth-value 오류가 발생할 수 있습니다. 개발 과정에서는 `action if action is not None else default_action` 방식으로 수정하여 테스트했습니다. **서드파티 패키지 소스를 로컬에서 수정했다면 다른 개발 환경에도 동일한 수정이 필요한지 확인해야 합니다.**
-- 위험도 추정기 API는 개발 중 클래스형 설계안에서 **함수형 최종 구현**으로 정리했습니다. 따라서 예전 테스트 코드의 `RiskEstimator` 임포트나 `.analyze()` 호출은 함수 API로 변경해야 합니다.
-
----
-
-## 8. 알려진 한계 및 후속 개발
-
-### 현 단계의 가정과 한계
-
-1. **포탄 최초 관측 ≠ 엔진 생성 순간 또는 경계에서 1px 진입한 순간.** `frame_skip=4`로 생기는 관측 공백은 존재합니다.
-2. **마리오 미래 속도를 일정하게 가정.** 실제로는 수평 가속도, 마찰, 속도 제한, 정수화, 플랫폼 충돌이 있습니다.
-3. **수직 운동을 아직 예측하지 않음.** 현재 Y구간이 겹치지 않으면 현 단계 TTC는 `inf`이나 점프 후 충돌 가능성은 여전히 있습니다.
-4. **행동 사이 충돌 가능성.** 에이전트는 기본적으로 4개 내부 프레임마다 행동 결정을 하므로, 그 사이 발생하는 접촉도 고려해야 합니다.
-5. **다중 포탄의 ID 매칭은 greedy 방식.** 유사한 포탄이 근접하면 재식별 실패 가능성이 있습니다.
-6. **무적 잔여 시간 미예측.** 무적 여부만 즉시 반영합니다.
-7. **성능 일반화 미검증.** 현재 정밀한 TTC 일치는 정지 마리오와 특정 시드 조건에서 확인했습니다.
-8. **강화학습 성능 미평가.** 아직 학습 정책이 없으므로 생존 성능 향상 주장은 할 수 없습니다.
-
-### 향후 작업 계획
-
-| 우선순위 | 모듈 | 목표 |
+| 단계 | 모듈 | 구현·검증 요약 |
 |---|---|---|
-| 1 | `models/mario_motion_predictor.py` | 가속·마찰·중력·점프·정수화·플랫폼 충돌을 반영한 미래 마리오 위치 예측 |
-| 2 | 2차원 충돌 예측 | 행동 후보마다 포탄/마리오의 내부 프레임 단위 바운딩 박스 교차 탐지 |
-| 3 | `models/state_encoder.py` | 추적 포탄, TTC, 레인, 마리오 운동 상태를 학습 입력으로 변환 |
-| 4 | `models/reward.py` | 생존, 회피, 위험 감소 및 불필요한 행동 억제 보상 설계 |
-| 5 | `models/agent.py` | 연속 행동 정책 구현 및 Kymnasium 평가 인터페이스 연결 |
-| 6 | `train.py`, `evaluate.py` | 다중 시드 학습, 평가, 모델 저장/복원 및 실험 로그 |
+| 환경 분석 | 레인/포탄 추적/TTC | 포탄 최초 관측 위치·초기 사거리·속도 및 위험 추정 구현 |
+| 물리 예측 | `MarioMotionPredictor` | 점프, 가속·마찰·중력, 발판 충돌 및 픽셀 단위 계산 재현 |
+| 상호작용 | `CollisionPredictor`, `InteractionSimulator` | 포탄 밟기·무적 충돌·사망 이벤트를 엔진 규칙으로 시뮬레이션 |
+| 충돌 실환경 검증 | 다중 시드 이벤트 감사 v3 | **10,000 에피소드**, 평가된 충돌 이벤트 **7,880/7,880 일치**; 생성/무적 변경 등 일부 프레임 제외 |
+| 미래 예측 | `ForwardSimulator` | 현재 관측 포탄을 기반으로 행동 시퀀스의 60FPS 미래 궤적 계산 |
+| 정밀도 보강 | Robust ForwardSimulator | `float32` 속도 양자화 경계의 9개 후보 예측으로 1프레임 충돌 시점 민감성 표시 |
+| 정책 기준선 | `ActionEvaluator` v1 | 8개 행동 후보의 단기 미래 위험 비교 |
+| 사망 분석 | FailureAnalyzer v1 → v2 → v2.1 | 실제 포탄 충돌과 추락을 구분, 내부 사망 증거 및 ID 연결 |
+| 실험적 다단계 제어 | MPC v1 | Beam Search 방식 도입, 실환경 성능 악화로 **사용 보류** |
+| 규칙 기반 정책 개선 | `ActionEvaluatorV2` | v1 선택을 유지하되 장기 추락이 예측되면 안전한 대안으로 교체 |
+| 플랫폼 진단 | `PlatformSafetyEvaluator` | 발판 지지, 착지, 겹침 폭, 가장자리 여유, 추락 프레임 분석 |
+| 일반화 검증 | `benchmark_generalization.py` | Reference/Holdout 분리 실험 **진행 중** |
 
-### 강화학습 인터페이스 참고
+### 4.1 ForwardSimulator: 경계 민감성 사례
 
-최종 제출/평가 단계에서는 Kymnasium의 에이전트 인터페이스(`act`, `save`, `load`)와 공식 평가 함수를 구현·검증해야 합니다. 현재 README는 **위험 인지 모듈의 개발 상태를 설명**하며, 학습 완료 또는 대회 평가 완료를 나타내지 않습니다.
+`seed=726388407`, 53번째 행동 스텝의 4번째 내부 프레임에서 Nominal은 사망을 예측했지만 실제 엔진은 다음 프레임에서 사망했다. 원인은 관측 `float32` 속도와 실제 내부 속도의 아주 작은 차이가 `int(vy/60)` 이동을 `-9px` 대 `-10px`로 갈라놓은 데 있다.
+
+Robust 버전은 X/Y 속도의 양자화 구간에서 9개 후보를 검사하며, 해당 사례에서 사망 시점을 **4 또는 5프레임**으로 표시했다. 이는 **샘플 기반 민감도 검사**이지 모든 가능한 물리 상태의 완전 탐색이나 사망 확률 추정이 아니다.
+
+### 4.2 ActionEvaluator v1/v2의 차이
+
+- **v1:** 정지·좌/우·점프·약한 수평 이동 등 고정된 8개 행동 후보를 비교한다. 기본적으로 행동 하나를 약 8스텝(0.53초) 유지하는 가정으로 예측한다.
+- **v2:** v1의 행동을 기본값으로 유지한다. 단기 평가에서 안전한 상위 후보에 대해 추가로 최대 20스텝(약 1.33초)까지 예측하여, 기존 선택에 **명시적 추락**이 예상되고 대안의 예측이 완주할 때만 선택을 바꾼다.
+- **MPC v1:** 행동을 구간별로 바꾸는 Beam Search 실험이었지만, 아래 성능 비교에서 크게 악화되어 현재 정책 기준선으로 사용하지 않는다.
+- **PlatformSafetyEvaluator:** 현재는 *읽기 전용 진단 도구*이며 v2의 점수/행동 변경에 직접 통합하지 않았다.
+
+## 5. 주요 실환경 벤치마크 결과
+
+수치는 **사용자가 Windows 실제 게임에서 실행하여 공유한 로그**에 기반한다. 합성 회귀 테스트 통과와 실게임 성능을 구분해야 한다.
+
+### 5.1 초기 규칙 기반 정책: 무작위 행동 vs ActionEvaluator v1
+
+동일한 100개 시드, 행동 상한 300스텝(20초)에서:
+
+| 항목 | 무작위 정책 | v1 (Nominal) |
+|---|---:|---:|
+| 평균 **관측** 생존 시간 | 약 3.18초 | 약 14.43초 |
+| 20초까지 생존 | 0/100 | 30/100 |
+| 시드별 승패 | — | 99승 1패 |
+| 정책 계산/결정 | — | 약 9.12ms |
+
+이는 상한 검열(censoring)이 있는 관측 평균이다. 20초에서 살아 있던 30개의 실제 사망 시간은 이 실험만으로 알 수 없다.
+
+### 5.2 Robust ablation (100개 시드)
+
+| 모드 | 평균 관측 생존 | 평균 계산 시간/결정 | 해석 |
+|---|---:|---:|---|
+| `none` | 14.434초 | 9.12ms | 가장 저렴한 기준선 |
+| `top_k` | 14.434초 | 40.99ms | 계산 증가, 생존 개선 관측 안 됨 |
+| `all` | 14.434초 | 91.32ms | 계산 증가, 생존 개선 관측 안 됨 |
+
+모든 모드에서 시드별 생존 시간이 같았다. 따라서 Robust를 정책 전체에 상시 적용할 근거는 부족하며, 경계 진단용으로 제한적으로 유지한다.
+
+### 5.3 FailureAnalyzer v2.1: 사망 원인 분류
+
+동일한 100개 시드의 60초 제한 실험에서 모든 에피소드가 제한시간 전에 사망했고, 평균 생존 시간은 **17.7085초**였다.
+
+| 실제 물리 사망 경로 | 건수 |
+|---|---:|
+| 포탄 충돌 | 45 |
+| 화면 아래 추락 | 55 |
+| 합계 | 100 |
+
+이전 v2에서 `fatal_projectile_unverified`로 남았던 55건이 추락으로 확인됐다. 포탄 연결 감사에서는 44건의 단일 치명적 겹침을 식별했고 1건은 복수 포탄으로 모호했다. 또한 동일 엔진 포탄의 관측 추적 ID가 여러 개로 갈라지는 사례가 22건 있어 추적 안정화 여지가 남아 있다.
+
+**주의:** 물리적 사망 원인과 정책의 의사결정 실패 원인은 다르다. 사망 직전 예측상 안전한 대안이 있었다는 사실은 그 대안이 실제 환경에서도 생존했을 것이라는 반사실적 증명이 아니다.
+
+### 5.4 MPC v1: 보류한 실험
+
+| 지표 | ActionEvaluator v1 | MPC v1 |
+|---|---:|---:|
+| 100개 시드 평균 생존 | 17.708초 | **2.601초** |
+| 평균 계산/결정 | 9.26ms | 44.40ms |
+| MPC가 이긴 시드 | — | **0/100** |
+
+MPC의 조기 가지치기/행동 다양성 및 플랫폼 위험 평가 문제가 의심되지만, 원인 확인 없이 특정 버그로 단정하지 않는다. **v1 MPC는 현재 실전 정책으로 사용하지 않는다.**
+
+### 5.5 ActionEvaluator v2: 현재 최고 규칙 기반 결과
+
+동일한 100개 시드, 900스텝(최대 60초), 기본 단기 8스텝·장기 20스텝·상위 4개 감사 기준:
+
+| 지표 | v1 | **v2** |
+|---|---:|---:|
+| 평균 **관측** 생존 | 17.708초 | **34.134초** |
+| 20초 생존율 | 30% | **73%** |
+| 40초 생존율 | 6% | **39%** |
+| 60초 생존율 | 0% | **19%** |
+| 계산/결정 평균 | 9.06ms | **19.18ms** |
+| 동일 시드 승리/동률/패배 | — | **75 / 2 / 23** |
+| v2 추락 회피 Override | — | **8,173회** |
+
+v2의 관측 평균은 v1 대비 약 **1.93배**이며, 평균 개선 폭은 **+16.426초**다. 단, 60초까지 생존한 19개 에피소드가 있어 34.134초는 **제한된 관측 평균**이다. Override 횟수는 정책 결정 변경 횟수이지 실제 추락을 예방한 횟수가 아니다.
+
+**퇴행 시드 예시**: `3082272262`(v1 51.33초 → v2 12.18초), `1158896200`(40.03초 → 4.20초). 평균 성능만큼 **23개 퇴행 사례**도 중요하게 다룬다.
+
+## 6. 현재 진행 중인 일반화 벤치마크
+
+`benchmark_generalization.py`는 기존과 동일한 `reference` 100개와 **중복되지 않는 신규 `holdout` 100개 이상**을 분리해 v1/v2를 비교한다. 각 시드를 같은 정책 간 비교에 사용하지만, 두 정책의 행동 차이로 게임 내부 RNG 소비가 달라질 수 있으므로 **동일 미래 포탄 시나리오의 완벽한 반사실 실험은 아니다**.
+
+**2026-11-06 현재 최근 공유된 터미널 진행 상황:**
+
+```text
+PROGRESS 25 / 200 split reference mean_delta_s 13.453
+PROGRESS 50 / 200 split reference mean_delta_s 16.09
+```
+
+- 현재 **50/200 에피소드 쌍(25%)**까지 진행된 것으로 공유됐다.
+- **Reference** 구간의 진행 중 평균 개선 폭은 +16.09초다.
+- **Holdout** 구간은 아직 결과가 공유되지 않았으므로 **일반화 성능 검증 완료라고 말할 수 없다**.
+- **현 구현은 결과 CSV/JSON을 루프 종료 후 저장한다.** 긴 평가 전에 중간 저장과 `--resume` 기능 추가가 권장된다.
+
+### 권장 실행 순서 (Windows PowerShell)
+
+프로젝트 루트에서 실행:
+
+```powershell
+# 1) 플랫폼 진단 및 일반화 벤치마크 회귀 테스트
+.\.venv\Scripts\python.exe test_platform_safety_evaluator.py
+.\.venv\Scripts\python.exe test_benchmark_generalization.py
+
+# 2) Reference 100 + Holdout 100 스모크 테스트
+.\.venv\Scripts\python.exe benchmark_generalization.py `
+  --reference-episodes 100 `
+  --holdout-episodes 100 `
+  --steps 900 `
+  --report-every 25 `
+  --out logs/generalization_smoke
+
+# 3) 스모크 통과 후 Holdout 1,000개 확장
+.\.venv\Scripts\python.exe benchmark_generalization.py `
+  --reference-episodes 100 `
+  --holdout-episodes 1000 `
+  --steps 900 `
+  --report-every 50 `
+  --out logs/generalization_1000
+```
+
+**참고:** `--steps 900`은 환경 행동 900스텝 기준 최대 60초다. Reference 100 + Holdout 100은 각 정책을 모두 평가하므로 최대 **400개 에피소드 실행**을 의미한다. 기존 프로세스가 실행 중이면 같은 출력 디렉터리로 두 번째 작업을 동시에 실행하지 않는다.
+
+실행 완료 후 기본 출력:
+
+```text
+logs/generalization_smoke/
+├── episode_pairs.csv     # split/reference/holdout, 시드별 비교 결과
+└── summary.json          # split별 승패, 제한 생존 평균, 생존율, bootstrap CI
+```
+
+`summary.json`의 `reference`, `holdout`, `all`을 구분해 보고, **최종 일반화 판단은 holdout 수치**를 우선한다. 기존 기준선과의 비교에 reference를 사용하되 holdout 결과에 맞춰 파라미터를 계속 변경하면 홀드아웃의 독립성이 훼손될 수 있으므로 새 테스트 시드를 별도로 보관한다.
+
+## 7. 주요 회귀 테스트 및 빠른 실행
+
+가상환경에서 `numpy`, `pygame`, `gymnasium`, `kymnasium` 및 게임 관련 의존성이 설치돼 있어야 실제 환경 테스트를 실행할 수 있다. 설치 명령과 버전은 현 로컬 가상환경 구성에 맞춘다. 본 문서가 의존성 버전까지 검증한 것은 아니다.
+
+```powershell
+# 물리/미래 예측
+.\.venv\Scripts\python.exe test_forward_simulator.py
+.\.venv\Scripts\python.exe test_forward_simulator_robust.py
+
+# 정책 및 사망 진단
+.\.venv\Scripts\python.exe test_action_evaluator.py
+.\.venv\Scripts\python.exe test_action_evaluator_v2.py
+.\.venv\Scripts\python.exe test_failure_analyzer_v21.py
+
+# 발판 안전성 및 일반화
+.\.venv\Scripts\python.exe test_platform_safety_evaluator.py
+.\.venv\Scripts\python.exe test_benchmark_generalization.py
+
+# 동일 100개 시드의 v1/v2 정책 비교
+.\.venv\Scripts\python.exe benchmark_action_evaluator_v2.py `
+  --episodes 100 --steps 900 --seed 20261106 `
+  --horizon-steps 8 --extended-horizon-steps 20 --audit-top-k 4 `
+  --out logs/action_evaluator_v2_60s
+
+# 엔진 사망 경로 감사 (진단용 내부 접근 포함)
+.\.venv\Scripts\python.exe collect_failure_cases_v21.py `
+  --episodes 100 --steps 900 --seed 20261106 `
+  --out logs/failure_analyzer_v21
+```
+
+### API 사용 예시
+
+```python
+import numpy as np
+from models.mario_motion_predictor import MarioMotionPredictor
+from models.forward_simulator import ForwardSimulator
+from models.action_evaluator_v2 import ActionEvaluatorV2
+
+motion = MarioMotionPredictor.from_object_tiles_csv("map_data/object_tiles.csv")
+forward = ForwardSimulator(motion)
+policy = ActionEvaluatorV2(
+    forward,
+    horizon_steps=8,
+    extended_horizon_steps=20,
+    audit_top_k=4,
+    robust_mode="none",
+)
+
+# obs: env.reset() 또는 env.step()의 최신 observation
+result = policy.evaluate(obs)
+action = np.asarray(result.best_action, dtype=np.float32)
+# next_obs, reward, terminated, truncated, info = env.step(action)
+```
+
+실환경 시험에서 정책에는 **관측값만** 제공하며, FailureAnalyzer의 엔진 내부 정보는 **사후 진단 전용**으로 분리한다.
+
+## 8. 데이터 해석 및 알려진 한계
+
+1. **조건부 예측:** 미래 무작위 포탄의 생성, 일부 별 획득 및 숨겨진 상태는 완전 예측할 수 없다.
+2. **양자화 경계:** `float32` 관측 정밀도 때문에 사망 프레임이 1프레임 차이 날 수 있다. Robust 9개 후보는 샘플이지 수학적 완전 보장이 아니다.
+3. **측정 상한:** 20·60초까지 생존한 샘플은 관측 시간 상한에 의해 검열된다. 제한 평균을 실제 평균 사망 시간처럼 쓰지 않는다.
+4. **동일 시드의 한계:** 정책 행동 차이가 RNG 소비에 영향을 준다면 미래 포탄 사건이 동일하지 않을 수 있다.
+5. **플랫폼 진단 범위:** `PlatformSafetyEvaluator`의 가장자리 여유와 착지 보고서는 위험의 단서이지 플랫폼 복귀 가능성의 증명이 아니다.
+6. **대안 행동의 불확실성:** 예측상 안전한 대안이 있더라도 실제로 그 행동을 실행했을 때 살았다는 뜻은 아니다.
+7. **연산 지연:** 평균 ms/결정은 측정됐다. 최악 지연(p95/p99)과 환경·렌더링 비용을 포함한 실시간 보장은 별도 검증이 필요하다.
+8. **10,000 시드 충돌 테스트의 범위:** 실제 포탄 상태를 매 내부 프레임 사용한 **동기화 이벤트 판정 정확도**다. 신규 포탄까지 포함한 독립 장기 미래 예측 정확도는 아니다.
+9. **학습 모델 부재:** 현재 `.pt` 파일은 없고, 아직 BC/PPO 정책의 실환경 성능을 주장할 수 없다.
+
+## 9. 다음 개발 계획
+
+**현재 권장 우선순위**
+
+1. **일반화 결과 수집 완료:** Holdout 100 → 1,000 시드에 대해 v2의 개선 폭·퇴행 비율·신뢰구간 확인.
+2. **긴 벤치마크 안정화:** `benchmark_generalization.py`에 중간 CSV/JSON 저장, `--resume`, 실험 설정 및 시드 리스트 보존 추가.
+3. **PlatformSafetyEvaluator의 실전 통합 검토:** 추락 방지 Override의 후보별 착지 안정성과 발판 지지 여유를 분석하여 잘못된 개입을 줄일 수 있는지 확인.
+4. **ActionEvaluator v2.1/v3:** 23개 퇴행 시드 분석, Override 후 포탄 위험·발판 복귀 위험 재검증. 새로운 홀드아웃을 확보해 검증.
+5. **학습용 상태 인코더·데이터 수집:** `state_encoder.py`, 교사 행동 데이터셋 수집기 작성.
+6. **첫 PyTorch 모델:** BC 학습 `mario_bc_v1.pt` 저장 및 규칙 기반 교사와 동일/신규 시드 성능 비교.
+7. **강화학습:** PPO 등으로 정책 미세조정 후 `mario_ppo_v1.pt`, 최종 `mario_best.pt` 평가.
+
+MPC v1은 **성능 저하로 보류**한다. 향후 다단계 행동 탐색이 다시 필요해지면 첫 행동별 Beam 다양성, 발판 위험 점수, 기존 정책 폴백 및 행동 로그를 추가한 별도의 실험으로 재도입한다.
+
+## 10. 실험 재현성 체크리스트
+
+- Python/패키지 버전, 환경 ID, 지도 CSV 버전, Git 커밋을 기록한다.
+- 시드 생성 알고리즘과 시드 리스트를 저장하고 reference/holdout을 섞지 않는다.
+- `horizon_steps`, `extended_horizon_steps`, `audit_top_k`, `robust_mode`, `frame_skip`, 총 에피소드 스텝 상한을 기록한다.
+- 보고서에는 평균 생존 시간뿐 아니라 **검열 수, 시간별 생존율, 동일 시드 승/패, 계산 지연, 조기 사망 사례**를 포함한다.
+- 내부 엔진 접근은 사후 진단기에만 허용하고 정책 평가 중에는 관측 기반 입력을 유지한다.
+- 실험 완료 전 중간 `PROGRESS` 출력은 **확정된 최종 결과가 아니며**, 특히 Reference 진행 수치를 Holdout 성능으로 인용하지 않는다.
 
 ---
 
-## 9. 빠른 시작 체크리스트
+### 문서 출처 및 범위
 
-1. 프로젝트 루트에서 가상환경 및 `gymnasium`, `kymnasium`, `numpy`, `pygame` 임포트를 확인합니다.
-2. `test_bullet_tracker.py`와 `test_initial_range.py`로 추적 및 초기 TTC 계산을 검사합니다.
-3. `test_tracker_env.py`로 실제 포탄의 ID/속도 추적을 확인합니다.
-4. `test_risk_env.py`로 최초 TTC와 매 프레임 위험도 증가를 확인합니다.
-5. 기존 코드에서 `RiskEstimator` 클래스를 임포트하지 않는지 확인합니다. 현재 정식 인터페이스는 `analyze_bullets`, `get_most_dangerous`, `get_total_risk` 함수입니다.
-6. 새 에피소드에서는 반드시 `tracker.reset()`을 호출하고, 가능하면 `tracker.update(obs, time_elapsed=...)`로 게임 시간을 전달합니다.
-7. 마리오 움직임을 도입하면 현 TTC는 근사값이므로 2차원 운동 예측기 검증 전까지 안전 보장용으로 사용하지 않습니다.
+이 README는 **2026-11-06까지의 프로젝트 대화, 공유된 실제 Windows 실행 결과 및 현재 제공된 코드**를 종합한 개발 기록이다. 전체 사용자 로컬 프로젝트 파일을 직접 확인하거나 모든 테스트를 이 환경에서 재실행한 것은 아니다. 각 성능 수치는 명시된 **실험 조건과 공유된 결과**에 한정된다.
 
----
-
-## 10. 문서의 검증 범위
-
-이 README는 2026-11-05까지 수행한 **코드 구현 대화, 실행 로그 및 게임 엔진 소스 분석 결과**를 정리한 것입니다. 실제 로컬 프로젝트 전체를 이 환경에서 자동으로 가져와 실행한 것은 아닙니다. 따라서 여기서 *검증 완료*로 표시한 항목은 **공유된 테스트 로그에서 확인된 범위**에 한정되며, 다른 시드·플랫폼·버전에서의 동작은 별도로 재확인해야 합니다.
+이전 초기 개발 단계 문서는 `README_2026-11-05_legacy.md`로 별도 보관했다.
