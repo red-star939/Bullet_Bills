@@ -1,0 +1,2 @@
+﻿episode,env_seed,action_seed,mode,frames,steps,pred_stomps,actual_bounce_witnesses,unresolved_contacts,first_pred_stomp_frame,first_actual_bounce_frame,first_bad_frame,first_bad_dy,first_bad_dvy,bad_frames,max_abs_dx,max_abs_dy,max_abs_dvx,max_abs_dvy,end_reason,trace_file
+593,3231917090,3971456701,mixed,166,42,1,3,0,115,1,,,,0,0,0,1.5115172345758765e-05,4.069010446983157e-05,game_over,logs\collision_interaction_env\episode_593_mixed_interaction_frames.csv

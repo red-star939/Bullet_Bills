@@ -1,0 +1,34 @@
+{
+  "episodes": 100,
+  "deaths": 100,
+  "censored_or_non_death": 0,
+  "label_counts": {
+    "ambiguous_multiple_fatal_projectiles": 1,
+    "fatal_projectile_first_seen_terminal_action": 38,
+    "fatal_projectile_unverified": 55,
+    "tracked_fatal_projectile": 6
+  },
+  "mean_observed_time_s": 17.70849999999996,
+  "schema_version": 2,
+  "engine_evidence_counts": {
+    "ambiguous_multiple_fatal_overlaps": 1,
+    "no_engine_contact_audit": 55,
+    "unique_fatal_overlap": 44
+  },
+  "fatal_projectiles_matched": 44,
+  "fatal_projectiles_visible_before_last_action": 6,
+  "known_world_alternative_available_at_terminal": 18,
+  "configuration": {
+    "episodes": 100,
+    "steps": 900,
+    "seed": 20261106,
+    "horizon_steps": 8,
+    "robust_mode": "none",
+    "robust_top_k": 3,
+    "history_seconds": 2.0,
+    "report_every": 10,
+    "save_all": false,
+    "engine_audit": true,
+    "out": "logs/failure_analyzer_v2"
+  }
+}

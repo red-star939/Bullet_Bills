@@ -1,0 +1,1211 @@
+[
+  {
+    "step": 51,
+    "action": [
+      0.0,
+      1.0
+    ],
+    "before": {
+      "time": 3.3333333333333264,
+      "game_state": "playing",
+      "mario_bbox": [
+        741,
+        589,
+        789,
+        637
+      ],
+      "mario_vx_internal": -91.73782526779378,
+      "mario_vy_internal": -666.6666666666663,
+      "mario_grounded": false,
+      "mario_active": true,
+      "mario_invincible": false,
+      "bullets": [
+        {
+          "index": 0,
+          "bbox": [
+            840,
+            458,
+            888,
+            506
+          ],
+          "state": "active",
+          "vx": -271.5428486337053
+        },
+        {
+          "index": 1,
+          "bbox": [
+            1206,
+            473,
+            1254,
+            521
+          ],
+          "state": "active",
+          "vx": -220.64412135220073
+        }
+      ]
+    },
+    "real_frames": [
+      {
+        "time": 3.349999999999993,
+        "game_state": "playing",
+        "mario_bbox": [
+          740,
+          579,
+          788,
+          627
+        ],
+        "mario_vx_internal": -82.5640427410144,
+        "mario_vy_internal": -633.3333333333329,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              836,
+              458,
+              884,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1203,
+              473,
+              1251,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.3666666666666596,
+        "game_state": "playing",
+        "mario_bbox": [
+          739,
+          570,
+          787,
+          618
+        ],
+        "mario_vx_internal": -74.30763846691296,
+        "mario_vy_internal": -599.9999999999995,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              832,
+              458,
+              880,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1200,
+              473,
+              1248,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.383333333333326,
+        "game_state": "playing",
+        "mario_bbox": [
+          738,
+          561,
+          786,
+          609
+        ],
+        "mario_vx_internal": -66.87687462022167,
+        "mario_vy_internal": -566.6666666666662,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              828,
+              458,
+              876,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1197,
+              473,
+              1245,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.399999999999993,
+        "game_state": "playing",
+        "mario_bbox": [
+          737,
+          553,
+          785,
+          601
+        ],
+        "mario_vx_internal": -60.1891871581995,
+        "mario_vy_internal": -533.3333333333328,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              824,
+              458,
+              872,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1194,
+              473,
+              1242,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      }
+    ],
+    "pred_frames": [
+      {
+        "subframe": 1,
+        "mario_bbox": [
+          740,
+          579,
+          788,
+          627
+        ],
+        "mario_vx": -82.56404113769531,
+        "mario_vy": -633.3333536783854,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              836,
+              458,
+              884,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1203,
+              473,
+              1251,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 2,
+        "mario_bbox": [
+          739,
+          569,
+          787,
+          617
+        ],
+        "mario_vx": -74.30763702392578,
+        "mario_vy": -600.000020345052,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              832,
+              458,
+              880,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1200,
+              473,
+              1248,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 3,
+        "mario_bbox": [
+          738,
+          560,
+          786,
+          608
+        ],
+        "mario_vx": -66.8768733215332,
+        "mario_vy": -566.6666870117186,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              828,
+              458,
+              876,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1197,
+              473,
+              1245,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 4,
+        "mario_bbox": [
+          737,
+          552,
+          785,
+          600
+        ],
+        "mario_vx": -60.18918598937988,
+        "mario_vy": -533.3333536783853,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              824,
+              458,
+              872,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1194,
+              473,
+              1242,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      }
+    ],
+    "actual_terminated": false,
+    "predicted_terminated": false,
+    "predicted_reason": null
+  },
+  {
+    "step": 52,
+    "action": [
+      1.0,
+      1.0
+    ],
+    "before": {
+      "time": 3.399999999999993,
+      "game_state": "playing",
+      "mario_bbox": [
+        737,
+        553,
+        785,
+        601
+      ],
+      "mario_vx_internal": -60.1891871581995,
+      "mario_vy_internal": -533.3333333333328,
+      "mario_grounded": false,
+      "mario_active": true,
+      "mario_invincible": false,
+      "bullets": [
+        {
+          "index": 0,
+          "bbox": [
+            824,
+            458,
+            872,
+            506
+          ],
+          "state": "active",
+          "vx": -271.5428486337053
+        },
+        {
+          "index": 1,
+          "bbox": [
+            1194,
+            473,
+            1242,
+            521
+          ],
+          "state": "active",
+          "vx": -220.64412135220073
+        }
+      ]
+    },
+    "real_frames": [
+      {
+        "time": 3.4166666666666594,
+        "game_state": "playing",
+        "mario_bbox": [
+          737,
+          545,
+          785,
+          593
+        ],
+        "mario_vx_internal": 13.329731557620448,
+        "mario_vy_internal": -499.9999999999995,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              820,
+              458,
+              868,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1191,
+              473,
+              1239,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.433333333333326,
+        "game_state": "playing",
+        "mario_bbox": [
+          738,
+          538,
+          786,
+          586
+        ],
+        "mario_vx_internal": 79.4967584018584,
+        "mario_vy_internal": -466.6666666666662,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              816,
+              458,
+              864,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1188,
+              473,
+              1236,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.4499999999999926,
+        "game_state": "playing",
+        "mario_bbox": [
+          740,
+          531,
+          788,
+          579
+        ],
+        "mario_vx_internal": 139.04708256167257,
+        "mario_vy_internal": -433.33333333333286,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              812,
+              458,
+              860,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1185,
+              473,
+              1233,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.4666666666666592,
+        "game_state": "playing",
+        "mario_bbox": [
+          743,
+          525,
+          791,
+          573
+        ],
+        "mario_vx_internal": 192.6423743055053,
+        "mario_vy_internal": -399.99999999999955,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              808,
+              458,
+              856,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1182,
+              473,
+              1230,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      }
+    ],
+    "pred_frames": [
+      {
+        "subframe": 1,
+        "mario_bbox": [
+          737,
+          545,
+          785,
+          593
+        ],
+        "mario_vx": 13.329732513427734,
+        "mario_vy": -499.99997965494794,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              820,
+              458,
+              868,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1191,
+              473,
+              1239,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 2,
+        "mario_bbox": [
+          738,
+          538,
+          786,
+          586
+        ],
+        "mario_vx": 79.49675926208496,
+        "mario_vy": -466.6666463216146,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              816,
+              458,
+              864,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1188,
+              473,
+              1236,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 3,
+        "mario_bbox": [
+          740,
+          531,
+          788,
+          579
+        ],
+        "mario_vx": 139.04708333587647,
+        "mario_vy": -433.3333129882813,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              812,
+              458,
+              860,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1185,
+              473,
+              1233,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 4,
+        "mario_bbox": [
+          743,
+          525,
+          791,
+          573
+        ],
+        "mario_vx": 192.64237500228882,
+        "mario_vy": -399.999979654948,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              808,
+              458,
+              856,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1182,
+              473,
+              1230,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      }
+    ],
+    "actual_terminated": false,
+    "predicted_terminated": false,
+    "predicted_reason": null
+  },
+  {
+    "step": 53,
+    "action": [
+      1.0,
+      1.0
+    ],
+    "before": {
+      "time": 3.4666666666666592,
+      "game_state": "playing",
+      "mario_bbox": [
+        743,
+        525,
+        791,
+        573
+      ],
+      "mario_vx_internal": 192.6423743055053,
+      "mario_vy_internal": -399.99999999999955,
+      "mario_grounded": false,
+      "mario_active": true,
+      "mario_invincible": false,
+      "bullets": [
+        {
+          "index": 0,
+          "bbox": [
+            808,
+            458,
+            856,
+            506
+          ],
+          "state": "active",
+          "vx": -271.5428486337053
+        },
+        {
+          "index": 1,
+          "bbox": [
+            1182,
+            473,
+            1230,
+            521
+          ],
+          "state": "active",
+          "vx": -220.64412135220073
+        }
+      ]
+    },
+    "real_frames": [
+      {
+        "time": 3.483333333333326,
+        "game_state": "playing",
+        "mario_bbox": [
+          747,
+          519,
+          795,
+          567
+        ],
+        "mario_vx_internal": 240.87813687495478,
+        "mario_vy_internal": -366.66666666666623,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              804,
+              458,
+              852,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1179,
+              473,
+              1227,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.4999999999999925,
+        "game_state": "playing",
+        "mario_bbox": [
+          752,
+          514,
+          800,
+          562
+        ],
+        "mario_vx_internal": 284.2903231874593,
+        "mario_vy_internal": -333.3333333333329,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              800,
+              458,
+              848,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1176,
+              473,
+              1224,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.516666666666659,
+        "game_state": "playing",
+        "mario_bbox": [
+          757,
+          510,
+          805,
+          558
+        ],
+        "mario_vx_internal": 323.3612908687134,
+        "mario_vy_internal": -299.9999999999996,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              796,
+              458,
+              844,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1173,
+              473,
+              1221,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      },
+      {
+        "time": 3.5333333333333257,
+        "game_state": "playing",
+        "mario_bbox": [
+          763,
+          506,
+          811,
+          554
+        ],
+        "mario_vx_internal": 358.5251617818421,
+        "mario_vy_internal": -266.6666666666663,
+        "mario_grounded": false,
+        "mario_active": true,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              792,
+              458,
+              840,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1170,
+              473,
+              1218,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": false
+      }
+    ],
+    "pred_frames": [
+      {
+        "subframe": 1,
+        "mario_bbox": [
+          747,
+          519,
+          795,
+          567
+        ],
+        "mario_vx": 240.87814178466797,
+        "mario_vy": -366.6666666666667,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              804,
+              458,
+              852,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1179,
+              473,
+              1227,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 2,
+        "mario_bbox": [
+          752,
+          514,
+          800,
+          562
+        ],
+        "mario_vx": 284.2903276062012,
+        "mario_vy": -333.33333333333337,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              800,
+              458,
+              848,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1176,
+              473,
+              1224,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 3,
+        "mario_bbox": [
+          757,
+          509,
+          805,
+          557
+        ],
+        "mario_vx": 323.3612948455811,
+        "mario_vy": -300.00000000000006,
+        "grounded": false,
+        "events": [],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              796,
+              458,
+              844,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1173,
+              473,
+              1221,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      },
+      {
+        "subframe": 4,
+        "mario_bbox": [
+          763,
+          505,
+          811,
+          553
+        ],
+        "mario_vx": 358.52516536102297,
+        "mario_vy": -266.66666666666674,
+        "grounded": false,
+        "events": [
+          {
+            "kind": "death",
+            "bullet_id": 0,
+            "bullet_bbox": [
+              792,
+              458,
+              840,
+              506
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              792,
+              458,
+              840,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1170,
+              473,
+              1218,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      }
+    ],
+    "actual_terminated": false,
+    "predicted_terminated": true,
+    "predicted_reason": "bullet"
+  },
+  {
+    "step": 54,
+    "action": [
+      1.0,
+      0.0
+    ],
+    "before": {
+      "time": 3.5333333333333257,
+      "game_state": "playing",
+      "mario_bbox": [
+        763,
+        506,
+        811,
+        554
+      ],
+      "mario_vx_internal": 358.5251617818421,
+      "mario_vy_internal": -266.6666666666663,
+      "mario_grounded": false,
+      "mario_active": true,
+      "mario_invincible": false,
+      "bullets": [
+        {
+          "index": 0,
+          "bbox": [
+            792,
+            458,
+            840,
+            506
+          ],
+          "state": "active",
+          "vx": -271.5428486337053
+        },
+        {
+          "index": 1,
+          "bbox": [
+            1170,
+            473,
+            1218,
+            521
+          ],
+          "state": "active",
+          "vx": -220.64412135220073
+        }
+      ]
+    },
+    "real_frames": [
+      {
+        "time": 3.5499999999999923,
+        "game_state": "game_over",
+        "mario_bbox": [
+          770,
+          503,
+          818,
+          551
+        ],
+        "mario_vx_internal": 390.1726456036579,
+        "mario_vy_internal": -233.33333333333294,
+        "mario_grounded": false,
+        "mario_active": false,
+        "mario_invincible": false,
+        "bullets": [
+          {
+            "index": 0,
+            "bbox": [
+              788,
+              458,
+              836,
+              506
+            ],
+            "state": "active",
+            "vx": -271.5428486337053
+          },
+          {
+            "index": 1,
+            "bbox": [
+              1167,
+              473,
+              1215,
+              521
+            ],
+            "state": "active",
+            "vx": -220.64412135220073
+          }
+        ],
+        "ended_internal_step": true
+      }
+    ],
+    "pred_frames": [
+      {
+        "subframe": 1,
+        "mario_bbox": [
+          770,
+          503,
+          818,
+          551
+        ],
+        "mario_vx": 390.17265930175785,
+        "mario_vy": -233.33332316080728,
+        "grounded": false,
+        "events": [
+          {
+            "kind": "death",
+            "bullet_id": 0,
+            "bullet_bbox": [
+              788,
+              458,
+              836,
+              506
+            ]
+          }
+        ],
+        "bullets": [
+          {
+            "id": 0,
+            "bbox": [
+              788,
+              458,
+              836,
+              506
+            ],
+            "state": "active"
+          },
+          {
+            "id": 1,
+            "bbox": [
+              1167,
+              473,
+              1215,
+              521
+            ],
+            "state": "active"
+          }
+        ]
+      }
+    ],
+    "actual_terminated": true,
+    "predicted_terminated": true,
+    "predicted_reason": "bullet"
+  }
+]

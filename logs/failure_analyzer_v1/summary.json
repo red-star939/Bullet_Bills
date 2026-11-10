@@ -1,0 +1,23 @@
+{
+  "episodes": 100,
+  "deaths": 70,
+  "censored_or_non_death": 30,
+  "label_counts": {
+    "censored_or_non_death": 30,
+    "possible_unobserved_projectile": 68,
+    "predicted_lethal_action": 2
+  },
+  "mean_observed_time_s": 14.434333333333479,
+  "configuration": {
+    "episodes": 100,
+    "steps": 300,
+    "seed": 20261106,
+    "horizon_steps": 8,
+    "robust_mode": "none",
+    "robust_top_k": 3,
+    "history_seconds": 2.0,
+    "report_every": 10,
+    "save_all": false,
+    "out": "logs/failure_analyzer_v1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "model": "models/bullet_bill_ppo_v10_best.pt",
+  "risk_mode": "observe",
+  "altitude": "v2",
+  "seed": 20261110,
+  "episodes": 5,
+  "cap_seconds": 600.0,
+  "mean_observed_survival_s": 70.00333333333064,
+  "max_observed_survival_s": 94.46666666666259,
+  "reached_300s": 0,
+  "reached_600s": 0,
+  "step_limit_count": 0,
+  "failure_counts": {
+    "tracked_fatal_projectile": 3,
+    "fatal_projectile_unverified": 2
+  },
+  "note": "Observed survival is right-censored at step limit; engine audit is diagnostic only."
+}

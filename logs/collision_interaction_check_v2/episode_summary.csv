@@ -1,0 +1,2 @@
+﻿episode,env_seed,action_seed,mode,frames,steps,endpoint,events_scored,spawn_censored,star_censored,other_censored,pred_stomps,actual_stomps,pred_invincible_hits,actual_invincible_hits,pred_deaths,actual_deaths,event_errors,motion_errors,resyncs,first_error_frame,max_dx,max_dy,max_dvx,max_dvy
+4,2782372853,408272216,hold_jump,539,135,game_over,533,6,0,0,2,2,0,0,1,1,0,0,6,,0.0,0.0,0.0,0.0

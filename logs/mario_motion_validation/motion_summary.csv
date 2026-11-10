@@ -1,0 +1,7 @@
+﻿scenario,steps_observed,complete_steps,last_time_s,end_reason,max_local_dx,max_local_dy,max_open_dx,max_open_dy,max_local_dvx,max_local_dvy,max_open_dvx,max_open_dvy,first_open_drift_gt_1px_step,local_ground_mismatch_steps,open_ground_mismatch_steps
+still,60,60,4.0,max_steps,0,0,0,0,0.0,0.0,0.0,0.0,,0,0
+reverse_ground,9,8,0.58333333,game_over,0,1,0,0,1.3323974712875497e-05,2.0345052007542108e-05,1.7808593725021638e-05,2.0345052007542108e-05,,0,0
+jump_then_right,17,16,1.08333333,game_over,0,1,0,0,7.324218728399501e-06,4.069010446983157e-05,7.324218728399501e-06,4.0690103560336865e-05,,0,0
+right_jump_reverse,24,23,1.58333333,game_over,0,1,0,0,1.3323974712875497e-05,4.0690104015084216e-05,1.7808593725021638e-05,2.0345052234915784e-05,,0,0
+alternating_jump,60,60,4.0,max_steps,0,1,0,0,0.0,4.0690104015084216e-05,0.0,2.0345052689663135e-05,,0,0
+mixed,9,8,0.58333333,game_over,0,1,0,0,1.3323974712875497e-05,2.0345052007542108e-05,1.7808593725021638e-05,2.0345052007542108e-05,,0,0

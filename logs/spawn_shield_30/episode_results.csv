@@ -1,0 +1,6 @@
+seed,mode,survival_s,decisions,terminal,wall_step_fraction,shield_overrides,spawn_overrides,final_wall_clearance_px,runtime_s
+3110390117,ppo,17.86667,268,terminated,0.63806,0,0,274.0,0.16
+3110390117,shield,24.58333,369,terminated,0.63415,54,0,0,8.28
+3110390117,spawn_shield,10.4,156,terminated,0.0,21,4,358.0,3.57
+1602613270,ppo,12.91667,194,terminated,0.79897,0,0,94.0,0.12
+1602613270,shield,12.91667,194,terminated,0.79897,0,0,94.0,4.47

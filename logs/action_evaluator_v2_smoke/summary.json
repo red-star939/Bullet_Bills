@@ -1,0 +1,24 @@
+{
+  "episodes": 20,
+  "configuration": {
+    "episodes": 20,
+    "steps": 300,
+    "seed": 20261106,
+    "horizon_steps": 8,
+    "extended_horizon_steps": 20,
+    "audit_top_k": 4,
+    "report_every": 10,
+    "out": "logs/action_evaluator_v2_smoke"
+  },
+  "v1_mean_observed_time_s": 15.49583335,
+  "v2_mean_observed_time_s": 17.3125,
+  "v2_wins": 9,
+  "ties": 7,
+  "v2_losses": 4,
+  "v1_survived_to_step_limit": 8,
+  "v2_survived_to_step_limit": 14,
+  "v1_mean_compute_ms_per_decision": 9.172368579411133,
+  "v2_mean_compute_ms_per_decision": 18.801479214780603,
+  "v2_total_fall_overrides": 743,
+  "note": "Time capped at step limit; longer nominal forecasts assume no unknown future spawns."
+}

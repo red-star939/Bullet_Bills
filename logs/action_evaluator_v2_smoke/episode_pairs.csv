@@ -1,0 +1,21 @@
+episode,env_seed,v1_time_s,v1_game_state,v1_decisions,v1_policy_compute_s,v1_policy_compute_ms_per_decision,v1_switches,v1_v2_fall_overrides,v1_v2_override_reasons,v2_time_s,v2_game_state,v2_decisions,v2_policy_compute_s,v2_policy_compute_ms_per_decision,v2_switches,v2_v2_fall_overrides,v2_v2_override_reasons,delta_time_s
+0,2786169488,13.033333,game_over,196,1.711362,8.7314,22,0,{},20.0,playing,300,5.231513,17.4384,61,46,"{""avoided_predicted_extended_fall"": 46}",6.966667
+1,1009661775,5.516667,game_over,83,0.678481,8.1745,8,0,{},20.0,playing,300,6.089356,20.2979,33,62,"{""avoided_predicted_extended_fall"": 62}",14.483333
+2,4286649833,20.0,playing,300,2.702044,9.0068,45,0,{},20.0,playing,300,5.271,17.57,39,15,"{""avoided_predicted_extended_fall"": 15}",0.0
+3,589641034,17.65,game_over,265,2.489641,9.3949,20,0,{},17.65,game_over,265,4.928293,18.5973,25,38,"{""avoided_predicted_extended_fall"": 38}",0.0
+4,10931824,20.0,playing,300,2.890665,9.6356,33,0,{},20.0,playing,300,5.943175,19.8106,39,30,"{""avoided_predicted_extended_fall"": 30}",0.0
+5,2216176569,20.0,playing,300,2.630264,8.7675,46,0,{},20.0,playing,300,5.910962,19.7032,25,18,"{""avoided_predicted_extended_fall"": 18}",0.0
+6,4050366454,14.05,game_over,211,1.863816,8.8332,20,0,{},20.0,playing,300,5.598018,18.6601,29,51,"{""avoided_predicted_extended_fall"": 51}",5.95
+7,3082272262,20.0,playing,300,2.862051,9.5402,31,0,{},12.183333,game_over,183,3.334417,18.2209,16,8,"{""avoided_predicted_extended_fall"": 8}",-7.816667
+8,3142518375,9.516667,game_over,143,1.228607,8.5917,10,0,{},20.0,playing,300,5.791779,19.3059,46,93,"{""avoided_predicted_extended_fall"": 93}",10.483333
+9,1869511781,12.3,game_over,185,1.630483,8.8134,24,0,{},20.0,playing,300,5.885687,19.619,42,27,"{""avoided_predicted_extended_fall"": 27}",7.7
+10,247887343,20.0,playing,300,2.829699,9.4323,29,0,{},10.366667,game_over,156,2.920878,18.7236,12,38,"{""avoided_predicted_extended_fall"": 38}",-9.633333
+11,2669368523,17.666667,game_over,265,2.476241,9.3443,37,0,{},20.0,playing,300,5.832726,19.4424,31,125,"{""avoided_predicted_extended_fall"": 125}",2.333333
+12,833298376,20.0,playing,300,2.70418,9.0139,41,0,{},20.0,playing,300,5.446418,18.1547,29,31,"{""avoided_predicted_extended_fall"": 31}",0.0
+13,468509793,18.183333,game_over,273,2.558092,9.3703,31,0,{},20.0,playing,300,5.836898,19.4563,21,31,"{""avoided_predicted_extended_fall"": 31}",1.816667
+14,2295526809,11.566667,game_over,174,1.640905,9.4305,18,0,{},11.483333,game_over,173,3.449595,19.9399,21,17,"{""avoided_predicted_extended_fall"": 17}",-0.083334
+15,354836279,14.683333,game_over,221,2.067397,9.3547,36,0,{},20.0,playing,300,5.906462,19.6882,40,60,"{""avoided_predicted_extended_fall"": 60}",5.316667
+16,2037034473,20.0,playing,300,2.684795,8.9493,26,0,{},20.0,playing,300,5.075375,16.9179,43,9,"{""avoided_predicted_extended_fall"": 9}",0.0
+17,2469493205,8.966667,game_over,135,1.233705,9.1386,5,0,{},10.366667,game_over,156,2.729503,17.4968,14,5,"{""avoided_predicted_extended_fall"": 5}",1.4
+18,1910519587,20.0,playing,300,2.824806,9.416,22,0,{},20.0,playing,300,5.435013,18.1167,25,36,"{""avoided_predicted_extended_fall"": 36}",0.0
+19,2621993742,6.783333,game_over,102,0.971797,9.5274,15,0,{},4.2,game_over,63,1.075418,17.0701,6,3,"{""avoided_predicted_extended_fall"": 3}",-2.583333
