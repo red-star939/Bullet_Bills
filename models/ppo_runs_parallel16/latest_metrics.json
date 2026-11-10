@@ -1,0 +1,14 @@
+{
+  "global_steps": 1000000,
+  "episode_count": 11538,
+  "recent_mean_survival_s": 5.878499999999999,
+  "recent_mean_reward": -0.11459999999999945,
+  "env_steps_per_second": 1114.4769074497744,
+  "stats": {
+    "policy_loss": 0.0131737538613379,
+    "value_loss": 0.012988252254823843,
+    "entropy": 1.9643771549065907,
+    "approx_kl": 0.0
+  },
+  "num_envs": 16
+}

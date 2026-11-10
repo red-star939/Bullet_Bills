@@ -1,0 +1,5 @@
+{
+  "dataset": "data/ppo_teacher_v2.npz",
+  "training_method": "behavior_cloning",
+  "validation_accuracy": 0.7682846188545227
+}

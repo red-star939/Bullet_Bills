@@ -5,7 +5,8 @@
 상세한 구현 현황, 물리 분석 및 아키텍처는 **[Development_Process.md](Development_Process.md)** 문서를 참고하세요.
 
 ## 📄 개발 및 구현 현황 문서
-- **[Development_Process.md](Development_Process.md)**: 레인 분류, 포탄 추적(BulletTracker), 1차 TTC 및 위험도 추정 구현 검증 결과와 분석 내용이 상세히 정리되어 있습니다.
+- **[Latest_Update.md](Latest_Update.md)**: `models2` 계승형 생존 제어 프로젝트, PPO v10 정책, Adaptive Altitude v1~v4.1 실험 결과 및 개발 문서.
+- **[Development_Process.md](Development_Process.md)**: 레인 분류, 포탄 추적(BulletTracker), 정밀 물리/충돌 예측, 1차 TTC 및 위험도 추정 구현 검증 결과와 분석 내용이 상세히 정리되어 있습니다.
 
 ## 프로젝트 구조
 
