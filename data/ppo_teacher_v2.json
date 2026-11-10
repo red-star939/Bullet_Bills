@@ -1,0 +1,9 @@
+{
+  "episodes": 100,
+  "samples": 48502,
+  "seed": 20261112,
+  "mean_teacher_capped_survival_s": 32.310499999999244,
+  "schema": "ppo_state_v1_m10_b8x7_platform12_t1",
+  "actions": 8,
+  "output": "data\\ppo_teacher_v2.npz"
+}

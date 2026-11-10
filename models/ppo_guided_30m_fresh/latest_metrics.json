@@ -1,0 +1,16 @@
+{
+  "global_steps": 2600960,
+  "episode_count": 14472,
+  "recent_mean_survival_s": 14.4831666666669,
+  "recent_mean_reward": 1.1766999999999939,
+  "env_steps_per_second": 137.22425563729317,
+  "stats": {
+    "policy_loss": -0.009321664852905087,
+    "value_loss": 0.009807176269532647,
+    "entropy": 0.8285437459126115,
+    "approx_kl": 0.005235738295596093,
+    "teacher_loss": 0.8506573811173439,
+    "teacher_agreement": 0.68060302734375
+  },
+  "num_envs": 16
+}
