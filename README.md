@@ -1,6 +1,6 @@
 # Bullet Bills — Real Package & Trained Models (`MystaLEE_real_x1`)
 
-본 브랜치는 **KNU Advanced RL Competition Round 2: Bullet Bills!** 과제의 실제 제출물 및 학습된 체크포인트(`.pt`) 모델들을 단독으로 관리하기 위한 전용 브랜치입니다.
+슈퍼 마리오 브라더스(NES) 환경에서 양방향으로 발사되는 킬러(대포)를 피하기 위한 강화학습 모델 구현 테스트입니다.
 
 ---
 
