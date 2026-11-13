@@ -1,0 +1,10 @@
+{
+  "model": "models2/bullet_bill_ppo_v10_v41_distilled.pt",
+  "seeds": [
+    263062628
+  ],
+  "mean_s": 42.93333333333218,
+  "median_s": 42.93333333333218,
+  "reached_120": 0,
+  "reached_150": 0
+}

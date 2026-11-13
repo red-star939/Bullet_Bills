@@ -23,3 +23,8 @@ env/
 Thumbs.db
 .DS_Store
 
+# Excluded folders
+real/
+v/
+
+

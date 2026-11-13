@@ -1,0 +1,20 @@
+{
+  "output_pt": "models2\\bullet_bill_ppo_v10_v41_parallel_best.pt",
+  "last_pt": "models2\\bullet_bill_ppo_v10_v41_parallel_best_last.pt",
+  "resume_pt": "models2\\bullet_bill_ppo_v10_v41_parallel_best_resume.pt",
+  "completed_steps": 10000000,
+  "best_eval_mean_s": 93.51499999999776,
+  "final_holdout": {
+    "mean_s": 74.84966666666371,
+    "median_s": 78.57499999999683,
+    "min_s": 23.766666666666598,
+    "max_s": 107.13333333332854,
+    "reached_120": 0,
+    "reached_150": 0,
+    "episodes": 50
+  },
+  "worker_count": 16,
+  "master_seed": 1358561721,
+  "train_seed_count": 10549,
+  "notes": "Resume preserves optimizer and PRNG; episode states reset"
+}
