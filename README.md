@@ -6,13 +6,13 @@
 
 ## 🌟 최신 추천 모델 안내
 
-- **최신 모델 파일**: `real/v/checkpoints/v15_100m/model_v15_step16056320.pt`
-- **학습 스텝**: 16,056,320 스텝 (V15 고속 병렬 추가 학습 체크포인트)
-- **평가 성능 (30 에피소드 Deterministic 기준)**:
-  - **평균 생존 시간**: **135.11초**
-  - **120초 도달률**: **19 / 30 회**
-  - **150초 도달률**: **11 / 30 회**
-  - **180초 클리어**: **7 / 30 회**
+- **최신 모델 파일**: `real/v/model_v15_30m.pt`
+- **실제 누적 학습량**: **36,675,584스텝 + 10,000,000스텝 (기존 v14 모델) = 총 46,675,584스텝**
+- **시뮬레이션 200판 결과**:
+  - **평균 생존 시간**: **135.12초**
+  - **180초 완주율**: **32.5% (65 / 200판)**
+  - **120초 이상 생존율**: **59.5% (119 / 200판)**
+  - **150초 이상 생존율**: **43.5% (87 / 200판)**
 
 ---
 
@@ -29,14 +29,17 @@ real/
 │   └── README_SUBMISSION.md         # 공식 제출 및 발표 요약 가이드
 │
 ├── v/                               # [체크포인트 및 평가 결과 저장소]
+│   ├── model_v15_30m.pt             # ★ 최신 모델 (누적 46.6M 스텝)
 │   ├── checkpoints/
 │   │   └── v15_100m/
-│   │       ├── model_v15_step16056320.pt   # ★ 최신 모델 (16M)
-│   │       ├── model_v15_step15052800.pt
+│   │       ├── model_v15_step36675584.pt   # 최종 체크포인트 (36.6M)
+│   │       ├── model_v15_step16056320.pt
 │   │       └── ...
 │   ├── eval_results/
-│   │   └── v15_16m_headless/        # 16M 모델 30에피소드 평가 요약 (평균 135.11초)
-│   │       └── summary.json
+│   │   ├── v15_36m_200ep/           # 최신 200판 시뮬레이션 평가 결과 (평균 135.12초)
+│   │   │   ├── episodes.csv
+│   │   │   └── summary.json
+│   │   └── v15_16m_headless/
 │   ├── model_v14_10m.pt             # V14 10M 베이스라인 가중치
 │   └── model_v15_100m_best.pt       # V15 100M 학습 베스트 가중치
 │
@@ -58,14 +61,14 @@ cd real/submission
 python evaluate.py
 ```
 
-### 2. 최신 16M 모델(`model_v15_step16056320.pt`) 평가
+### 2. 최신 모델(`model_v15_30m.pt`) 평가
 `real/submission/agent.py`의 기본 로드 경로를 지정하거나 아래와 같이 실행할 수 있습니다:
 ```bash
 python -c "
 import kymnasium as kym
 from real.submission.agent import YourAgent
 
-agent = YourAgent.load('real/v/checkpoints/v15_100m/model_v15_step16056320.pt')
+agent = YourAgent.load('real/v/model_v15_30m.pt')
 kym.evaluate(
     env_id='kymnasium/BulletBill-Continuous-Hard-Stage-2',
     agent=agent,

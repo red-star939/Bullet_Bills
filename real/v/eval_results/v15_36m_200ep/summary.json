@@ -1,0 +1,8 @@
+{
+  "model": "v\\model_v15_30m.pt",
+  "episodes": 200,
+  "deterministic": true,
+  "mean_survival_s": 135.12325000001238,
+  "reached120": 119,
+  "reached150": 87
+}
