@@ -10,7 +10,7 @@ ENV/
 env/
 
 # Logs
-logs/
+# logs/ (included in MystaLEE_v0.1.2)
 *.log
 
 # Editor / IDE
@@ -22,4 +22,9 @@ logs/
 # OS specific
 Thumbs.db
 .DS_Store
+
+# Excluded folders
+real/
+v/
+
 

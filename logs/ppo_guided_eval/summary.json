@@ -1,0 +1,11 @@
+{
+  "episodes": 100,
+  "model": "models/ppo_guided_bc16/mario_ppo_latest.pt",
+  "total_env_steps": 1000000,
+  "mean_capped_survival_s": 17.540500000000208,
+  "survivors_at_60s": 0,
+  "mean_policy_compute_ms_per_decision": 0.18768012286596353,
+  "evaluation_seed": 20261111,
+  "stochastic": false,
+  "warning": "Time limit censoring; use independent validation and holdout seeds."
+}

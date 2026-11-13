@@ -1,0 +1,6 @@
+episode,seed,survival_s,steps,status,is_death,overrides,known_overrides,spawn_overrides,altitude_overrides,risk_overrides,wall_steps,altitude_version,v2_danger_rescues,v2_crowd_escapes,upper_fraction,lower_fraction,mean_visible_bullets,new_bullet_tracks,max_visible_bullets,max_lane_load,primary_failure_label,engine_evidence_status
+1,20261110,94.46666666666259,1417,terminated,True,652,516,136,14,0,0,v2,9,5,0.2455892731122089,0.7544107268877911,14.330980945659844,241,30,13,tracked_fatal_projectile,unique_fatal_overlap
+2,20261111,79.79999999999676,1197,terminated,True,487,380,114,7,0,0,v2,5,2,0.37009189640768586,0.6299081035923141,11.814536340852131,173,28,11,tracked_fatal_projectile,unique_fatal_overlap
+3,20261112,56.183333333331426,843,terminated,True,366,283,87,3,0,0,v2,1,2,0.21826809015421114,0.7817319098457889,8.139976275207593,83,16,7,fatal_projectile_unverified,no_engine_contact_audit
+4,20261113,59.31666666666458,890,terminated,True,409,293,117,5,0,0,v2,2,3,0.12808988764044943,0.8719101123595505,7.5292134831460675,92,15,6,tracked_fatal_projectile,unique_fatal_overlap
+5,20261114,60.24999999999786,904,terminated,True,365,294,72,5,0,0,v2,3,2,0.1592920353982301,0.8407079646017699,8.337389380530974,95,20,10,fatal_projectile_unverified,no_engine_contact_audit

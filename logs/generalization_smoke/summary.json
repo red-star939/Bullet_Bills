@@ -1,0 +1,132 @@
+{
+  "configuration": {
+    "reference_episodes": 100,
+    "holdout_episodes": 100,
+    "reference_seed": 20261106,
+    "holdout_seed": 20261107,
+    "steps": 900,
+    "horizon_steps": 8,
+    "extended_horizon_steps": 20,
+    "audit_top_k": 4,
+    "report_every": 25,
+    "bootstrap_samples": 2000,
+    "out": "logs/generalization_smoke"
+  },
+  "splits_disjoint": true,
+  "reference": {
+    "episodes": 100,
+    "max_observed_time_s": 60.0,
+    "v1_mean_capped_survival_s": 17.70849995,
+    "v2_mean_capped_survival_s": 34.13433328,
+    "mean_paired_delta_s": 16.42583333,
+    "bootstrap_95pct_ci_paired_delta_s": [
+      11.8823333,
+      21.28200002
+    ],
+    "v2_wins": 75,
+    "ties": 2,
+    "v2_losses": 23,
+    "v1_censored_at_limit": 0,
+    "v2_censored_at_limit": 19,
+    "survivors_at_s": {
+      "10": {
+        "v1": 70,
+        "v2": 87
+      },
+      "20": {
+        "v1": 30,
+        "v2": 73
+      },
+      "40": {
+        "v1": 6,
+        "v2": 39
+      },
+      "60": {
+        "v1": 0,
+        "v2": 19
+      }
+    },
+    "v1_compute_ms_per_decision_weighted": 9.225117120841947,
+    "v2_compute_ms_per_decision_weighted": 19.579992992660838,
+    "v2_fall_overrides": 8173,
+    "warning": "Capped survival time is not uncensored expected lifespan; bootstrap intervals quantify sampled-seed variability only."
+  },
+  "holdout": {
+    "episodes": 100,
+    "max_observed_time_s": 60.0,
+    "v1_mean_capped_survival_s": 18.84099997,
+    "v2_mean_capped_survival_s": 33.86350001,
+    "mean_paired_delta_s": 15.02250004,
+    "bootstrap_95pct_ci_paired_delta_s": [
+      10.93050006,
+      19.22333333
+    ],
+    "v2_wins": 70,
+    "ties": 2,
+    "v2_losses": 28,
+    "v1_censored_at_limit": 0,
+    "v2_censored_at_limit": 16,
+    "survivors_at_s": {
+      "10": {
+        "v1": 71,
+        "v2": 83
+      },
+      "20": {
+        "v1": 38,
+        "v2": 72
+      },
+      "40": {
+        "v1": 6,
+        "v2": 39
+      },
+      "60": {
+        "v1": 0,
+        "v2": 16
+      }
+    },
+    "v1_compute_ms_per_decision_weighted": 9.056610804890113,
+    "v2_compute_ms_per_decision_weighted": 19.117660259310995,
+    "v2_fall_overrides": 8971,
+    "warning": "Capped survival time is not uncensored expected lifespan; bootstrap intervals quantify sampled-seed variability only."
+  },
+  "all": {
+    "episodes": 200,
+    "max_observed_time_s": 60.0,
+    "v1_mean_capped_survival_s": 18.27474996,
+    "v2_mean_capped_survival_s": 33.998916645,
+    "mean_paired_delta_s": 15.724166685,
+    "bootstrap_95pct_ci_paired_delta_s": [
+      12.714916720000002,
+      18.81866667
+    ],
+    "v2_wins": 145,
+    "ties": 4,
+    "v2_losses": 51,
+    "v1_censored_at_limit": 0,
+    "v2_censored_at_limit": 35,
+    "survivors_at_s": {
+      "10": {
+        "v1": 141,
+        "v2": 170
+      },
+      "20": {
+        "v1": 68,
+        "v2": 145
+      },
+      "40": {
+        "v1": 12,
+        "v2": 78
+      },
+      "60": {
+        "v1": 0,
+        "v2": 35
+      }
+    },
+    "v1_compute_ms_per_decision_weighted": 9.138259966853042,
+    "v2_compute_ms_per_decision_weighted": 19.349743961826004,
+    "v2_fall_overrides": 17144,
+    "warning": "Capped survival time is not uncensored expected lifespan; bootstrap intervals quantify sampled-seed variability only."
+  },
+  "seed_generation": "reference: random.Random(reference_seed), draw env and discard next draw; holdout: independent random.Random(holdout_seed), unique and disjoint",
+  "method": "Same environment seed for each policy; separate environment instances; game RNG may diverge as trajectories diverge, so common seed is not identical future spawn sequence."
+}

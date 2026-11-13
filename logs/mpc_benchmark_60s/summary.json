@@ -1,0 +1,22 @@
+{
+  "episodes": 100,
+  "configuration": {
+    "episodes": 100,
+    "steps": 900,
+    "seed": 20261106,
+    "segments": [
+      2,
+      3,
+      3
+    ],
+    "beam_width": 3,
+    "max_nodes": 1000,
+    "out": "logs/mpc_benchmark_60s"
+  },
+  "baseline_mean_time_s": 17.70849999999996,
+  "mpc_mean_time_s": 2.601333333333329,
+  "mpc_wins": 0,
+  "ties": 0,
+  "baseline_mean_compute_ms_per_decision": 9.258583897794956,
+  "mpc_mean_compute_ms_per_decision": 44.39897020616814
+}

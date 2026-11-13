@@ -1,0 +1,8 @@
+episode,seed,step,time_s,mario_y,visible_bullets,min_ttc_s,v1_action,v2_proposal,v1_reason,v2_reason,v3_reason,v3_overridden,plans_examined,route_gain_px,active_audit
+4,20261113,605,40.333333,617.0,11,0.5625875789637743,"[0.0, 0.0]","[0.0, 1.0]",cooldown,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,113.0,"{""v1"": [""complete"", """", 24]}"
+4,20261113,610,40.666667,515.0,10,,"[-1.0, 0.75]","[-1.0, 1.0]",cooldown,verified_two_phase_ascent,no_verified_imminent_v1_death,0,18,214.0,"{""v1"": [""complete"", """", 24]}"
+4,20261113,862,57.466667,744.0,15,2.4458333333333333,"[0.0, 0.0]","[0.0, 1.0]",interval_gate,verified_two_phase_ascent,no_verified_imminent_v1_death,0,18,165.0,"{""v1"": [""complete"", """", 24]}"
+4,20261113,887,59.133333,744.0,15,0.7791666666666667,"[1.0, 0.0]","[1.0, 1.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,165.0,"{""v1"": [""unknown"", ""bullet"", 23]}"
+4,20261113,892,59.466667,685.0,16,1.0523809523809524,"[1.0, 0.75]","[1.0, 1.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,95.0,"{""v1"": [""complete"", """", 24]}"
+4,20261113,902,60.133333,570.0,17,2.66419141133677,"[1.0, 1.0]","[0.0, 1.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,16.0,"{""v1"": [""complete"", """", 24]}"
+4,20261113,937,62.466667,637.0,16,0.10175662782112782,"[1.0, 0.0]","[1.0, 1.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,-11.0,"{""v1"": [""complete"", """", 24]}"

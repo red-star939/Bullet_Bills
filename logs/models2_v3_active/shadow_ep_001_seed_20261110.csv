@@ -1,0 +1,12 @@
+episode,seed,step,time_s,mario_y,visible_bullets,min_ttc_s,v1_action,v2_proposal,v1_reason,v2_reason,v3_reason,v3_overridden,plans_examined,route_gain_px,active_audit
+1,20261110,514,34.266667,600.0,9,3.504166666666667,"[0.0, 0.0]","[0.0, 1.0]",cooldown,verified_two_phase_ascent,no_verified_imminent_v1_death,0,18,195.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,524,34.933333,626.0,9,,"[1.0, 1.0]","[0.0, 1.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,26.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,539,35.933333,605.0,11,0.3887898762646146,"[1.0, 1.0]","[1.0, 0.75]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,89.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,554,36.933333,584.0,10,0.4065325726219569,"[-1.0, 1.0]","[-1.0, 0.75]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,176.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,920,61.333333,672.0,18,0.27078524512147595,"[1.0, 0.0]","[1.0, 1.0]",interval_gate,verified_two_phase_ascent,no_verified_imminent_v1_death,0,18,195.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,945,63.0,696.0,18,0.23157894736842105,"[1.0, 0.0]","[-0.5, 0.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,0.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,995,66.333333,685.0,20,0.8400713988905613,"[1.0, 0.75]","[-0.5, 0.75]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,173.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,1005,67.0,570.0,22,,"[1.0, 1.0]","[1.0, 0.75]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,37.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,1010,67.333333,585.0,21,6.18069076345992,"[0.0, 0.0]","[0.0, 1.0]",cooldown,verified_two_phase_ascent,no_verified_imminent_v1_death,0,18,238.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,1015,67.666667,469.0,20,1.3295055333271895,"[-1.0, 0.75]","[0.5, 0.75]",cooldown,verified_two_phase_ascent,no_verified_imminent_v1_death,0,18,332.0,"{""v1"": [""complete"", """", 24]}"
+1,20261110,1374,91.6,696.0,30,0.2797814207650273,"[1.0, 0.0]","[-0.5, 0.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,no_verified_imminent_v1_death,0,18,0.0,"{""v1"": [""complete"", """", 24]}"

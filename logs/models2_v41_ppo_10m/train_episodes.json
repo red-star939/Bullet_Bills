@@ -1,0 +1,290 @@
+[
+  {
+    "update": 3,
+    "survival_s": 37.01666666666585,
+    "death": true,
+    "seed": 1063397695
+  },
+  {
+    "update": 4,
+    "survival_s": 62.59999999999773,
+    "death": true,
+    "seed": 1555044928
+  },
+  {
+    "update": 6,
+    "survival_s": 89.6499999999962,
+    "death": true,
+    "seed": 1604966802
+  },
+  {
+    "update": 7,
+    "survival_s": 67.41666666666413,
+    "death": true,
+    "seed": 1006382880
+  },
+  {
+    "update": 7,
+    "survival_s": 106.41666666666191,
+    "death": true,
+    "seed": 75072434
+  },
+  {
+    "update": 8,
+    "survival_s": 43.299999999998825,
+    "death": true,
+    "seed": 128423427
+  },
+  {
+    "update": 10,
+    "survival_s": 106.73333333332856,
+    "death": true,
+    "seed": 1544905828
+  },
+  {
+    "update": 11,
+    "survival_s": 64.3666666666643,
+    "death": true,
+    "seed": 1270090277
+  },
+  {
+    "update": 12,
+    "survival_s": 69.53333333333067,
+    "death": true,
+    "seed": 1955859481
+  },
+  {
+    "update": 13,
+    "survival_s": 104.54999999999535,
+    "death": true,
+    "seed": 251289925
+  },
+  {
+    "update": 14,
+    "survival_s": 54.549999999998185,
+    "death": true,
+    "seed": 1880170513
+  },
+  {
+    "update": 14,
+    "survival_s": 64.34999999999764,
+    "death": true,
+    "seed": 1075419713
+  },
+  {
+    "update": 17,
+    "survival_s": 54.199999999998205,
+    "death": true,
+    "seed": 2104854230
+  },
+  {
+    "update": 17,
+    "survival_s": 83.49999999999655,
+    "death": true,
+    "seed": 94049782
+  },
+  {
+    "update": 18,
+    "survival_s": 84.81666666666314,
+    "death": true,
+    "seed": 704847832
+  },
+  {
+    "update": 19,
+    "survival_s": 86.64999999999637,
+    "death": true,
+    "seed": 682158324
+  },
+  {
+    "update": 21,
+    "survival_s": 64.39999999999763,
+    "death": true,
+    "seed": 589118892
+  },
+  {
+    "update": 22,
+    "survival_s": 66.08333333333087,
+    "death": true,
+    "seed": 1798739427
+  },
+  {
+    "update": 23,
+    "survival_s": 20.983333333333423,
+    "death": true,
+    "seed": 238818387
+  },
+  {
+    "update": 23,
+    "survival_s": 101.46666666666219,
+    "death": true,
+    "seed": 672761525
+  },
+  {
+    "update": 26,
+    "survival_s": 81.76666666666331,
+    "death": true,
+    "seed": 606007764
+  },
+  {
+    "update": 26,
+    "survival_s": 117.58333333332794,
+    "death": true,
+    "seed": 890777165
+  },
+  {
+    "update": 26,
+    "survival_s": 62.23333333333108,
+    "death": true,
+    "seed": 1058301965
+  },
+  {
+    "update": 28,
+    "survival_s": 81.01666666666335,
+    "death": true,
+    "seed": 810032877
+  },
+  {
+    "update": 29,
+    "survival_s": 45.88333333333201,
+    "death": true,
+    "seed": 486459918
+  },
+  {
+    "update": 30,
+    "survival_s": 62.999999999997705,
+    "death": true,
+    "seed": 221833143
+  },
+  {
+    "update": 30,
+    "survival_s": 39.6166666666657,
+    "death": true,
+    "seed": 2088680004
+  },
+  {
+    "update": 31,
+    "survival_s": 70.61666666666395,
+    "death": true,
+    "seed": 1171500568
+  },
+  {
+    "update": 31,
+    "survival_s": 39.84999999999902,
+    "death": true,
+    "seed": 493430456
+  },
+  {
+    "update": 33,
+    "survival_s": 52.4999999999983,
+    "death": true,
+    "seed": 135951632
+  },
+  {
+    "update": 33,
+    "survival_s": 55.333333333331474,
+    "death": true,
+    "seed": 960647101
+  },
+  {
+    "update": 36,
+    "survival_s": 86.1499999999964,
+    "death": true,
+    "seed": 1200977967
+  },
+  {
+    "update": 36,
+    "survival_s": 47.28333333333193,
+    "death": true,
+    "seed": 1842769128
+  },
+  {
+    "update": 36,
+    "survival_s": 93.28333333332932,
+    "death": true,
+    "seed": 1655153864
+  },
+  {
+    "update": 37,
+    "survival_s": 71.69999999999722,
+    "death": true,
+    "seed": 39767751
+  },
+  {
+    "update": 39,
+    "survival_s": 48.14999999999855,
+    "death": true,
+    "seed": 220793708
+  },
+  {
+    "update": 40,
+    "survival_s": 64.24999999999764,
+    "death": true,
+    "seed": 565706701
+  },
+  {
+    "update": 40,
+    "survival_s": 76.99999999999692,
+    "death": true,
+    "seed": 841096468
+  },
+  {
+    "update": 43,
+    "survival_s": 95.93333333332917,
+    "death": true,
+    "seed": 1263241321
+  },
+  {
+    "update": 43,
+    "survival_s": 41.39999999999893,
+    "death": true,
+    "seed": 293105454
+  },
+  {
+    "update": 43,
+    "survival_s": 79.94999999999675,
+    "death": true,
+    "seed": 856204314
+  },
+  {
+    "update": 44,
+    "survival_s": 76.56666666666361,
+    "death": true,
+    "seed": 2066568046
+  },
+  {
+    "update": 46,
+    "survival_s": 36.29999999999922,
+    "death": true,
+    "seed": 1042793777
+  },
+  {
+    "update": 47,
+    "survival_s": 76.48333333333028,
+    "death": true,
+    "seed": 1874585782
+  },
+  {
+    "update": 48,
+    "survival_s": 11.666666666666826,
+    "death": true,
+    "seed": 1564425589
+  },
+  {
+    "update": 48,
+    "survival_s": 90.49999999999615,
+    "death": true,
+    "seed": 958711906
+  },
+  {
+    "update": 49,
+    "survival_s": 73.89999999999709,
+    "death": true,
+    "seed": 1060843756
+  },
+  {
+    "update": 49,
+    "survival_s": 53.94999999999822,
+    "death": true,
+    "seed": 303116402
+  }
+]

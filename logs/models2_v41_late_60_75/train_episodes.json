@@ -1,0 +1,10012 @@
+[
+  {
+    "survival_s": 75.84999999999698,
+    "death": true,
+    "seed": 627518764,
+    "episode_steps": 1138,
+    "update": 1
+  },
+  {
+    "survival_s": 76.7666666666636,
+    "death": true,
+    "seed": 1827408219,
+    "episode_steps": 1152,
+    "update": 1
+  },
+  {
+    "survival_s": 80.06666666666341,
+    "death": true,
+    "seed": 1029519159,
+    "episode_steps": 1201,
+    "update": 1
+  },
+  {
+    "survival_s": 74.03333333333042,
+    "death": true,
+    "seed": 839869277,
+    "episode_steps": 1111,
+    "update": 1
+  },
+  {
+    "survival_s": 73.2666666666638,
+    "death": true,
+    "seed": 1232141744,
+    "episode_steps": 1099,
+    "update": 1
+  },
+  {
+    "survival_s": 72.91666666666382,
+    "death": true,
+    "seed": 654481349,
+    "episode_steps": 1094,
+    "update": 1
+  },
+  {
+    "survival_s": 62.26666666666441,
+    "death": true,
+    "seed": 260967530,
+    "episode_steps": 934,
+    "update": 1
+  },
+  {
+    "survival_s": 72.56666666666383,
+    "death": true,
+    "seed": 1626674161,
+    "episode_steps": 1089,
+    "update": 1
+  },
+  {
+    "survival_s": 74.8166666666637,
+    "death": true,
+    "seed": 15560618,
+    "episode_steps": 1123,
+    "update": 1
+  },
+  {
+    "survival_s": 76.53333333333028,
+    "death": true,
+    "seed": 1658380643,
+    "episode_steps": 1148,
+    "update": 1
+  },
+  {
+    "survival_s": 78.76666666666348,
+    "death": true,
+    "seed": 1867518265,
+    "episode_steps": 1182,
+    "update": 1
+  },
+  {
+    "survival_s": 79.49999999999677,
+    "death": true,
+    "seed": 1753714247,
+    "episode_steps": 1193,
+    "update": 2
+  },
+  {
+    "survival_s": 88.59999999999626,
+    "death": true,
+    "seed": 591726445,
+    "episode_steps": 1329,
+    "update": 2
+  },
+  {
+    "survival_s": 82.73333333332992,
+    "death": true,
+    "seed": 1924943545,
+    "episode_steps": 1241,
+    "update": 2
+  },
+  {
+    "survival_s": 92.68333333332936,
+    "death": true,
+    "seed": 1360511064,
+    "episode_steps": 1391,
+    "update": 2
+  },
+  {
+    "survival_s": 87.14999999999634,
+    "death": true,
+    "seed": 2084876141,
+    "episode_steps": 1308,
+    "update": 2
+  },
+  {
+    "survival_s": 82.63333333332993,
+    "death": true,
+    "seed": 1279727144,
+    "episode_steps": 1240,
+    "update": 2
+  },
+  {
+    "survival_s": 68.71666666666405,
+    "death": true,
+    "seed": 1533914582,
+    "episode_steps": 1031,
+    "update": 2
+  },
+  {
+    "survival_s": 96.48333333332914,
+    "death": true,
+    "seed": 1896708842,
+    "episode_steps": 1448,
+    "update": 2
+  },
+  {
+    "survival_s": 82.0166666666633,
+    "death": true,
+    "seed": 1736982902,
+    "episode_steps": 1231,
+    "update": 2
+  },
+  {
+    "survival_s": 73.1666666666638,
+    "death": true,
+    "seed": 1968770664,
+    "episode_steps": 1098,
+    "update": 2
+  },
+  {
+    "survival_s": 100.06666666666227,
+    "death": true,
+    "seed": 1825982763,
+    "episode_steps": 1501,
+    "update": 2
+  },
+  {
+    "survival_s": 81.68333333332998,
+    "death": true,
+    "seed": 1524092022,
+    "episode_steps": 1226,
+    "update": 2
+  },
+  {
+    "survival_s": 85.54999999999643,
+    "death": true,
+    "seed": 1424282146,
+    "episode_steps": 1284,
+    "update": 2
+  },
+  {
+    "survival_s": 87.64999999999631,
+    "death": true,
+    "seed": 1066730704,
+    "episode_steps": 1315,
+    "update": 2
+  },
+  {
+    "survival_s": 92.23333333332938,
+    "death": true,
+    "seed": 470552444,
+    "episode_steps": 1384,
+    "update": 2
+  },
+  {
+    "survival_s": 101.09999999999555,
+    "death": true,
+    "seed": 1433167040,
+    "episode_steps": 1517,
+    "update": 2
+  },
+  {
+    "survival_s": 80.68333333333004,
+    "death": true,
+    "seed": 1563666209,
+    "episode_steps": 1211,
+    "update": 2
+  },
+  {
+    "survival_s": 71.3666666666639,
+    "death": true,
+    "seed": 1015119340,
+    "episode_steps": 1071,
+    "update": 2
+  },
+  {
+    "survival_s": 79.79999999999676,
+    "death": true,
+    "seed": 760736973,
+    "episode_steps": 1197,
+    "update": 2
+  },
+  {
+    "survival_s": 76.51666666666361,
+    "death": true,
+    "seed": 2124718251,
+    "episode_steps": 1148,
+    "update": 2
+  },
+  {
+    "survival_s": 98.3499999999957,
+    "death": true,
+    "seed": 1415813988,
+    "episode_steps": 1476,
+    "update": 2
+  },
+  {
+    "survival_s": 83.99999999999652,
+    "death": true,
+    "seed": 282384379,
+    "episode_steps": 1260,
+    "update": 2
+  },
+  {
+    "survival_s": 91.2499999999961,
+    "death": true,
+    "seed": 1616285272,
+    "episode_steps": 1369,
+    "update": 2
+  },
+  {
+    "survival_s": 73.88333333333043,
+    "death": true,
+    "seed": 1721517422,
+    "episode_steps": 1109,
+    "update": 3
+  },
+  {
+    "survival_s": 73.96666666666376,
+    "death": true,
+    "seed": 1544517287,
+    "episode_steps": 1110,
+    "update": 3
+  },
+  {
+    "survival_s": 69.49999999999734,
+    "death": true,
+    "seed": 1294819034,
+    "episode_steps": 1043,
+    "update": 3
+  },
+  {
+    "survival_s": 101.04999999999555,
+    "death": true,
+    "seed": 427895444,
+    "episode_steps": 1516,
+    "update": 3
+  },
+  {
+    "survival_s": 71.19999999999725,
+    "death": true,
+    "seed": 287660815,
+    "episode_steps": 1068,
+    "update": 3
+  },
+  {
+    "survival_s": 80.09999999999674,
+    "death": true,
+    "seed": 388383362,
+    "episode_steps": 1202,
+    "update": 3
+  },
+  {
+    "survival_s": 85.0333333333298,
+    "death": true,
+    "seed": 1999806024,
+    "episode_steps": 1276,
+    "update": 3
+  },
+  {
+    "survival_s": 72.39999999999718,
+    "death": true,
+    "seed": 1658111952,
+    "episode_steps": 1086,
+    "update": 3
+  },
+  {
+    "survival_s": 66.86666666666416,
+    "death": true,
+    "seed": 1020279681,
+    "episode_steps": 1003,
+    "update": 3
+  },
+  {
+    "survival_s": 82.86666666666325,
+    "death": true,
+    "seed": 1921941026,
+    "episode_steps": 1243,
+    "update": 3
+  },
+  {
+    "survival_s": 78.26666666666351,
+    "death": true,
+    "seed": 945924503,
+    "episode_steps": 1174,
+    "update": 3
+  },
+  {
+    "survival_s": 74.2833333333304,
+    "death": true,
+    "seed": 14940266,
+    "episode_steps": 1115,
+    "update": 3
+  },
+  {
+    "survival_s": 78.79999999999681,
+    "death": true,
+    "seed": 253494673,
+    "episode_steps": 1182,
+    "update": 3
+  },
+  {
+    "survival_s": 94.18333333332927,
+    "death": true,
+    "seed": 1771736601,
+    "episode_steps": 1413,
+    "update": 3
+  },
+  {
+    "survival_s": 80.43333333333005,
+    "death": true,
+    "seed": 1844392380,
+    "episode_steps": 1207,
+    "update": 3
+  },
+  {
+    "survival_s": 89.21666666666289,
+    "death": true,
+    "seed": 1610137939,
+    "episode_steps": 1339,
+    "update": 3
+  },
+  {
+    "survival_s": 71.06666666666392,
+    "death": true,
+    "seed": 847373358,
+    "episode_steps": 1066,
+    "update": 3
+  },
+  {
+    "survival_s": 79.6333333333301,
+    "death": true,
+    "seed": 554328983,
+    "episode_steps": 1195,
+    "update": 3
+  },
+  {
+    "survival_s": 77.68333333333021,
+    "death": true,
+    "seed": 384217733,
+    "episode_steps": 1166,
+    "update": 3
+  },
+  {
+    "survival_s": 87.48333333332965,
+    "death": true,
+    "seed": 278299908,
+    "episode_steps": 1313,
+    "update": 4
+  },
+  {
+    "survival_s": 74.04999999999708,
+    "death": true,
+    "seed": 149319221,
+    "episode_steps": 1111,
+    "update": 4
+  },
+  {
+    "survival_s": 66.44999999999752,
+    "death": true,
+    "seed": 343040144,
+    "episode_steps": 997,
+    "update": 4
+  },
+  {
+    "survival_s": 94.58333333332925,
+    "death": true,
+    "seed": 2142527426,
+    "episode_steps": 1419,
+    "update": 4
+  },
+  {
+    "survival_s": 91.04999999999612,
+    "death": true,
+    "seed": 337160731,
+    "episode_steps": 1366,
+    "update": 4
+  },
+  {
+    "survival_s": 95.51666666666253,
+    "death": true,
+    "seed": 1550559999,
+    "episode_steps": 1433,
+    "update": 4
+  },
+  {
+    "survival_s": 83.34999999999656,
+    "death": true,
+    "seed": 656736523,
+    "episode_steps": 1251,
+    "update": 4
+  },
+  {
+    "survival_s": 88.01666666666296,
+    "death": true,
+    "seed": 1652340945,
+    "episode_steps": 1321,
+    "update": 4
+  },
+  {
+    "survival_s": 73.1166666666638,
+    "death": true,
+    "seed": 1309563360,
+    "episode_steps": 1097,
+    "update": 4
+  },
+  {
+    "survival_s": 90.24999999999616,
+    "death": true,
+    "seed": 1540842168,
+    "episode_steps": 1354,
+    "update": 4
+  },
+  {
+    "survival_s": 88.26666666666294,
+    "death": true,
+    "seed": 1686105918,
+    "episode_steps": 1324,
+    "update": 4
+  },
+  {
+    "survival_s": 101.16666666666221,
+    "death": true,
+    "seed": 535632623,
+    "episode_steps": 1518,
+    "update": 4
+  },
+  {
+    "survival_s": 68.66666666666406,
+    "death": true,
+    "seed": 1439211064,
+    "episode_steps": 1030,
+    "update": 4
+  },
+  {
+    "survival_s": 88.68333333332959,
+    "death": true,
+    "seed": 2062431033,
+    "episode_steps": 1331,
+    "update": 5
+  },
+  {
+    "survival_s": 71.71666666666388,
+    "death": true,
+    "seed": 76145430,
+    "episode_steps": 1076,
+    "update": 5
+  },
+  {
+    "survival_s": 76.73333333333026,
+    "death": true,
+    "seed": 187261742,
+    "episode_steps": 1151,
+    "update": 5
+  },
+  {
+    "survival_s": 76.19999999999696,
+    "death": true,
+    "seed": 260186505,
+    "episode_steps": 1143,
+    "update": 5
+  },
+  {
+    "survival_s": 72.66666666666383,
+    "death": true,
+    "seed": 876768653,
+    "episode_steps": 1090,
+    "update": 5
+  },
+  {
+    "survival_s": 91.49999999999609,
+    "death": true,
+    "seed": 190358966,
+    "episode_steps": 1373,
+    "update": 5
+  },
+  {
+    "survival_s": 88.66666666666292,
+    "death": true,
+    "seed": 115024133,
+    "episode_steps": 1330,
+    "update": 5
+  },
+  {
+    "survival_s": 76.36666666666362,
+    "death": true,
+    "seed": 1573731291,
+    "episode_steps": 1146,
+    "update": 5
+  },
+  {
+    "survival_s": 85.76666666666308,
+    "death": true,
+    "seed": 294873450,
+    "episode_steps": 1287,
+    "update": 5
+  },
+  {
+    "survival_s": 67.49999999999746,
+    "death": true,
+    "seed": 976534735,
+    "episode_steps": 1013,
+    "update": 5
+  },
+  {
+    "survival_s": 77.16666666666357,
+    "death": true,
+    "seed": 1141858527,
+    "episode_steps": 1158,
+    "update": 5
+  },
+  {
+    "survival_s": 96.14999999999583,
+    "death": true,
+    "seed": 450026501,
+    "episode_steps": 1443,
+    "update": 5
+  },
+  {
+    "survival_s": 113.41666666666151,
+    "death": true,
+    "seed": 268825606,
+    "episode_steps": 1702,
+    "update": 5
+  },
+  {
+    "survival_s": 86.33333333332972,
+    "death": true,
+    "seed": 1673301426,
+    "episode_steps": 1295,
+    "update": 5
+  },
+  {
+    "survival_s": 86.49999999999638,
+    "death": true,
+    "seed": 1405449130,
+    "episode_steps": 1298,
+    "update": 6
+  },
+  {
+    "survival_s": 81.89999999999664,
+    "death": true,
+    "seed": 1636631061,
+    "episode_steps": 1229,
+    "update": 6
+  },
+  {
+    "survival_s": 82.08333333332996,
+    "death": true,
+    "seed": 92887139,
+    "episode_steps": 1232,
+    "update": 6
+  },
+  {
+    "survival_s": 64.49999999999763,
+    "death": true,
+    "seed": 1530899392,
+    "episode_steps": 968,
+    "update": 6
+  },
+  {
+    "survival_s": 87.8999999999963,
+    "death": true,
+    "seed": 1950321564,
+    "episode_steps": 1319,
+    "update": 6
+  },
+  {
+    "survival_s": 97.1833333333291,
+    "death": true,
+    "seed": 1024917153,
+    "episode_steps": 1458,
+    "update": 6
+  },
+  {
+    "survival_s": 74.61666666666372,
+    "death": true,
+    "seed": 1238817056,
+    "episode_steps": 1120,
+    "update": 6
+  },
+  {
+    "survival_s": 118.61666666666122,
+    "death": true,
+    "seed": 667137692,
+    "episode_steps": 1780,
+    "update": 6
+  },
+  {
+    "survival_s": 98.78333333332901,
+    "death": true,
+    "seed": 2012982466,
+    "episode_steps": 1482,
+    "update": 6
+  },
+  {
+    "survival_s": 98.81666666666234,
+    "death": true,
+    "seed": 76797690,
+    "episode_steps": 1483,
+    "update": 6
+  },
+  {
+    "survival_s": 69.716666666664,
+    "death": true,
+    "seed": 1876628573,
+    "episode_steps": 1046,
+    "update": 6
+  },
+  {
+    "survival_s": 89.48333333332954,
+    "death": true,
+    "seed": 636448340,
+    "episode_steps": 1343,
+    "update": 6
+  },
+  {
+    "survival_s": 114.16666666666147,
+    "death": true,
+    "seed": 380131326,
+    "episode_steps": 1713,
+    "update": 7
+  },
+  {
+    "survival_s": 83.58333333332988,
+    "death": true,
+    "seed": 60673544,
+    "episode_steps": 1254,
+    "update": 7
+  },
+  {
+    "survival_s": 76.28333333333029,
+    "death": true,
+    "seed": 808344629,
+    "episode_steps": 1145,
+    "update": 7
+  },
+  {
+    "survival_s": 92.34999999999604,
+    "death": true,
+    "seed": 886684247,
+    "episode_steps": 1386,
+    "update": 7
+  },
+  {
+    "survival_s": 78.48333333333017,
+    "death": true,
+    "seed": 2111946290,
+    "episode_steps": 1178,
+    "update": 7
+  },
+  {
+    "survival_s": 96.0166666666625,
+    "death": true,
+    "seed": 17995266,
+    "episode_steps": 1441,
+    "update": 7
+  },
+  {
+    "survival_s": 97.39999999999576,
+    "death": true,
+    "seed": 815960797,
+    "episode_steps": 1461,
+    "update": 7
+  },
+  {
+    "survival_s": 75.19999999999702,
+    "death": true,
+    "seed": 31882597,
+    "episode_steps": 1128,
+    "update": 7
+  },
+  {
+    "survival_s": 125.14999999999418,
+    "death": true,
+    "seed": 157357931,
+    "episode_steps": 1878,
+    "update": 7
+  },
+  {
+    "survival_s": 74.99999999999703,
+    "death": true,
+    "seed": 1036418306,
+    "episode_steps": 1125,
+    "update": 7
+  },
+  {
+    "survival_s": 80.28333333333006,
+    "death": true,
+    "seed": 1781547331,
+    "episode_steps": 1205,
+    "update": 7
+  },
+  {
+    "survival_s": 76.1333333333303,
+    "death": true,
+    "seed": 1426826299,
+    "episode_steps": 1142,
+    "update": 7
+  },
+  {
+    "survival_s": 76.49999999999694,
+    "death": true,
+    "seed": 8616724,
+    "episode_steps": 1148,
+    "update": 7
+  },
+  {
+    "survival_s": 65.24999999999758,
+    "death": true,
+    "seed": 1982916410,
+    "episode_steps": 979,
+    "update": 7
+  },
+  {
+    "survival_s": 103.48333333332874,
+    "death": true,
+    "seed": 209769810,
+    "episode_steps": 1553,
+    "update": 7
+  },
+  {
+    "survival_s": 83.39999999999655,
+    "death": true,
+    "seed": 746928595,
+    "episode_steps": 1251,
+    "update": 7
+  },
+  {
+    "survival_s": 76.19999999999696,
+    "death": true,
+    "seed": 860470814,
+    "episode_steps": 1143,
+    "update": 7
+  },
+  {
+    "survival_s": 85.54999999999643,
+    "death": true,
+    "seed": 1281317375,
+    "episode_steps": 1284,
+    "update": 7
+  },
+  {
+    "survival_s": 67.2833333333308,
+    "death": true,
+    "seed": 1185314773,
+    "episode_steps": 1010,
+    "update": 7
+  },
+  {
+    "survival_s": 70.84999999999727,
+    "death": true,
+    "seed": 1781307412,
+    "episode_steps": 1063,
+    "update": 7
+  },
+  {
+    "survival_s": 70.89999999999726,
+    "death": true,
+    "seed": 1861825309,
+    "episode_steps": 1064,
+    "update": 7
+  },
+  {
+    "survival_s": 117.91666666666126,
+    "death": true,
+    "seed": 597954743,
+    "episode_steps": 1769,
+    "update": 7
+  },
+  {
+    "survival_s": 101.58333333332885,
+    "death": true,
+    "seed": 83961081,
+    "episode_steps": 1524,
+    "update": 7
+  },
+  {
+    "survival_s": 79.54999999999677,
+    "death": true,
+    "seed": 1294735407,
+    "episode_steps": 1194,
+    "update": 8
+  },
+  {
+    "survival_s": 84.01666666666318,
+    "death": true,
+    "seed": 1216492535,
+    "episode_steps": 1261,
+    "update": 8
+  },
+  {
+    "survival_s": 81.76666666666331,
+    "death": true,
+    "seed": 1574818607,
+    "episode_steps": 1227,
+    "update": 8
+  },
+  {
+    "survival_s": 67.83333333333077,
+    "death": true,
+    "seed": 295181227,
+    "episode_steps": 1018,
+    "update": 8
+  },
+  {
+    "survival_s": 71.56666666666389,
+    "death": true,
+    "seed": 1768460751,
+    "episode_steps": 1074,
+    "update": 8
+  },
+  {
+    "survival_s": 81.49999999999666,
+    "death": true,
+    "seed": 1354310017,
+    "episode_steps": 1223,
+    "update": 8
+  },
+  {
+    "survival_s": 87.96666666666296,
+    "death": true,
+    "seed": 1594988061,
+    "episode_steps": 1320,
+    "update": 8
+  },
+  {
+    "survival_s": 69.43333333333068,
+    "death": true,
+    "seed": 1512203817,
+    "episode_steps": 1042,
+    "update": 8
+  },
+  {
+    "survival_s": 73.09999999999714,
+    "death": true,
+    "seed": 1399442256,
+    "episode_steps": 1097,
+    "update": 8
+  },
+  {
+    "survival_s": 91.38333333332943,
+    "death": true,
+    "seed": 61320218,
+    "episode_steps": 1371,
+    "update": 8
+  },
+  {
+    "survival_s": 88.3833333333296,
+    "death": true,
+    "seed": 213019089,
+    "episode_steps": 1326,
+    "update": 8
+  },
+  {
+    "survival_s": 83.43333333332988,
+    "death": true,
+    "seed": 612556247,
+    "episode_steps": 1252,
+    "update": 8
+  },
+  {
+    "survival_s": 81.09999999999668,
+    "death": true,
+    "seed": 272820843,
+    "episode_steps": 1217,
+    "update": 8
+  },
+  {
+    "survival_s": 85.88333333332974,
+    "death": true,
+    "seed": 454564382,
+    "episode_steps": 1289,
+    "update": 8
+  },
+  {
+    "survival_s": 74.76666666666371,
+    "death": true,
+    "seed": 1646322062,
+    "episode_steps": 1122,
+    "update": 8
+  },
+  {
+    "survival_s": 76.2333333333303,
+    "death": true,
+    "seed": 1923747153,
+    "episode_steps": 1144,
+    "update": 9
+  },
+  {
+    "survival_s": 76.09999999999697,
+    "death": true,
+    "seed": 859097710,
+    "episode_steps": 1142,
+    "update": 9
+  },
+  {
+    "survival_s": 73.36666666666379,
+    "death": true,
+    "seed": 1708995476,
+    "episode_steps": 1101,
+    "update": 9
+  },
+  {
+    "survival_s": 103.81666666666206,
+    "death": true,
+    "seed": 1558689004,
+    "episode_steps": 1558,
+    "update": 9
+  },
+  {
+    "survival_s": 80.3166666666634,
+    "death": true,
+    "seed": 889147000,
+    "episode_steps": 1205,
+    "update": 9
+  },
+  {
+    "survival_s": 80.78333333333003,
+    "death": true,
+    "seed": 401736438,
+    "episode_steps": 1212,
+    "update": 9
+  },
+  {
+    "survival_s": 77.2999999999969,
+    "death": true,
+    "seed": 400517183,
+    "episode_steps": 1160,
+    "update": 9
+  },
+  {
+    "survival_s": 77.53333333333022,
+    "death": true,
+    "seed": 775361201,
+    "episode_steps": 1163,
+    "update": 9
+  },
+  {
+    "survival_s": 80.6999999999967,
+    "death": true,
+    "seed": 1073680419,
+    "episode_steps": 1211,
+    "update": 9
+  },
+  {
+    "survival_s": 87.58333333332965,
+    "death": true,
+    "seed": 942465446,
+    "episode_steps": 1314,
+    "update": 9
+  },
+  {
+    "survival_s": 80.36666666666339,
+    "death": true,
+    "seed": 1790584848,
+    "episode_steps": 1206,
+    "update": 9
+  },
+  {
+    "survival_s": 79.59999999999677,
+    "death": true,
+    "seed": 1511502398,
+    "episode_steps": 1194,
+    "update": 9
+  },
+  {
+    "survival_s": 70.8833333333306,
+    "death": true,
+    "seed": 1432144111,
+    "episode_steps": 1064,
+    "update": 9
+  },
+  {
+    "survival_s": 72.98333333333048,
+    "death": true,
+    "seed": 2138478150,
+    "episode_steps": 1095,
+    "update": 9
+  },
+  {
+    "survival_s": 95.11666666666255,
+    "death": true,
+    "seed": 1811101544,
+    "episode_steps": 1427,
+    "update": 9
+  },
+  {
+    "survival_s": 75.98333333333031,
+    "death": true,
+    "seed": 952275518,
+    "episode_steps": 1140,
+    "update": 9
+  },
+  {
+    "survival_s": 83.7166666666632,
+    "death": true,
+    "seed": 1606639814,
+    "episode_steps": 1256,
+    "update": 9
+  },
+  {
+    "survival_s": 107.31666666666186,
+    "death": true,
+    "seed": 502426500,
+    "episode_steps": 1610,
+    "update": 9
+  },
+  {
+    "survival_s": 76.16666666666363,
+    "death": true,
+    "seed": 401132639,
+    "episode_steps": 1143,
+    "update": 9
+  },
+  {
+    "survival_s": 81.46666666666333,
+    "death": true,
+    "seed": 526747272,
+    "episode_steps": 1222,
+    "update": 10
+  },
+  {
+    "survival_s": 78.78333333333015,
+    "death": true,
+    "seed": 628565547,
+    "episode_steps": 1182,
+    "update": 10
+  },
+  {
+    "survival_s": 89.19999999999622,
+    "death": true,
+    "seed": 1173270252,
+    "episode_steps": 1338,
+    "update": 10
+  },
+  {
+    "survival_s": 100.18333333332893,
+    "death": true,
+    "seed": 535361150,
+    "episode_steps": 1503,
+    "update": 10
+  },
+  {
+    "survival_s": 78.01666666666353,
+    "death": true,
+    "seed": 1356567862,
+    "episode_steps": 1171,
+    "update": 10
+  },
+  {
+    "survival_s": 76.39999999999695,
+    "death": true,
+    "seed": 2138090894,
+    "episode_steps": 1146,
+    "update": 10
+  },
+  {
+    "survival_s": 63.91666666666432,
+    "death": true,
+    "seed": 192622532,
+    "episode_steps": 959,
+    "update": 10
+  },
+  {
+    "survival_s": 92.11666666666272,
+    "death": true,
+    "seed": 1162308728,
+    "episode_steps": 1382,
+    "update": 10
+  },
+  {
+    "survival_s": 102.91666666666211,
+    "death": true,
+    "seed": 983256235,
+    "episode_steps": 1544,
+    "update": 10
+  },
+  {
+    "survival_s": 74.94999999999703,
+    "death": true,
+    "seed": 717082325,
+    "episode_steps": 1125,
+    "update": 10
+  },
+  {
+    "survival_s": 89.03333333332957,
+    "death": true,
+    "seed": 99618442,
+    "episode_steps": 1336,
+    "update": 10
+  },
+  {
+    "survival_s": 74.26666666666374,
+    "death": true,
+    "seed": 54786928,
+    "episode_steps": 1114,
+    "update": 10
+  },
+  {
+    "survival_s": 75.09999999999702,
+    "death": true,
+    "seed": 394839670,
+    "episode_steps": 1127,
+    "update": 10
+  },
+  {
+    "survival_s": 76.84999999999692,
+    "death": true,
+    "seed": 1712729743,
+    "episode_steps": 1153,
+    "update": 10
+  },
+  {
+    "survival_s": 106.0833333333286,
+    "death": true,
+    "seed": 594698861,
+    "episode_steps": 1592,
+    "update": 10
+  },
+  {
+    "survival_s": 71.88333333333054,
+    "death": true,
+    "seed": 2095772119,
+    "episode_steps": 1079,
+    "update": 10
+  },
+  {
+    "survival_s": 72.24999999999719,
+    "death": true,
+    "seed": 1716792276,
+    "episode_steps": 1084,
+    "update": 10
+  },
+  {
+    "survival_s": 66.98333333333082,
+    "death": true,
+    "seed": 414671320,
+    "episode_steps": 1005,
+    "update": 10
+  },
+  {
+    "survival_s": 81.04999999999669,
+    "death": true,
+    "seed": 573263218,
+    "episode_steps": 1216,
+    "update": 10
+  },
+  {
+    "survival_s": 79.13333333333013,
+    "death": true,
+    "seed": 314165278,
+    "episode_steps": 1187,
+    "update": 10
+  },
+  {
+    "survival_s": 97.58333333332908,
+    "death": true,
+    "seed": 1752772964,
+    "episode_steps": 1464,
+    "update": 11
+  },
+  {
+    "survival_s": 73.13333333333047,
+    "death": true,
+    "seed": 1932039043,
+    "episode_steps": 1097,
+    "update": 11
+  },
+  {
+    "survival_s": 75.69999999999699,
+    "death": true,
+    "seed": 751605079,
+    "episode_steps": 1136,
+    "update": 11
+  },
+  {
+    "survival_s": 80.99999999999669,
+    "death": true,
+    "seed": 2009089209,
+    "episode_steps": 1215,
+    "update": 11
+  },
+  {
+    "survival_s": 72.84999999999715,
+    "death": true,
+    "seed": 369616074,
+    "episode_steps": 1093,
+    "update": 11
+  },
+  {
+    "survival_s": 65.5333333333309,
+    "death": true,
+    "seed": 1244073262,
+    "episode_steps": 983,
+    "update": 11
+  },
+  {
+    "survival_s": 80.71666666666337,
+    "death": true,
+    "seed": 225096339,
+    "episode_steps": 1211,
+    "update": 11
+  },
+  {
+    "survival_s": 79.71666666666343,
+    "death": true,
+    "seed": 149543014,
+    "episode_steps": 1196,
+    "update": 11
+  },
+  {
+    "survival_s": 160.78333333335343,
+    "death": true,
+    "seed": 73416463,
+    "episode_steps": 2412,
+    "update": 11
+  },
+  {
+    "survival_s": 67.83333333333077,
+    "death": true,
+    "seed": 1321759319,
+    "episode_steps": 1018,
+    "update": 11
+  },
+  {
+    "survival_s": 80.61666666666338,
+    "death": true,
+    "seed": 1588782843,
+    "episode_steps": 1210,
+    "update": 11
+  },
+  {
+    "survival_s": 83.94999999999652,
+    "death": true,
+    "seed": 822547837,
+    "episode_steps": 1260,
+    "update": 11
+  },
+  {
+    "survival_s": 65.6333333333309,
+    "death": true,
+    "seed": 214025482,
+    "episode_steps": 985,
+    "update": 11
+  },
+  {
+    "survival_s": 77.3999999999969,
+    "death": true,
+    "seed": 1281128012,
+    "episode_steps": 1161,
+    "update": 11
+  },
+  {
+    "survival_s": 83.31666666666322,
+    "death": true,
+    "seed": 1905688423,
+    "episode_steps": 1250,
+    "update": 11
+  },
+  {
+    "survival_s": 92.28333333332938,
+    "death": true,
+    "seed": 1468204704,
+    "episode_steps": 1385,
+    "update": 11
+  },
+  {
+    "survival_s": 83.73333333332987,
+    "death": true,
+    "seed": 527482056,
+    "episode_steps": 1256,
+    "update": 12
+  },
+  {
+    "survival_s": 87.59999999999631,
+    "death": true,
+    "seed": 1162244598,
+    "episode_steps": 1314,
+    "update": 12
+  },
+  {
+    "survival_s": 80.7999999999967,
+    "death": true,
+    "seed": 1058471950,
+    "episode_steps": 1212,
+    "update": 12
+  },
+  {
+    "survival_s": 72.38333333333051,
+    "death": true,
+    "seed": 1070513039,
+    "episode_steps": 1086,
+    "update": 12
+  },
+  {
+    "survival_s": 80.93333333333003,
+    "death": true,
+    "seed": 1755867183,
+    "episode_steps": 1214,
+    "update": 12
+  },
+  {
+    "survival_s": 78.18333333333018,
+    "death": true,
+    "seed": 1599340774,
+    "episode_steps": 1173,
+    "update": 12
+  },
+  {
+    "survival_s": 73.66666666666377,
+    "death": true,
+    "seed": 1710130519,
+    "episode_steps": 1105,
+    "update": 12
+  },
+  {
+    "survival_s": 72.89999999999715,
+    "death": true,
+    "seed": 1991214726,
+    "episode_steps": 1094,
+    "update": 12
+  },
+  {
+    "survival_s": 71.9499999999972,
+    "death": true,
+    "seed": 1367299450,
+    "episode_steps": 1080,
+    "update": 12
+  },
+  {
+    "survival_s": 103.76666666666206,
+    "death": true,
+    "seed": 112553958,
+    "episode_steps": 1557,
+    "update": 12
+  },
+  {
+    "survival_s": 84.71666666666314,
+    "death": true,
+    "seed": 830284973,
+    "episode_steps": 1271,
+    "update": 12
+  },
+  {
+    "survival_s": 74.74999999999704,
+    "death": true,
+    "seed": 1829755076,
+    "episode_steps": 1122,
+    "update": 12
+  },
+  {
+    "survival_s": 77.33333333333023,
+    "death": true,
+    "seed": 2025961660,
+    "episode_steps": 1160,
+    "update": 12
+  },
+  {
+    "survival_s": 103.5999999999954,
+    "death": true,
+    "seed": 1089661938,
+    "episode_steps": 1554,
+    "update": 12
+  },
+  {
+    "survival_s": 104.48333333332869,
+    "death": true,
+    "seed": 1969343819,
+    "episode_steps": 1568,
+    "update": 12
+  },
+  {
+    "survival_s": 80.2166666666634,
+    "death": true,
+    "seed": 334870450,
+    "episode_steps": 1204,
+    "update": 12
+  },
+  {
+    "survival_s": 82.79999999999659,
+    "death": true,
+    "seed": 1789586007,
+    "episode_steps": 1242,
+    "update": 12
+  },
+  {
+    "survival_s": 67.59999999999745,
+    "death": true,
+    "seed": 1057104367,
+    "episode_steps": 1014,
+    "update": 13
+  },
+  {
+    "survival_s": 68.74999999999739,
+    "death": true,
+    "seed": 120431593,
+    "episode_steps": 1032,
+    "update": 13
+  },
+  {
+    "survival_s": 77.9333333333302,
+    "death": true,
+    "seed": 1122453274,
+    "episode_steps": 1169,
+    "update": 13
+  },
+  {
+    "survival_s": 93.91666666666262,
+    "death": true,
+    "seed": 1717215016,
+    "episode_steps": 1409,
+    "update": 13
+  },
+  {
+    "survival_s": 118.54999999999455,
+    "death": true,
+    "seed": 968715597,
+    "episode_steps": 1779,
+    "update": 13
+  },
+  {
+    "survival_s": 63.783333333330994,
+    "death": true,
+    "seed": 1078624359,
+    "episode_steps": 957,
+    "update": 13
+  },
+  {
+    "survival_s": 75.96666666666364,
+    "death": true,
+    "seed": 2028322619,
+    "episode_steps": 1140,
+    "update": 13
+  },
+  {
+    "survival_s": 99.94999999999561,
+    "death": true,
+    "seed": 2071539713,
+    "episode_steps": 1500,
+    "update": 13
+  },
+  {
+    "survival_s": 119.29999999999451,
+    "death": true,
+    "seed": 716554405,
+    "episode_steps": 1790,
+    "update": 13
+  },
+  {
+    "survival_s": 72.26666666666385,
+    "death": true,
+    "seed": 1837209379,
+    "episode_steps": 1084,
+    "update": 13
+  },
+  {
+    "survival_s": 96.09999999999583,
+    "death": true,
+    "seed": 2066914608,
+    "episode_steps": 1442,
+    "update": 13
+  },
+  {
+    "survival_s": 67.49999999999746,
+    "death": true,
+    "seed": 1075669505,
+    "episode_steps": 1013,
+    "update": 13
+  },
+  {
+    "survival_s": 66.03333333333087,
+    "death": true,
+    "seed": 447273126,
+    "episode_steps": 991,
+    "update": 13
+  },
+  {
+    "survival_s": 77.63333333333021,
+    "death": true,
+    "seed": 534153176,
+    "episode_steps": 1165,
+    "update": 13
+  },
+  {
+    "survival_s": 73.41666666666379,
+    "death": true,
+    "seed": 1273480411,
+    "episode_steps": 1102,
+    "update": 13
+  },
+  {
+    "survival_s": 76.64999999999694,
+    "death": true,
+    "seed": 770126473,
+    "episode_steps": 1150,
+    "update": 13
+  },
+  {
+    "survival_s": 76.24999999999696,
+    "death": true,
+    "seed": 1292257039,
+    "episode_steps": 1144,
+    "update": 13
+  },
+  {
+    "survival_s": 86.66666666666303,
+    "death": true,
+    "seed": 444023988,
+    "episode_steps": 1300,
+    "update": 14
+  },
+  {
+    "survival_s": 82.66666666666326,
+    "death": true,
+    "seed": 352085774,
+    "episode_steps": 1240,
+    "update": 14
+  },
+  {
+    "survival_s": 71.76666666666388,
+    "death": true,
+    "seed": 1025840815,
+    "episode_steps": 1077,
+    "update": 14
+  },
+  {
+    "survival_s": 77.64999999999688,
+    "death": true,
+    "seed": 925333526,
+    "episode_steps": 1165,
+    "update": 14
+  },
+  {
+    "survival_s": 80.34999999999673,
+    "death": true,
+    "seed": 543847194,
+    "episode_steps": 1206,
+    "update": 14
+  },
+  {
+    "survival_s": 97.2833333333291,
+    "death": true,
+    "seed": 392926026,
+    "episode_steps": 1460,
+    "update": 14
+  },
+  {
+    "survival_s": 95.13333333332922,
+    "death": true,
+    "seed": 1520145328,
+    "episode_steps": 1427,
+    "update": 14
+  },
+  {
+    "survival_s": 72.31666666666385,
+    "death": true,
+    "seed": 456532875,
+    "episode_steps": 1085,
+    "update": 14
+  },
+  {
+    "survival_s": 81.14999999999668,
+    "death": true,
+    "seed": 934984346,
+    "episode_steps": 1218,
+    "update": 14
+  },
+  {
+    "survival_s": 94.91666666666256,
+    "death": true,
+    "seed": 1937696123,
+    "episode_steps": 1424,
+    "update": 14
+  },
+  {
+    "survival_s": 74.14999999999708,
+    "death": true,
+    "seed": 2043241928,
+    "episode_steps": 1113,
+    "update": 14
+  },
+  {
+    "survival_s": 93.33333333332932,
+    "death": true,
+    "seed": 35201947,
+    "episode_steps": 1400,
+    "update": 14
+  },
+  {
+    "survival_s": 71.49999999999723,
+    "death": true,
+    "seed": 123576636,
+    "episode_steps": 1073,
+    "update": 14
+  },
+  {
+    "survival_s": 109.09999999999509,
+    "death": true,
+    "seed": 1541847577,
+    "episode_steps": 1637,
+    "update": 14
+  },
+  {
+    "survival_s": 71.08333333333059,
+    "death": true,
+    "seed": 1563209584,
+    "episode_steps": 1067,
+    "update": 14
+  },
+  {
+    "survival_s": 85.84999999999641,
+    "death": true,
+    "seed": 2086325876,
+    "episode_steps": 1288,
+    "update": 14
+  },
+  {
+    "survival_s": 74.08333333333042,
+    "death": true,
+    "seed": 1456293091,
+    "episode_steps": 1112,
+    "update": 14
+  },
+  {
+    "survival_s": 107.04999999999521,
+    "death": true,
+    "seed": 1795420300,
+    "episode_steps": 1606,
+    "update": 14
+  },
+  {
+    "survival_s": 72.08333333333053,
+    "death": true,
+    "seed": 910583107,
+    "episode_steps": 1082,
+    "update": 14
+  },
+  {
+    "survival_s": 75.08333333333036,
+    "death": true,
+    "seed": 1872722106,
+    "episode_steps": 1127,
+    "update": 15
+  },
+  {
+    "survival_s": 86.44999999999638,
+    "death": true,
+    "seed": 796211409,
+    "episode_steps": 1297,
+    "update": 15
+  },
+  {
+    "survival_s": 84.04999999999652,
+    "death": true,
+    "seed": 1422819681,
+    "episode_steps": 1261,
+    "update": 15
+  },
+  {
+    "survival_s": 63.13333333333103,
+    "death": true,
+    "seed": 80701795,
+    "episode_steps": 947,
+    "update": 15
+  },
+  {
+    "survival_s": 87.98333333332963,
+    "death": true,
+    "seed": 213902765,
+    "episode_steps": 1320,
+    "update": 15
+  },
+  {
+    "survival_s": 76.09999999999697,
+    "death": true,
+    "seed": 342039981,
+    "episode_steps": 1142,
+    "update": 15
+  },
+  {
+    "survival_s": 75.36666666666368,
+    "death": true,
+    "seed": 2020405749,
+    "episode_steps": 1131,
+    "update": 15
+  },
+  {
+    "survival_s": 74.03333333333042,
+    "death": true,
+    "seed": 1228851086,
+    "episode_steps": 1111,
+    "update": 15
+  },
+  {
+    "survival_s": 87.61666666666298,
+    "death": true,
+    "seed": 206896849,
+    "episode_steps": 1315,
+    "update": 15
+  },
+  {
+    "survival_s": 76.16666666666363,
+    "death": true,
+    "seed": 693636787,
+    "episode_steps": 1143,
+    "update": 15
+  },
+  {
+    "survival_s": 82.18333333332995,
+    "death": true,
+    "seed": 1762369188,
+    "episode_steps": 1233,
+    "update": 15
+  },
+  {
+    "survival_s": 85.48333333332977,
+    "death": true,
+    "seed": 110065517,
+    "episode_steps": 1283,
+    "update": 15
+  },
+  {
+    "survival_s": 77.14999999999691,
+    "death": true,
+    "seed": 165924372,
+    "episode_steps": 1158,
+    "update": 15
+  },
+  {
+    "survival_s": 74.74999999999704,
+    "death": true,
+    "seed": 442134492,
+    "episode_steps": 1122,
+    "update": 15
+  },
+  {
+    "survival_s": 69.716666666664,
+    "death": true,
+    "seed": 128655315,
+    "episode_steps": 1046,
+    "update": 15
+  },
+  {
+    "survival_s": 82.68333333332993,
+    "death": true,
+    "seed": 1972557530,
+    "episode_steps": 1241,
+    "update": 15
+  },
+  {
+    "survival_s": 92.18333333332939,
+    "death": true,
+    "seed": 191094732,
+    "episode_steps": 1383,
+    "update": 15
+  },
+  {
+    "survival_s": 65.11666666666426,
+    "death": true,
+    "seed": 48176626,
+    "episode_steps": 977,
+    "update": 15
+  },
+  {
+    "survival_s": 68.63333333333073,
+    "death": true,
+    "seed": 747523327,
+    "episode_steps": 1030,
+    "update": 15
+  },
+  {
+    "survival_s": 77.8333333333302,
+    "death": true,
+    "seed": 1597713362,
+    "episode_steps": 1168,
+    "update": 15
+  },
+  {
+    "survival_s": 90.89999999999613,
+    "death": true,
+    "seed": 1647101695,
+    "episode_steps": 1364,
+    "update": 16
+  },
+  {
+    "survival_s": 96.23333333332916,
+    "death": true,
+    "seed": 1123336226,
+    "episode_steps": 1444,
+    "update": 16
+  },
+  {
+    "survival_s": 79.26666666666345,
+    "death": true,
+    "seed": 37521123,
+    "episode_steps": 1189,
+    "update": 16
+  },
+  {
+    "survival_s": 100.53333333332891,
+    "death": true,
+    "seed": 497701717,
+    "episode_steps": 1508,
+    "update": 16
+  },
+  {
+    "survival_s": 70.69999999999727,
+    "death": true,
+    "seed": 919763323,
+    "episode_steps": 1061,
+    "update": 16
+  },
+  {
+    "survival_s": 84.8833333333298,
+    "death": true,
+    "seed": 1140940889,
+    "episode_steps": 1274,
+    "update": 16
+  },
+  {
+    "survival_s": 68.4999999999974,
+    "death": true,
+    "seed": 1240941217,
+    "episode_steps": 1028,
+    "update": 16
+  },
+  {
+    "survival_s": 78.66666666666349,
+    "death": true,
+    "seed": 725998542,
+    "episode_steps": 1180,
+    "update": 16
+  },
+  {
+    "survival_s": 89.46666666666287,
+    "death": true,
+    "seed": 525096414,
+    "episode_steps": 1342,
+    "update": 16
+  },
+  {
+    "survival_s": 106.09999999999526,
+    "death": true,
+    "seed": 1200784676,
+    "episode_steps": 1592,
+    "update": 16
+  },
+  {
+    "survival_s": 78.38333333333017,
+    "death": true,
+    "seed": 2118081589,
+    "episode_steps": 1176,
+    "update": 16
+  },
+  {
+    "survival_s": 69.49999999999734,
+    "death": true,
+    "seed": 1882987466,
+    "episode_steps": 1043,
+    "update": 16
+  },
+  {
+    "survival_s": 67.9666666666641,
+    "death": true,
+    "seed": 718824214,
+    "episode_steps": 1020,
+    "update": 16
+  },
+  {
+    "survival_s": 76.06666666666364,
+    "death": true,
+    "seed": 2024962133,
+    "episode_steps": 1141,
+    "update": 17
+  },
+  {
+    "survival_s": 84.38333333332983,
+    "death": true,
+    "seed": 181015120,
+    "episode_steps": 1266,
+    "update": 17
+  },
+  {
+    "survival_s": 77.28333333333023,
+    "death": true,
+    "seed": 1837237118,
+    "episode_steps": 1160,
+    "update": 17
+  },
+  {
+    "survival_s": 85.53333333332976,
+    "death": true,
+    "seed": 1884100126,
+    "episode_steps": 1283,
+    "update": 17
+  },
+  {
+    "survival_s": 68.73333333333072,
+    "death": true,
+    "seed": 1109830090,
+    "episode_steps": 1031,
+    "update": 17
+  },
+  {
+    "survival_s": 90.31666666666283,
+    "death": true,
+    "seed": 458899658,
+    "episode_steps": 1355,
+    "update": 17
+  },
+  {
+    "survival_s": 87.58333333332965,
+    "death": true,
+    "seed": 1064411496,
+    "episode_steps": 1314,
+    "update": 17
+  },
+  {
+    "survival_s": 92.64999999999603,
+    "death": true,
+    "seed": 1966152180,
+    "episode_steps": 1390,
+    "update": 17
+  },
+  {
+    "survival_s": 79.69999999999676,
+    "death": true,
+    "seed": 1213541557,
+    "episode_steps": 1196,
+    "update": 17
+  },
+  {
+    "survival_s": 95.16666666666255,
+    "death": true,
+    "seed": 1230577111,
+    "episode_steps": 1428,
+    "update": 17
+  },
+  {
+    "survival_s": 89.0166666666629,
+    "death": true,
+    "seed": 1820459663,
+    "episode_steps": 1336,
+    "update": 17
+  },
+  {
+    "survival_s": 114.23333333332813,
+    "death": true,
+    "seed": 1305501427,
+    "episode_steps": 1714,
+    "update": 17
+  },
+  {
+    "survival_s": 92.69999999999602,
+    "death": true,
+    "seed": 2076225875,
+    "episode_steps": 1391,
+    "update": 17
+  },
+  {
+    "survival_s": 96.7499999999958,
+    "death": true,
+    "seed": 667547838,
+    "episode_steps": 1452,
+    "update": 17
+  },
+  {
+    "survival_s": 117.96666666666125,
+    "death": true,
+    "seed": 1857878571,
+    "episode_steps": 1770,
+    "update": 17
+  },
+  {
+    "survival_s": 79.93333333333008,
+    "death": true,
+    "seed": 1185091028,
+    "episode_steps": 1199,
+    "update": 17
+  },
+  {
+    "survival_s": 78.48333333333017,
+    "death": true,
+    "seed": 2092554682,
+    "episode_steps": 1178,
+    "update": 17
+  },
+  {
+    "survival_s": 79.01666666666347,
+    "death": true,
+    "seed": 653743104,
+    "episode_steps": 1186,
+    "update": 18
+  },
+  {
+    "survival_s": 106.36666666666191,
+    "death": true,
+    "seed": 1929571397,
+    "episode_steps": 1596,
+    "update": 18
+  },
+  {
+    "survival_s": 88.5333333333296,
+    "death": true,
+    "seed": 1848674097,
+    "episode_steps": 1328,
+    "update": 18
+  },
+  {
+    "survival_s": 76.21666666666363,
+    "death": true,
+    "seed": 295611571,
+    "episode_steps": 1144,
+    "update": 18
+  },
+  {
+    "survival_s": 71.03333333333059,
+    "death": true,
+    "seed": 318728695,
+    "episode_steps": 1066,
+    "update": 18
+  },
+  {
+    "survival_s": 65.14999999999759,
+    "death": true,
+    "seed": 1960323516,
+    "episode_steps": 978,
+    "update": 18
+  },
+  {
+    "survival_s": 114.09999999999481,
+    "death": true,
+    "seed": 1784060811,
+    "episode_steps": 1712,
+    "update": 18
+  },
+  {
+    "survival_s": 83.7666666666632,
+    "death": true,
+    "seed": 1159811959,
+    "episode_steps": 1257,
+    "update": 18
+  },
+  {
+    "survival_s": 74.54999999999706,
+    "death": true,
+    "seed": 1722436203,
+    "episode_steps": 1119,
+    "update": 18
+  },
+  {
+    "survival_s": 84.66666666666315,
+    "death": true,
+    "seed": 592846866,
+    "episode_steps": 1270,
+    "update": 18
+  },
+  {
+    "survival_s": 81.49999999999666,
+    "death": true,
+    "seed": 193185942,
+    "episode_steps": 1223,
+    "update": 18
+  },
+  {
+    "survival_s": 72.36666666666385,
+    "death": true,
+    "seed": 740055139,
+    "episode_steps": 1086,
+    "update": 18
+  },
+  {
+    "survival_s": 75.04999999999703,
+    "death": true,
+    "seed": 879639980,
+    "episode_steps": 1126,
+    "update": 18
+  },
+  {
+    "survival_s": 70.86666666666393,
+    "death": true,
+    "seed": 2099718102,
+    "episode_steps": 1063,
+    "update": 18
+  },
+  {
+    "survival_s": 89.31666666666288,
+    "death": true,
+    "seed": 1605191283,
+    "episode_steps": 1340,
+    "update": 18
+  },
+  {
+    "survival_s": 89.88333333332952,
+    "death": true,
+    "seed": 1806153111,
+    "episode_steps": 1349,
+    "update": 18
+  },
+  {
+    "survival_s": 97.01666666666245,
+    "death": true,
+    "seed": 751662625,
+    "episode_steps": 1456,
+    "update": 19
+  },
+  {
+    "survival_s": 74.73333333333038,
+    "death": true,
+    "seed": 1262023654,
+    "episode_steps": 1121,
+    "update": 19
+  },
+  {
+    "survival_s": 88.78333333332958,
+    "death": true,
+    "seed": 1851085523,
+    "episode_steps": 1332,
+    "update": 19
+  },
+  {
+    "survival_s": 77.8333333333302,
+    "death": true,
+    "seed": 1380973214,
+    "episode_steps": 1168,
+    "update": 19
+  },
+  {
+    "survival_s": 78.18333333333018,
+    "death": true,
+    "seed": 399469247,
+    "episode_steps": 1173,
+    "update": 19
+  },
+  {
+    "survival_s": 75.13333333333036,
+    "death": true,
+    "seed": 1816876235,
+    "episode_steps": 1127,
+    "update": 19
+  },
+  {
+    "survival_s": 97.88333333332906,
+    "death": true,
+    "seed": 1033473344,
+    "episode_steps": 1469,
+    "update": 19
+  },
+  {
+    "survival_s": 77.28333333333023,
+    "death": true,
+    "seed": 1854356880,
+    "episode_steps": 1160,
+    "update": 19
+  },
+  {
+    "survival_s": 88.71666666666292,
+    "death": true,
+    "seed": 948571758,
+    "episode_steps": 1331,
+    "update": 19
+  },
+  {
+    "survival_s": 66.1666666666642,
+    "death": true,
+    "seed": 1377231018,
+    "episode_steps": 993,
+    "update": 19
+  },
+  {
+    "survival_s": 83.74999999999653,
+    "death": true,
+    "seed": 307048611,
+    "episode_steps": 1257,
+    "update": 19
+  },
+  {
+    "survival_s": 80.1166666666634,
+    "death": true,
+    "seed": 156328397,
+    "episode_steps": 1202,
+    "update": 19
+  },
+  {
+    "survival_s": 73.76666666666377,
+    "death": true,
+    "seed": 1663010742,
+    "episode_steps": 1107,
+    "update": 19
+  },
+  {
+    "survival_s": 107.04999999999521,
+    "death": true,
+    "seed": 806204434,
+    "episode_steps": 1606,
+    "update": 19
+  },
+  {
+    "survival_s": 92.43333333332937,
+    "death": true,
+    "seed": 2078517374,
+    "episode_steps": 1387,
+    "update": 19
+  },
+  {
+    "survival_s": 91.2499999999961,
+    "death": true,
+    "seed": 949284437,
+    "episode_steps": 1369,
+    "update": 19
+  },
+  {
+    "survival_s": 83.01666666666324,
+    "death": true,
+    "seed": 1733129293,
+    "episode_steps": 1246,
+    "update": 19
+  },
+  {
+    "survival_s": 67.71666666666411,
+    "death": true,
+    "seed": 931493730,
+    "episode_steps": 1016,
+    "update": 19
+  },
+  {
+    "survival_s": 91.48333333332943,
+    "death": true,
+    "seed": 1998630783,
+    "episode_steps": 1373,
+    "update": 19
+  },
+  {
+    "survival_s": 76.8166666666636,
+    "death": true,
+    "seed": 2129857355,
+    "episode_steps": 1153,
+    "update": 20
+  },
+  {
+    "survival_s": 76.83333333333026,
+    "death": true,
+    "seed": 810884458,
+    "episode_steps": 1153,
+    "update": 20
+  },
+  {
+    "survival_s": 84.54999999999649,
+    "death": true,
+    "seed": 1843635569,
+    "episode_steps": 1269,
+    "update": 20
+  },
+  {
+    "survival_s": 99.43333333332897,
+    "death": true,
+    "seed": 1924955389,
+    "episode_steps": 1492,
+    "update": 20
+  },
+  {
+    "survival_s": 81.51666666666333,
+    "death": true,
+    "seed": 2047214837,
+    "episode_steps": 1223,
+    "update": 20
+  },
+  {
+    "survival_s": 81.23333333333001,
+    "death": true,
+    "seed": 2021149546,
+    "episode_steps": 1219,
+    "update": 20
+  },
+  {
+    "survival_s": 84.13333333332984,
+    "death": true,
+    "seed": 2118667269,
+    "episode_steps": 1262,
+    "update": 20
+  },
+  {
+    "survival_s": 84.54999999999649,
+    "death": true,
+    "seed": 1706656851,
+    "episode_steps": 1269,
+    "update": 20
+  },
+  {
+    "survival_s": 67.16666666666414,
+    "death": true,
+    "seed": 1281740546,
+    "episode_steps": 1008,
+    "update": 20
+  },
+  {
+    "survival_s": 78.74999999999682,
+    "death": true,
+    "seed": 1385972418,
+    "episode_steps": 1182,
+    "update": 20
+  },
+  {
+    "survival_s": 78.26666666666351,
+    "death": true,
+    "seed": 1188984625,
+    "episode_steps": 1174,
+    "update": 20
+  },
+  {
+    "survival_s": 78.66666666666349,
+    "death": true,
+    "seed": 1974289954,
+    "episode_steps": 1180,
+    "update": 20
+  },
+  {
+    "survival_s": 89.94999999999618,
+    "death": true,
+    "seed": 966609,
+    "episode_steps": 1350,
+    "update": 20
+  },
+  {
+    "survival_s": 85.08333333332979,
+    "death": true,
+    "seed": 1783576872,
+    "episode_steps": 1277,
+    "update": 21
+  },
+  {
+    "survival_s": 78.58333333333016,
+    "death": true,
+    "seed": 1251482555,
+    "episode_steps": 1179,
+    "update": 21
+  },
+  {
+    "survival_s": 74.3333333333304,
+    "death": true,
+    "seed": 1226968971,
+    "episode_steps": 1115,
+    "update": 21
+  },
+  {
+    "survival_s": 74.69999999999705,
+    "death": true,
+    "seed": 1891438663,
+    "episode_steps": 1121,
+    "update": 21
+  },
+  {
+    "survival_s": 86.93333333332968,
+    "death": true,
+    "seed": 162144762,
+    "episode_steps": 1304,
+    "update": 21
+  },
+  {
+    "survival_s": 90.06666666666284,
+    "death": true,
+    "seed": 2049457303,
+    "episode_steps": 1351,
+    "update": 21
+  },
+  {
+    "survival_s": 74.61666666666372,
+    "death": true,
+    "seed": 1444515344,
+    "episode_steps": 1120,
+    "update": 21
+  },
+  {
+    "survival_s": 112.26666666666158,
+    "death": true,
+    "seed": 45226795,
+    "episode_steps": 1684,
+    "update": 21
+  },
+  {
+    "survival_s": 119.64999999999449,
+    "death": true,
+    "seed": 174130109,
+    "episode_steps": 1795,
+    "update": 21
+  },
+  {
+    "survival_s": 86.81666666666302,
+    "death": true,
+    "seed": 1907564845,
+    "episode_steps": 1303,
+    "update": 21
+  },
+  {
+    "survival_s": 77.14999999999691,
+    "death": true,
+    "seed": 1173788011,
+    "episode_steps": 1158,
+    "update": 21
+  },
+  {
+    "survival_s": 99.29999999999565,
+    "death": true,
+    "seed": 2089788147,
+    "episode_steps": 1490,
+    "update": 21
+  },
+  {
+    "survival_s": 68.94999999999737,
+    "death": true,
+    "seed": 1786428321,
+    "episode_steps": 1035,
+    "update": 21
+  },
+  {
+    "survival_s": 74.9666666666637,
+    "death": true,
+    "seed": 2041152973,
+    "episode_steps": 1125,
+    "update": 21
+  },
+  {
+    "survival_s": 93.16666666666266,
+    "death": true,
+    "seed": 1217131012,
+    "episode_steps": 1398,
+    "update": 22
+  },
+  {
+    "survival_s": 75.63333333333033,
+    "death": true,
+    "seed": 1856456376,
+    "episode_steps": 1135,
+    "update": 22
+  },
+  {
+    "survival_s": 77.8833333333302,
+    "death": true,
+    "seed": 1508925168,
+    "episode_steps": 1169,
+    "update": 22
+  },
+  {
+    "survival_s": 75.53333333333033,
+    "death": true,
+    "seed": 1811249455,
+    "episode_steps": 1133,
+    "update": 22
+  },
+  {
+    "survival_s": 77.58333333333022,
+    "death": true,
+    "seed": 390697680,
+    "episode_steps": 1164,
+    "update": 22
+  },
+  {
+    "survival_s": 73.09999999999714,
+    "death": true,
+    "seed": 79620000,
+    "episode_steps": 1097,
+    "update": 22
+  },
+  {
+    "survival_s": 91.11666666666278,
+    "death": true,
+    "seed": 763788054,
+    "episode_steps": 1367,
+    "update": 22
+  },
+  {
+    "survival_s": 76.41666666666362,
+    "death": true,
+    "seed": 1333695031,
+    "episode_steps": 1147,
+    "update": 22
+  },
+  {
+    "survival_s": 66.88333333333082,
+    "death": true,
+    "seed": 1189527369,
+    "episode_steps": 1004,
+    "update": 22
+  },
+  {
+    "survival_s": 85.78333333332975,
+    "death": true,
+    "seed": 216931251,
+    "episode_steps": 1287,
+    "update": 22
+  },
+  {
+    "survival_s": 108.69999999999511,
+    "death": true,
+    "seed": 271112712,
+    "episode_steps": 1631,
+    "update": 22
+  },
+  {
+    "survival_s": 87.83333333332963,
+    "death": true,
+    "seed": 1841081667,
+    "episode_steps": 1318,
+    "update": 22
+  },
+  {
+    "survival_s": 86.93333333332968,
+    "death": true,
+    "seed": 1955945863,
+    "episode_steps": 1304,
+    "update": 22
+  },
+  {
+    "survival_s": 73.39999999999712,
+    "death": true,
+    "seed": 284337612,
+    "episode_steps": 1101,
+    "update": 22
+  },
+  {
+    "survival_s": 104.16666666666204,
+    "death": true,
+    "seed": 473666442,
+    "episode_steps": 1563,
+    "update": 22
+  },
+  {
+    "survival_s": 76.39999999999695,
+    "death": true,
+    "seed": 929406571,
+    "episode_steps": 1146,
+    "update": 22
+  },
+  {
+    "survival_s": 79.91666666666342,
+    "death": true,
+    "seed": 2050442367,
+    "episode_steps": 1199,
+    "update": 22
+  },
+  {
+    "survival_s": 125.19999999999418,
+    "death": true,
+    "seed": 632349517,
+    "episode_steps": 1878,
+    "update": 23
+  },
+  {
+    "survival_s": 73.03333333333048,
+    "death": true,
+    "seed": 164702268,
+    "episode_steps": 1096,
+    "update": 23
+  },
+  {
+    "survival_s": 64.44999999999763,
+    "death": true,
+    "seed": 442777054,
+    "episode_steps": 967,
+    "update": 23
+  },
+  {
+    "survival_s": 71.03333333333059,
+    "death": true,
+    "seed": 1869732132,
+    "episode_steps": 1066,
+    "update": 23
+  },
+  {
+    "survival_s": 72.4833333333305,
+    "death": true,
+    "seed": 1731577352,
+    "episode_steps": 1088,
+    "update": 23
+  },
+  {
+    "survival_s": 76.89999999999692,
+    "death": true,
+    "seed": 750440660,
+    "episode_steps": 1154,
+    "update": 23
+  },
+  {
+    "survival_s": 73.73333333333044,
+    "death": true,
+    "seed": 1861063000,
+    "episode_steps": 1106,
+    "update": 23
+  },
+  {
+    "survival_s": 84.9833333333298,
+    "death": true,
+    "seed": 770394036,
+    "episode_steps": 1275,
+    "update": 23
+  },
+  {
+    "survival_s": 80.03333333333008,
+    "death": true,
+    "seed": 356895272,
+    "episode_steps": 1201,
+    "update": 23
+  },
+  {
+    "survival_s": 91.78333333332941,
+    "death": true,
+    "seed": 2097606700,
+    "episode_steps": 1377,
+    "update": 23
+  },
+  {
+    "survival_s": 80.1666666666634,
+    "death": true,
+    "seed": 1571707068,
+    "episode_steps": 1203,
+    "update": 23
+  },
+  {
+    "survival_s": 96.31666666666248,
+    "death": true,
+    "seed": 1800415761,
+    "episode_steps": 1445,
+    "update": 23
+  },
+  {
+    "survival_s": 88.21666666666295,
+    "death": true,
+    "seed": 45908342,
+    "episode_steps": 1324,
+    "update": 23
+  },
+  {
+    "survival_s": 65.4833333333309,
+    "death": true,
+    "seed": 1622053891,
+    "episode_steps": 983,
+    "update": 23
+  },
+  {
+    "survival_s": 99.53333333332897,
+    "death": true,
+    "seed": 2144151386,
+    "episode_steps": 1493,
+    "update": 24
+  },
+  {
+    "survival_s": 80.73333333333004,
+    "death": true,
+    "seed": 800050917,
+    "episode_steps": 1211,
+    "update": 24
+  },
+  {
+    "survival_s": 81.64999999999665,
+    "death": true,
+    "seed": 953037583,
+    "episode_steps": 1225,
+    "update": 24
+  },
+  {
+    "survival_s": 90.64999999999614,
+    "death": true,
+    "seed": 1597701856,
+    "episode_steps": 1360,
+    "update": 24
+  },
+  {
+    "survival_s": 105.18333333332865,
+    "death": true,
+    "seed": 1730869420,
+    "episode_steps": 1578,
+    "update": 24
+  },
+  {
+    "survival_s": 91.18333333332944,
+    "death": true,
+    "seed": 928673459,
+    "episode_steps": 1368,
+    "update": 24
+  },
+  {
+    "survival_s": 82.58333333332993,
+    "death": true,
+    "seed": 830462248,
+    "episode_steps": 1239,
+    "update": 24
+  },
+  {
+    "survival_s": 69.16666666666403,
+    "death": true,
+    "seed": 56186646,
+    "episode_steps": 1038,
+    "update": 24
+  },
+  {
+    "survival_s": 90.21666666666283,
+    "death": true,
+    "seed": 457154191,
+    "episode_steps": 1354,
+    "update": 24
+  },
+  {
+    "survival_s": 63.0499999999977,
+    "death": true,
+    "seed": 804730362,
+    "episode_steps": 946,
+    "update": 24
+  },
+  {
+    "survival_s": 83.04999999999657,
+    "death": true,
+    "seed": 273787163,
+    "episode_steps": 1246,
+    "update": 24
+  },
+  {
+    "survival_s": 73.48333333333045,
+    "death": true,
+    "seed": 624973659,
+    "episode_steps": 1103,
+    "update": 24
+  },
+  {
+    "survival_s": 96.89999999999579,
+    "death": true,
+    "seed": 832402278,
+    "episode_steps": 1454,
+    "update": 24
+  },
+  {
+    "survival_s": 98.31666666666237,
+    "death": true,
+    "seed": 421438299,
+    "episode_steps": 1475,
+    "update": 25
+  },
+  {
+    "survival_s": 88.08333333332962,
+    "death": true,
+    "seed": 470943425,
+    "episode_steps": 1322,
+    "update": 25
+  },
+  {
+    "survival_s": 98.28333333332904,
+    "death": true,
+    "seed": 658525087,
+    "episode_steps": 1475,
+    "update": 25
+  },
+  {
+    "survival_s": 97.96666666666239,
+    "death": true,
+    "seed": 201374984,
+    "episode_steps": 1470,
+    "update": 25
+  },
+  {
+    "survival_s": 81.56666666666332,
+    "death": true,
+    "seed": 233355128,
+    "episode_steps": 1224,
+    "update": 25
+  },
+  {
+    "survival_s": 165.65000000002397,
+    "death": true,
+    "seed": 497970578,
+    "episode_steps": 2485,
+    "update": 25
+  },
+  {
+    "survival_s": 73.09999999999714,
+    "death": true,
+    "seed": 1945092573,
+    "episode_steps": 1097,
+    "update": 25
+  },
+  {
+    "survival_s": 66.34999999999752,
+    "death": true,
+    "seed": 1868069367,
+    "episode_steps": 996,
+    "update": 25
+  },
+  {
+    "survival_s": 68.16666666666409,
+    "death": true,
+    "seed": 1985570295,
+    "episode_steps": 1023,
+    "update": 25
+  },
+  {
+    "survival_s": 75.98333333333031,
+    "death": true,
+    "seed": 1867034707,
+    "episode_steps": 1140,
+    "update": 25
+  },
+  {
+    "survival_s": 68.68333333333072,
+    "death": true,
+    "seed": 1379632295,
+    "episode_steps": 1031,
+    "update": 25
+  },
+  {
+    "survival_s": 79.01666666666347,
+    "death": true,
+    "seed": 763174480,
+    "episode_steps": 1186,
+    "update": 25
+  },
+  {
+    "survival_s": 75.69999999999699,
+    "death": true,
+    "seed": 101064150,
+    "episode_steps": 1136,
+    "update": 25
+  },
+  {
+    "survival_s": 91.26666666666277,
+    "death": true,
+    "seed": 1836676674,
+    "episode_steps": 1369,
+    "update": 25
+  },
+  {
+    "survival_s": 87.366666666663,
+    "death": true,
+    "seed": 713190480,
+    "episode_steps": 1311,
+    "update": 25
+  },
+  {
+    "survival_s": 79.26666666666345,
+    "death": true,
+    "seed": 120148407,
+    "episode_steps": 1189,
+    "update": 25
+  },
+  {
+    "survival_s": 115.98333333332803,
+    "death": true,
+    "seed": 912301423,
+    "episode_steps": 1740,
+    "update": 25
+  },
+  {
+    "survival_s": 83.63333333332987,
+    "death": true,
+    "seed": 133918545,
+    "episode_steps": 1255,
+    "update": 25
+  },
+  {
+    "survival_s": 73.39999999999712,
+    "death": true,
+    "seed": 390531941,
+    "episode_steps": 1101,
+    "update": 25
+  },
+  {
+    "survival_s": 65.84999999999755,
+    "death": true,
+    "seed": 1415932228,
+    "episode_steps": 988,
+    "update": 25
+  },
+  {
+    "survival_s": 75.51666666666367,
+    "death": true,
+    "seed": 1299460230,
+    "episode_steps": 1133,
+    "update": 25
+  },
+  {
+    "survival_s": 83.43333333332988,
+    "death": true,
+    "seed": 1657625547,
+    "episode_steps": 1252,
+    "update": 25
+  },
+  {
+    "survival_s": 79.0499999999968,
+    "death": true,
+    "seed": 849796887,
+    "episode_steps": 1186,
+    "update": 26
+  },
+  {
+    "survival_s": 96.41666666666248,
+    "death": true,
+    "seed": 289251706,
+    "episode_steps": 1447,
+    "update": 26
+  },
+  {
+    "survival_s": 111.04999999999498,
+    "death": true,
+    "seed": 2026212880,
+    "episode_steps": 1666,
+    "update": 26
+  },
+  {
+    "survival_s": 84.06666666666318,
+    "death": true,
+    "seed": 487330127,
+    "episode_steps": 1261,
+    "update": 26
+  },
+  {
+    "survival_s": 90.99999999999612,
+    "death": true,
+    "seed": 1468653327,
+    "episode_steps": 1365,
+    "update": 26
+  },
+  {
+    "survival_s": 79.46666666666344,
+    "death": true,
+    "seed": 1615812154,
+    "episode_steps": 1192,
+    "update": 26
+  },
+  {
+    "survival_s": 76.99999999999692,
+    "death": true,
+    "seed": 1008022334,
+    "episode_steps": 1155,
+    "update": 26
+  },
+  {
+    "survival_s": 91.36666666666277,
+    "death": true,
+    "seed": 1855292348,
+    "episode_steps": 1371,
+    "update": 26
+  },
+  {
+    "survival_s": 109.79999999999505,
+    "death": true,
+    "seed": 610759074,
+    "episode_steps": 1647,
+    "update": 26
+  },
+  {
+    "survival_s": 79.06666666666347,
+    "death": true,
+    "seed": 120271742,
+    "episode_steps": 1186,
+    "update": 27
+  },
+  {
+    "survival_s": 89.48333333332954,
+    "death": true,
+    "seed": 1521559124,
+    "episode_steps": 1343,
+    "update": 27
+  },
+  {
+    "survival_s": 79.28333333333012,
+    "death": true,
+    "seed": 188948627,
+    "episode_steps": 1190,
+    "update": 27
+  },
+  {
+    "survival_s": 86.51666666666304,
+    "death": true,
+    "seed": 1087795469,
+    "episode_steps": 1298,
+    "update": 27
+  },
+  {
+    "survival_s": 95.04999999999589,
+    "death": true,
+    "seed": 1948953242,
+    "episode_steps": 1426,
+    "update": 27
+  },
+  {
+    "survival_s": 86.16666666666306,
+    "death": true,
+    "seed": 850638575,
+    "episode_steps": 1293,
+    "update": 27
+  },
+  {
+    "survival_s": 67.24999999999747,
+    "death": true,
+    "seed": 1099531726,
+    "episode_steps": 1009,
+    "update": 27
+  },
+  {
+    "survival_s": 132.26666666666407,
+    "death": true,
+    "seed": 1489797778,
+    "episode_steps": 1984,
+    "update": 27
+  },
+  {
+    "survival_s": 66.39999999999752,
+    "death": true,
+    "seed": 2124523044,
+    "episode_steps": 996,
+    "update": 27
+  },
+  {
+    "survival_s": 85.01666666666313,
+    "death": true,
+    "seed": 1825572771,
+    "episode_steps": 1276,
+    "update": 27
+  },
+  {
+    "survival_s": 76.39999999999695,
+    "death": true,
+    "seed": 1587429396,
+    "episode_steps": 1146,
+    "update": 27
+  },
+  {
+    "survival_s": 70.08333333333064,
+    "death": true,
+    "seed": 1852302840,
+    "episode_steps": 1052,
+    "update": 27
+  },
+  {
+    "survival_s": 85.81666666666308,
+    "death": true,
+    "seed": 615100767,
+    "episode_steps": 1288,
+    "update": 27
+  },
+  {
+    "survival_s": 71.23333333333058,
+    "death": true,
+    "seed": 411570891,
+    "episode_steps": 1069,
+    "update": 27
+  },
+  {
+    "survival_s": 102.03333333332883,
+    "death": true,
+    "seed": 1198408695,
+    "episode_steps": 1531,
+    "update": 27
+  },
+  {
+    "survival_s": 70.63333333333061,
+    "death": true,
+    "seed": 459155637,
+    "episode_steps": 1060,
+    "update": 27
+  },
+  {
+    "survival_s": 74.31666666666374,
+    "death": true,
+    "seed": 1026044563,
+    "episode_steps": 1115,
+    "update": 27
+  },
+  {
+    "survival_s": 76.06666666666364,
+    "death": true,
+    "seed": 64684191,
+    "episode_steps": 1141,
+    "update": 27
+  },
+  {
+    "survival_s": 85.11666666666312,
+    "death": true,
+    "seed": 885417790,
+    "episode_steps": 1277,
+    "update": 27
+  },
+  {
+    "survival_s": 93.71666666666263,
+    "death": true,
+    "seed": 1876106585,
+    "episode_steps": 1406,
+    "update": 27
+  },
+  {
+    "survival_s": 83.69999999999654,
+    "death": true,
+    "seed": 1208290638,
+    "episode_steps": 1256,
+    "update": 28
+  },
+  {
+    "survival_s": 70.33333333333063,
+    "death": true,
+    "seed": 507311731,
+    "episode_steps": 1055,
+    "update": 28
+  },
+  {
+    "survival_s": 81.16666666666335,
+    "death": true,
+    "seed": 1006881200,
+    "episode_steps": 1218,
+    "update": 28
+  },
+  {
+    "survival_s": 81.88333333332997,
+    "death": true,
+    "seed": 1827978034,
+    "episode_steps": 1229,
+    "update": 28
+  },
+  {
+    "survival_s": 74.24999999999707,
+    "death": true,
+    "seed": 1206511004,
+    "episode_steps": 1114,
+    "update": 28
+  },
+  {
+    "survival_s": 78.5666666666635,
+    "death": true,
+    "seed": 2096237902,
+    "episode_steps": 1179,
+    "update": 28
+  },
+  {
+    "survival_s": 97.16666666666244,
+    "death": true,
+    "seed": 2028102274,
+    "episode_steps": 1458,
+    "update": 28
+  },
+  {
+    "survival_s": 74.98333333333036,
+    "death": true,
+    "seed": 1387454584,
+    "episode_steps": 1125,
+    "update": 28
+  },
+  {
+    "survival_s": 83.09999999999657,
+    "death": true,
+    "seed": 78745558,
+    "episode_steps": 1247,
+    "update": 28
+  },
+  {
+    "survival_s": 88.3333333333296,
+    "death": true,
+    "seed": 2004827487,
+    "episode_steps": 1325,
+    "update": 28
+  },
+  {
+    "survival_s": 70.86666666666393,
+    "death": true,
+    "seed": 1246084192,
+    "episode_steps": 1063,
+    "update": 28
+  },
+  {
+    "survival_s": 83.7666666666632,
+    "death": true,
+    "seed": 1871465408,
+    "episode_steps": 1257,
+    "update": 28
+  },
+  {
+    "survival_s": 77.64999999999688,
+    "death": true,
+    "seed": 1578756660,
+    "episode_steps": 1165,
+    "update": 28
+  },
+  {
+    "survival_s": 89.08333333332956,
+    "death": true,
+    "seed": 1672690481,
+    "episode_steps": 1337,
+    "update": 28
+  },
+  {
+    "survival_s": 66.58333333333084,
+    "death": true,
+    "seed": 1052592271,
+    "episode_steps": 999,
+    "update": 28
+  },
+  {
+    "survival_s": 72.38333333333051,
+    "death": true,
+    "seed": 425708944,
+    "episode_steps": 1086,
+    "update": 28
+  },
+  {
+    "survival_s": 75.69999999999699,
+    "death": true,
+    "seed": 1046160819,
+    "episode_steps": 1136,
+    "update": 28
+  },
+  {
+    "survival_s": 94.53333333332925,
+    "death": true,
+    "seed": 48212398,
+    "episode_steps": 1418,
+    "update": 28
+  },
+  {
+    "survival_s": 81.28333333333,
+    "death": true,
+    "seed": 285328760,
+    "episode_steps": 1220,
+    "update": 28
+  },
+  {
+    "survival_s": 83.96666666666319,
+    "death": true,
+    "seed": 1422197762,
+    "episode_steps": 1260,
+    "update": 28
+  },
+  {
+    "survival_s": 115.28333333332807,
+    "death": true,
+    "seed": 952886435,
+    "episode_steps": 1730,
+    "update": 28
+  },
+  {
+    "survival_s": 80.38333333333006,
+    "death": true,
+    "seed": 1090677415,
+    "episode_steps": 1206,
+    "update": 28
+  },
+  {
+    "survival_s": 82.73333333332992,
+    "death": true,
+    "seed": 911640994,
+    "episode_steps": 1241,
+    "update": 29
+  },
+  {
+    "survival_s": 83.53333333332988,
+    "death": true,
+    "seed": 361636148,
+    "episode_steps": 1253,
+    "update": 29
+  },
+  {
+    "survival_s": 75.99999999999697,
+    "death": true,
+    "seed": 1986918130,
+    "episode_steps": 1140,
+    "update": 29
+  },
+  {
+    "survival_s": 77.18333333333024,
+    "death": true,
+    "seed": 1689261036,
+    "episode_steps": 1158,
+    "update": 29
+  },
+  {
+    "survival_s": 79.83333333333009,
+    "death": true,
+    "seed": 139553423,
+    "episode_steps": 1198,
+    "update": 29
+  },
+  {
+    "survival_s": 85.69999999999642,
+    "death": true,
+    "seed": 217641309,
+    "episode_steps": 1286,
+    "update": 29
+  },
+  {
+    "survival_s": 79.48333333333011,
+    "death": true,
+    "seed": 1658601383,
+    "episode_steps": 1193,
+    "update": 29
+  },
+  {
+    "survival_s": 92.79999999999602,
+    "death": true,
+    "seed": 1005440871,
+    "episode_steps": 1392,
+    "update": 29
+  },
+  {
+    "survival_s": 84.58333333332982,
+    "death": true,
+    "seed": 1528932385,
+    "episode_steps": 1269,
+    "update": 29
+  },
+  {
+    "survival_s": 107.46666666666185,
+    "death": true,
+    "seed": 1456836246,
+    "episode_steps": 1612,
+    "update": 29
+  },
+  {
+    "survival_s": 72.11666666666386,
+    "death": true,
+    "seed": 825904079,
+    "episode_steps": 1082,
+    "update": 29
+  },
+  {
+    "survival_s": 78.09999999999685,
+    "death": true,
+    "seed": 567579183,
+    "episode_steps": 1172,
+    "update": 29
+  },
+  {
+    "survival_s": 93.7833333333293,
+    "death": true,
+    "seed": 11545238,
+    "episode_steps": 1407,
+    "update": 29
+  },
+  {
+    "survival_s": 75.56666666666366,
+    "death": true,
+    "seed": 1046295758,
+    "episode_steps": 1134,
+    "update": 29
+  },
+  {
+    "survival_s": 91.54999999999609,
+    "death": true,
+    "seed": 605217245,
+    "episode_steps": 1374,
+    "update": 29
+  },
+  {
+    "survival_s": 80.1666666666634,
+    "death": true,
+    "seed": 447842516,
+    "episode_steps": 1203,
+    "update": 29
+  },
+  {
+    "survival_s": 76.49999999999694,
+    "death": true,
+    "seed": 508803995,
+    "episode_steps": 1148,
+    "update": 30
+  },
+  {
+    "survival_s": 72.94999999999715,
+    "death": true,
+    "seed": 1088243405,
+    "episode_steps": 1095,
+    "update": 30
+  },
+  {
+    "survival_s": 123.84999999999425,
+    "death": true,
+    "seed": 1951457017,
+    "episode_steps": 1858,
+    "update": 30
+  },
+  {
+    "survival_s": 79.0999999999968,
+    "death": true,
+    "seed": 1708996354,
+    "episode_steps": 1187,
+    "update": 30
+  },
+  {
+    "survival_s": 79.38333333333011,
+    "death": true,
+    "seed": 675519004,
+    "episode_steps": 1191,
+    "update": 30
+  },
+  {
+    "survival_s": 75.04999999999703,
+    "death": true,
+    "seed": 1599231832,
+    "episode_steps": 1126,
+    "update": 30
+  },
+  {
+    "survival_s": 80.3166666666634,
+    "death": true,
+    "seed": 713114180,
+    "episode_steps": 1205,
+    "update": 30
+  },
+  {
+    "survival_s": 73.88333333333043,
+    "death": true,
+    "seed": 1026388954,
+    "episode_steps": 1109,
+    "update": 30
+  },
+  {
+    "survival_s": 78.81666666666348,
+    "death": true,
+    "seed": 1892282503,
+    "episode_steps": 1183,
+    "update": 30
+  },
+  {
+    "survival_s": 89.84999999999619,
+    "death": true,
+    "seed": 1601488970,
+    "episode_steps": 1348,
+    "update": 30
+  },
+  {
+    "survival_s": 86.5833333333297,
+    "death": true,
+    "seed": 1640012415,
+    "episode_steps": 1299,
+    "update": 30
+  },
+  {
+    "survival_s": 73.28333333333046,
+    "death": true,
+    "seed": 241082117,
+    "episode_steps": 1100,
+    "update": 30
+  },
+  {
+    "survival_s": 63.64999999999767,
+    "death": true,
+    "seed": 1337910513,
+    "episode_steps": 955,
+    "update": 30
+  },
+  {
+    "survival_s": 64.58333333333096,
+    "death": true,
+    "seed": 1665777929,
+    "episode_steps": 969,
+    "update": 30
+  },
+  {
+    "survival_s": 82.4999999999966,
+    "death": true,
+    "seed": 1014144692,
+    "episode_steps": 1238,
+    "update": 30
+  },
+  {
+    "survival_s": 130.94999999999635,
+    "death": true,
+    "seed": 1273672080,
+    "episode_steps": 1965,
+    "update": 30
+  },
+  {
+    "survival_s": 70.39999999999729,
+    "death": true,
+    "seed": 852440385,
+    "episode_steps": 1056,
+    "update": 31
+  },
+  {
+    "survival_s": 99.96666666666228,
+    "death": true,
+    "seed": 1708356915,
+    "episode_steps": 1500,
+    "update": 31
+  },
+  {
+    "survival_s": 84.94999999999646,
+    "death": true,
+    "seed": 1012453526,
+    "episode_steps": 1275,
+    "update": 31
+  },
+  {
+    "survival_s": 76.46666666666361,
+    "death": true,
+    "seed": 1073322712,
+    "episode_steps": 1147,
+    "update": 31
+  },
+  {
+    "survival_s": 71.9499999999972,
+    "death": true,
+    "seed": 856723048,
+    "episode_steps": 1080,
+    "update": 31
+  },
+  {
+    "survival_s": 66.33333333333086,
+    "death": true,
+    "seed": 1968287020,
+    "episode_steps": 995,
+    "update": 31
+  },
+  {
+    "survival_s": 71.83333333333054,
+    "death": true,
+    "seed": 581278639,
+    "episode_steps": 1078,
+    "update": 31
+  },
+  {
+    "survival_s": 95.49999999999586,
+    "death": true,
+    "seed": 1869882477,
+    "episode_steps": 1433,
+    "update": 31
+  },
+  {
+    "survival_s": 113.44999999999484,
+    "death": true,
+    "seed": 1472455466,
+    "episode_steps": 1702,
+    "update": 31
+  },
+  {
+    "survival_s": 84.3999999999965,
+    "death": true,
+    "seed": 865652151,
+    "episode_steps": 1266,
+    "update": 31
+  },
+  {
+    "survival_s": 65.14999999999759,
+    "death": true,
+    "seed": 949622915,
+    "episode_steps": 978,
+    "update": 31
+  },
+  {
+    "survival_s": 91.94999999999607,
+    "death": true,
+    "seed": 1052695408,
+    "episode_steps": 1380,
+    "update": 31
+  },
+  {
+    "survival_s": 89.51666666666287,
+    "death": true,
+    "seed": 1257150161,
+    "episode_steps": 1343,
+    "update": 31
+  },
+  {
+    "survival_s": 77.01666666666358,
+    "death": true,
+    "seed": 334925389,
+    "episode_steps": 1156,
+    "update": 31
+  },
+  {
+    "survival_s": 76.19999999999696,
+    "death": true,
+    "seed": 427040971,
+    "episode_steps": 1143,
+    "update": 31
+  },
+  {
+    "survival_s": 78.74999999999682,
+    "death": true,
+    "seed": 1707427055,
+    "episode_steps": 1182,
+    "update": 31
+  },
+  {
+    "survival_s": 82.4499999999966,
+    "death": true,
+    "seed": 609935445,
+    "episode_steps": 1237,
+    "update": 31
+  },
+  {
+    "survival_s": 79.93333333333008,
+    "death": true,
+    "seed": 208580317,
+    "episode_steps": 1199,
+    "update": 31
+  },
+  {
+    "survival_s": 69.31666666666402,
+    "death": true,
+    "seed": 374058572,
+    "episode_steps": 1040,
+    "update": 31
+  },
+  {
+    "survival_s": 79.74999999999676,
+    "death": true,
+    "seed": 265768188,
+    "episode_steps": 1197,
+    "update": 31
+  },
+  {
+    "survival_s": 78.06666666666352,
+    "death": true,
+    "seed": 1510777430,
+    "episode_steps": 1171,
+    "update": 31
+  },
+  {
+    "survival_s": 64.63333333333095,
+    "death": true,
+    "seed": 1098866832,
+    "episode_steps": 970,
+    "update": 32
+  },
+  {
+    "survival_s": 78.86666666666348,
+    "death": true,
+    "seed": 171676260,
+    "episode_steps": 1183,
+    "update": 32
+  },
+  {
+    "survival_s": 78.28333333333018,
+    "death": true,
+    "seed": 2146851751,
+    "episode_steps": 1175,
+    "update": 32
+  },
+  {
+    "survival_s": 91.99999999999606,
+    "death": true,
+    "seed": 462032397,
+    "episode_steps": 1380,
+    "update": 32
+  },
+  {
+    "survival_s": 81.46666666666333,
+    "death": true,
+    "seed": 110928011,
+    "episode_steps": 1222,
+    "update": 32
+  },
+  {
+    "survival_s": 79.69999999999676,
+    "death": true,
+    "seed": 1775666276,
+    "episode_steps": 1196,
+    "update": 32
+  },
+  {
+    "survival_s": 98.68333333332902,
+    "death": true,
+    "seed": 332852685,
+    "episode_steps": 1481,
+    "update": 32
+  },
+  {
+    "survival_s": 77.16666666666357,
+    "death": true,
+    "seed": 1919931077,
+    "episode_steps": 1158,
+    "update": 32
+  },
+  {
+    "survival_s": 93.96666666666262,
+    "death": true,
+    "seed": 1093519193,
+    "episode_steps": 1410,
+    "update": 32
+  },
+  {
+    "survival_s": 76.73333333333026,
+    "death": true,
+    "seed": 1854716500,
+    "episode_steps": 1151,
+    "update": 32
+  },
+  {
+    "survival_s": 82.33333333332995,
+    "death": true,
+    "seed": 265615961,
+    "episode_steps": 1235,
+    "update": 32
+  },
+  {
+    "survival_s": 113.43333333332818,
+    "death": true,
+    "seed": 1630505120,
+    "episode_steps": 1702,
+    "update": 32
+  },
+  {
+    "survival_s": 75.19999999999702,
+    "death": true,
+    "seed": 1639985699,
+    "episode_steps": 1128,
+    "update": 32
+  },
+  {
+    "survival_s": 91.23333333332944,
+    "death": true,
+    "seed": 2088853248,
+    "episode_steps": 1369,
+    "update": 33
+  },
+  {
+    "survival_s": 120.6166666666611,
+    "death": true,
+    "seed": 4200257,
+    "episode_steps": 1810,
+    "update": 33
+  },
+  {
+    "survival_s": 79.5833333333301,
+    "death": true,
+    "seed": 2121157135,
+    "episode_steps": 1194,
+    "update": 33
+  },
+  {
+    "survival_s": 73.09999999999714,
+    "death": true,
+    "seed": 1640758247,
+    "episode_steps": 1097,
+    "update": 33
+  },
+  {
+    "survival_s": 62.31666666666441,
+    "death": true,
+    "seed": 1232952246,
+    "episode_steps": 935,
+    "update": 33
+  },
+  {
+    "survival_s": 103.7499999999954,
+    "death": true,
+    "seed": 16041632,
+    "episode_steps": 1557,
+    "update": 33
+  },
+  {
+    "survival_s": 76.8166666666636,
+    "death": true,
+    "seed": 1222432234,
+    "episode_steps": 1153,
+    "update": 33
+  },
+  {
+    "survival_s": 98.48333333332903,
+    "death": true,
+    "seed": 930077758,
+    "episode_steps": 1478,
+    "update": 33
+  },
+  {
+    "survival_s": 91.43333333332943,
+    "death": true,
+    "seed": 821572594,
+    "episode_steps": 1372,
+    "update": 33
+  },
+  {
+    "survival_s": 68.93333333333071,
+    "death": true,
+    "seed": 2009794356,
+    "episode_steps": 1034,
+    "update": 33
+  },
+  {
+    "survival_s": 73.59999999999711,
+    "death": true,
+    "seed": 1530716155,
+    "episode_steps": 1104,
+    "update": 33
+  },
+  {
+    "survival_s": 69.98333333333065,
+    "death": true,
+    "seed": 561927751,
+    "episode_steps": 1050,
+    "update": 33
+  },
+  {
+    "survival_s": 68.53333333333073,
+    "death": true,
+    "seed": 2058232084,
+    "episode_steps": 1028,
+    "update": 33
+  },
+  {
+    "survival_s": 69.44999999999735,
+    "death": true,
+    "seed": 1678468332,
+    "episode_steps": 1042,
+    "update": 33
+  },
+  {
+    "survival_s": 91.38333333332943,
+    "death": true,
+    "seed": 1302633854,
+    "episode_steps": 1371,
+    "update": 33
+  },
+  {
+    "survival_s": 85.69999999999642,
+    "death": true,
+    "seed": 1357753583,
+    "episode_steps": 1286,
+    "update": 33
+  },
+  {
+    "survival_s": 93.18333333332933,
+    "death": true,
+    "seed": 1188211717,
+    "episode_steps": 1398,
+    "update": 33
+  },
+  {
+    "survival_s": 121.2499999999944,
+    "death": true,
+    "seed": 1091001258,
+    "episode_steps": 1819,
+    "update": 34
+  },
+  {
+    "survival_s": 86.94999999999635,
+    "death": true,
+    "seed": 1100732589,
+    "episode_steps": 1305,
+    "update": 34
+  },
+  {
+    "survival_s": 85.06666666666312,
+    "death": true,
+    "seed": 1070415426,
+    "episode_steps": 1276,
+    "update": 34
+  },
+  {
+    "survival_s": 71.11666666666392,
+    "death": true,
+    "seed": 866769562,
+    "episode_steps": 1067,
+    "update": 34
+  },
+  {
+    "survival_s": 86.71666666666303,
+    "death": true,
+    "seed": 358936331,
+    "episode_steps": 1301,
+    "update": 34
+  },
+  {
+    "survival_s": 104.03333333332871,
+    "death": true,
+    "seed": 1621409272,
+    "episode_steps": 1561,
+    "update": 34
+  },
+  {
+    "survival_s": 86.64999999999637,
+    "death": true,
+    "seed": 922178427,
+    "episode_steps": 1300,
+    "update": 34
+  },
+  {
+    "survival_s": 80.24999999999673,
+    "death": true,
+    "seed": 707853135,
+    "episode_steps": 1204,
+    "update": 34
+  },
+  {
+    "survival_s": 84.81666666666314,
+    "death": true,
+    "seed": 245089137,
+    "episode_steps": 1273,
+    "update": 34
+  },
+  {
+    "survival_s": 90.48333333332948,
+    "death": true,
+    "seed": 174729517,
+    "episode_steps": 1358,
+    "update": 34
+  },
+  {
+    "survival_s": 73.03333333333048,
+    "death": true,
+    "seed": 416274628,
+    "episode_steps": 1096,
+    "update": 34
+  },
+  {
+    "survival_s": 80.59999999999671,
+    "death": true,
+    "seed": 1084292528,
+    "episode_steps": 1209,
+    "update": 34
+  },
+  {
+    "survival_s": 80.44999999999672,
+    "death": true,
+    "seed": 219619509,
+    "episode_steps": 1207,
+    "update": 34
+  },
+  {
+    "survival_s": 104.69999999999534,
+    "death": true,
+    "seed": 612752932,
+    "episode_steps": 1571,
+    "update": 34
+  },
+  {
+    "survival_s": 77.23333333333024,
+    "death": true,
+    "seed": 597531465,
+    "episode_steps": 1159,
+    "update": 34
+  },
+  {
+    "survival_s": 67.14999999999748,
+    "death": true,
+    "seed": 1684209498,
+    "episode_steps": 1008,
+    "update": 34
+  },
+  {
+    "survival_s": 72.43333333333051,
+    "death": true,
+    "seed": 768694386,
+    "episode_steps": 1087,
+    "update": 35
+  },
+  {
+    "survival_s": 83.38333333332989,
+    "death": true,
+    "seed": 446190166,
+    "episode_steps": 1251,
+    "update": 35
+  },
+  {
+    "survival_s": 93.01666666666267,
+    "death": true,
+    "seed": 664202881,
+    "episode_steps": 1396,
+    "update": 35
+  },
+  {
+    "survival_s": 77.14999999999691,
+    "death": true,
+    "seed": 1547327261,
+    "episode_steps": 1158,
+    "update": 35
+  },
+  {
+    "survival_s": 88.74999999999625,
+    "death": true,
+    "seed": 336505281,
+    "episode_steps": 1332,
+    "update": 35
+  },
+  {
+    "survival_s": 73.2666666666638,
+    "death": true,
+    "seed": 507873935,
+    "episode_steps": 1099,
+    "update": 35
+  },
+  {
+    "survival_s": 87.03333333332968,
+    "death": true,
+    "seed": 2004588017,
+    "episode_steps": 1306,
+    "update": 35
+  },
+  {
+    "survival_s": 66.63333333333084,
+    "death": true,
+    "seed": 327053936,
+    "episode_steps": 1000,
+    "update": 35
+  },
+  {
+    "survival_s": 97.2833333333291,
+    "death": true,
+    "seed": 846044617,
+    "episode_steps": 1460,
+    "update": 35
+  },
+  {
+    "survival_s": 88.09999999999629,
+    "death": true,
+    "seed": 736817218,
+    "episode_steps": 1322,
+    "update": 35
+  },
+  {
+    "survival_s": 75.34999999999701,
+    "death": true,
+    "seed": 1448234385,
+    "episode_steps": 1131,
+    "update": 35
+  },
+  {
+    "survival_s": 76.28333333333029,
+    "death": true,
+    "seed": 1793704413,
+    "episode_steps": 1145,
+    "update": 35
+  },
+  {
+    "survival_s": 85.09999999999646,
+    "death": true,
+    "seed": 2095499601,
+    "episode_steps": 1277,
+    "update": 35
+  },
+  {
+    "survival_s": 66.58333333333084,
+    "death": true,
+    "seed": 144618595,
+    "episode_steps": 999,
+    "update": 35
+  },
+  {
+    "survival_s": 75.98333333333031,
+    "death": true,
+    "seed": 268644001,
+    "episode_steps": 1140,
+    "update": 35
+  },
+  {
+    "survival_s": 73.99999999999709,
+    "death": true,
+    "seed": 53455466,
+    "episode_steps": 1110,
+    "update": 36
+  },
+  {
+    "survival_s": 80.86666666666336,
+    "death": true,
+    "seed": 384455830,
+    "episode_steps": 1213,
+    "update": 36
+  },
+  {
+    "survival_s": 82.28333333332995,
+    "death": true,
+    "seed": 334007325,
+    "episode_steps": 1235,
+    "update": 36
+  },
+  {
+    "survival_s": 73.14999999999714,
+    "death": true,
+    "seed": 1848400210,
+    "episode_steps": 1098,
+    "update": 36
+  },
+  {
+    "survival_s": 76.41666666666362,
+    "death": true,
+    "seed": 472260503,
+    "episode_steps": 1147,
+    "update": 36
+  },
+  {
+    "survival_s": 110.81666666666166,
+    "death": true,
+    "seed": 257104914,
+    "episode_steps": 1663,
+    "update": 36
+  },
+  {
+    "survival_s": 94.19999999999594,
+    "death": true,
+    "seed": 1349835084,
+    "episode_steps": 1413,
+    "update": 36
+  },
+  {
+    "survival_s": 78.91666666666347,
+    "death": true,
+    "seed": 1579639266,
+    "episode_steps": 1184,
+    "update": 36
+  },
+  {
+    "survival_s": 71.4666666666639,
+    "death": true,
+    "seed": 923563614,
+    "episode_steps": 1072,
+    "update": 36
+  },
+  {
+    "survival_s": 98.14999999999571,
+    "death": true,
+    "seed": 831237780,
+    "episode_steps": 1473,
+    "update": 36
+  },
+  {
+    "survival_s": 73.04999999999714,
+    "death": true,
+    "seed": 1763957452,
+    "episode_steps": 1096,
+    "update": 36
+  },
+  {
+    "survival_s": 70.54999999999728,
+    "death": true,
+    "seed": 247201113,
+    "episode_steps": 1059,
+    "update": 36
+  },
+  {
+    "survival_s": 108.88333333332844,
+    "death": true,
+    "seed": 640336157,
+    "episode_steps": 1634,
+    "update": 36
+  },
+  {
+    "survival_s": 61.58333333333112,
+    "death": true,
+    "seed": 509077797,
+    "episode_steps": 924,
+    "update": 36
+  },
+  {
+    "survival_s": 68.09999999999742,
+    "death": true,
+    "seed": 1241803802,
+    "episode_steps": 1022,
+    "update": 36
+  },
+  {
+    "survival_s": 77.1999999999969,
+    "death": true,
+    "seed": 1741409976,
+    "episode_steps": 1158,
+    "update": 36
+  },
+  {
+    "survival_s": 85.28333333332978,
+    "death": true,
+    "seed": 2099560298,
+    "episode_steps": 1280,
+    "update": 36
+  },
+  {
+    "survival_s": 84.49999999999649,
+    "death": true,
+    "seed": 273388557,
+    "episode_steps": 1268,
+    "update": 36
+  },
+  {
+    "survival_s": 71.79999999999721,
+    "death": true,
+    "seed": 574207027,
+    "episode_steps": 1077,
+    "update": 36
+  },
+  {
+    "survival_s": 93.099999999996,
+    "death": true,
+    "seed": 819877650,
+    "episode_steps": 1397,
+    "update": 36
+  },
+  {
+    "survival_s": 87.68333333332964,
+    "death": true,
+    "seed": 1250577101,
+    "episode_steps": 1316,
+    "update": 36
+  },
+  {
+    "survival_s": 84.86666666666314,
+    "death": true,
+    "seed": 1809232752,
+    "episode_steps": 1273,
+    "update": 36
+  },
+  {
+    "survival_s": 128.28333333332756,
+    "death": true,
+    "seed": 2082788614,
+    "episode_steps": 1925,
+    "update": 36
+  },
+  {
+    "survival_s": 78.08333333333019,
+    "death": true,
+    "seed": 2038351155,
+    "episode_steps": 1172,
+    "update": 36
+  },
+  {
+    "survival_s": 66.36666666666419,
+    "death": true,
+    "seed": 728155780,
+    "episode_steps": 996,
+    "update": 37
+  },
+  {
+    "survival_s": 69.48333333333068,
+    "death": true,
+    "seed": 1973827266,
+    "episode_steps": 1043,
+    "update": 37
+  },
+  {
+    "survival_s": 77.23333333333024,
+    "death": true,
+    "seed": 82393130,
+    "episode_steps": 1159,
+    "update": 37
+  },
+  {
+    "survival_s": 80.13333333333007,
+    "death": true,
+    "seed": 810056956,
+    "episode_steps": 1202,
+    "update": 37
+  },
+  {
+    "survival_s": 81.14999999999668,
+    "death": true,
+    "seed": 1161914441,
+    "episode_steps": 1218,
+    "update": 37
+  },
+  {
+    "survival_s": 72.49999999999717,
+    "death": true,
+    "seed": 962865283,
+    "episode_steps": 1088,
+    "update": 37
+  },
+  {
+    "survival_s": 86.26666666666306,
+    "death": true,
+    "seed": 361171132,
+    "episode_steps": 1294,
+    "update": 37
+  },
+  {
+    "survival_s": 92.4666666666627,
+    "death": true,
+    "seed": 775923105,
+    "episode_steps": 1387,
+    "update": 37
+  },
+  {
+    "survival_s": 85.54999999999643,
+    "death": true,
+    "seed": 1344200261,
+    "episode_steps": 1284,
+    "update": 37
+  },
+  {
+    "survival_s": 72.71666666666383,
+    "death": true,
+    "seed": 516637218,
+    "episode_steps": 1091,
+    "update": 37
+  },
+  {
+    "survival_s": 94.19999999999594,
+    "death": true,
+    "seed": 584094595,
+    "episode_steps": 1413,
+    "update": 37
+  },
+  {
+    "survival_s": 83.43333333332988,
+    "death": true,
+    "seed": 668533156,
+    "episode_steps": 1252,
+    "update": 37
+  },
+  {
+    "survival_s": 75.06666666666369,
+    "death": true,
+    "seed": 380673575,
+    "episode_steps": 1126,
+    "update": 37
+  },
+  {
+    "survival_s": 80.3166666666634,
+    "death": true,
+    "seed": 611867093,
+    "episode_steps": 1205,
+    "update": 37
+  },
+  {
+    "survival_s": 82.84999999999658,
+    "death": true,
+    "seed": 1852740740,
+    "episode_steps": 1243,
+    "update": 37
+  },
+  {
+    "survival_s": 77.36666666666356,
+    "death": true,
+    "seed": 1062597724,
+    "episode_steps": 1161,
+    "update": 37
+  },
+  {
+    "survival_s": 78.79999999999681,
+    "death": true,
+    "seed": 1874435591,
+    "episode_steps": 1182,
+    "update": 37
+  },
+  {
+    "survival_s": 83.78333333332986,
+    "death": true,
+    "seed": 568206297,
+    "episode_steps": 1257,
+    "update": 37
+  },
+  {
+    "survival_s": 78.31666666666351,
+    "death": true,
+    "seed": 1274406951,
+    "episode_steps": 1175,
+    "update": 37
+  },
+  {
+    "survival_s": 81.34999999999667,
+    "death": true,
+    "seed": 446082144,
+    "episode_steps": 1221,
+    "update": 37
+  },
+  {
+    "survival_s": 77.79999999999687,
+    "death": true,
+    "seed": 1686184540,
+    "episode_steps": 1167,
+    "update": 38
+  },
+  {
+    "survival_s": 81.56666666666332,
+    "death": true,
+    "seed": 1882528171,
+    "episode_steps": 1224,
+    "update": 38
+  },
+  {
+    "survival_s": 73.48333333333045,
+    "death": true,
+    "seed": 455226948,
+    "episode_steps": 1103,
+    "update": 38
+  },
+  {
+    "survival_s": 94.56666666666258,
+    "death": true,
+    "seed": 1752217437,
+    "episode_steps": 1419,
+    "update": 38
+  },
+  {
+    "survival_s": 74.49999999999706,
+    "death": true,
+    "seed": 1257239131,
+    "episode_steps": 1118,
+    "update": 38
+  },
+  {
+    "survival_s": 82.34999999999661,
+    "death": true,
+    "seed": 2075154094,
+    "episode_steps": 1236,
+    "update": 38
+  },
+  {
+    "survival_s": 86.43333333332971,
+    "death": true,
+    "seed": 33863559,
+    "episode_steps": 1297,
+    "update": 38
+  },
+  {
+    "survival_s": 72.51666666666384,
+    "death": true,
+    "seed": 856745046,
+    "episode_steps": 1088,
+    "update": 38
+  },
+  {
+    "survival_s": 99.49999999999564,
+    "death": true,
+    "seed": 300497563,
+    "episode_steps": 1493,
+    "update": 38
+  },
+  {
+    "survival_s": 75.89999999999698,
+    "death": true,
+    "seed": 1991931022,
+    "episode_steps": 1139,
+    "update": 38
+  },
+  {
+    "survival_s": 86.11666666666306,
+    "death": true,
+    "seed": 727129124,
+    "episode_steps": 1292,
+    "update": 38
+  },
+  {
+    "survival_s": 92.19999999999605,
+    "death": true,
+    "seed": 10528611,
+    "episode_steps": 1383,
+    "update": 38
+  },
+  {
+    "survival_s": 76.96666666666358,
+    "death": true,
+    "seed": 1032746373,
+    "episode_steps": 1155,
+    "update": 39
+  },
+  {
+    "survival_s": 69.19999999999736,
+    "death": true,
+    "seed": 124278933,
+    "episode_steps": 1038,
+    "update": 39
+  },
+  {
+    "survival_s": 107.7833333333285,
+    "death": true,
+    "seed": 1039571471,
+    "episode_steps": 1617,
+    "update": 39
+  },
+  {
+    "survival_s": 88.09999999999629,
+    "death": true,
+    "seed": 2004180155,
+    "episode_steps": 1322,
+    "update": 39
+  },
+  {
+    "survival_s": 81.63333333332999,
+    "death": true,
+    "seed": 748723165,
+    "episode_steps": 1225,
+    "update": 39
+  },
+  {
+    "survival_s": 96.58333333332914,
+    "death": true,
+    "seed": 783459585,
+    "episode_steps": 1449,
+    "update": 39
+  },
+  {
+    "survival_s": 76.96666666666358,
+    "death": true,
+    "seed": 541090327,
+    "episode_steps": 1155,
+    "update": 39
+  },
+  {
+    "survival_s": 73.53333333333045,
+    "death": true,
+    "seed": 687783640,
+    "episode_steps": 1103,
+    "update": 39
+  },
+  {
+    "survival_s": 83.09999999999657,
+    "death": true,
+    "seed": 1591260208,
+    "episode_steps": 1247,
+    "update": 39
+  },
+  {
+    "survival_s": 84.04999999999652,
+    "death": true,
+    "seed": 2094643387,
+    "episode_steps": 1261,
+    "update": 39
+  },
+  {
+    "survival_s": 70.33333333333063,
+    "death": true,
+    "seed": 2017369654,
+    "episode_steps": 1055,
+    "update": 39
+  },
+  {
+    "survival_s": 87.68333333332964,
+    "death": true,
+    "seed": 527839876,
+    "episode_steps": 1316,
+    "update": 39
+  },
+  {
+    "survival_s": 101.08333333332888,
+    "death": true,
+    "seed": 346338140,
+    "episode_steps": 1517,
+    "update": 39
+  },
+  {
+    "survival_s": 73.81666666666376,
+    "death": true,
+    "seed": 1351780538,
+    "episode_steps": 1108,
+    "update": 39
+  },
+  {
+    "survival_s": 76.58333333333027,
+    "death": true,
+    "seed": 995054629,
+    "episode_steps": 1149,
+    "update": 39
+  },
+  {
+    "survival_s": 68.41666666666407,
+    "death": true,
+    "seed": 1621111261,
+    "episode_steps": 1027,
+    "update": 39
+  },
+  {
+    "survival_s": 106.79999999999522,
+    "death": true,
+    "seed": 500188475,
+    "episode_steps": 1602,
+    "update": 39
+  },
+  {
+    "survival_s": 90.53333333332948,
+    "death": true,
+    "seed": 123164066,
+    "episode_steps": 1358,
+    "update": 39
+  },
+  {
+    "survival_s": 150.2500000000117,
+    "death": true,
+    "seed": 1246667128,
+    "episode_steps": 2254,
+    "update": 39
+  },
+  {
+    "survival_s": 83.14999999999657,
+    "death": true,
+    "seed": 13546629,
+    "episode_steps": 1248,
+    "update": 39
+  },
+  {
+    "survival_s": 89.83333333332952,
+    "death": true,
+    "seed": 2005362860,
+    "episode_steps": 1348,
+    "update": 40
+  },
+  {
+    "survival_s": 81.74999999999665,
+    "death": true,
+    "seed": 72171912,
+    "episode_steps": 1227,
+    "update": 40
+  },
+  {
+    "survival_s": 73.66666666666377,
+    "death": true,
+    "seed": 1346713332,
+    "episode_steps": 1105,
+    "update": 40
+  },
+  {
+    "survival_s": 75.04999999999703,
+    "death": true,
+    "seed": 1426977935,
+    "episode_steps": 1126,
+    "update": 40
+  },
+  {
+    "survival_s": 89.0666666666629,
+    "death": true,
+    "seed": 5530623,
+    "episode_steps": 1336,
+    "update": 40
+  },
+  {
+    "survival_s": 70.1999999999973,
+    "death": true,
+    "seed": 1077767260,
+    "episode_steps": 1053,
+    "update": 40
+  },
+  {
+    "survival_s": 86.23333333332972,
+    "death": true,
+    "seed": 1453523096,
+    "episode_steps": 1294,
+    "update": 40
+  },
+  {
+    "survival_s": 84.11666666666318,
+    "death": true,
+    "seed": 901200608,
+    "episode_steps": 1262,
+    "update": 40
+  },
+  {
+    "survival_s": 62.78333333333105,
+    "death": true,
+    "seed": 1397475010,
+    "episode_steps": 942,
+    "update": 40
+  },
+  {
+    "survival_s": 81.21666666666334,
+    "death": true,
+    "seed": 2110982554,
+    "episode_steps": 1219,
+    "update": 40
+  },
+  {
+    "survival_s": 77.84999999999687,
+    "death": true,
+    "seed": 256534568,
+    "episode_steps": 1168,
+    "update": 40
+  },
+  {
+    "survival_s": 87.66666666666298,
+    "death": true,
+    "seed": 2084767867,
+    "episode_steps": 1315,
+    "update": 40
+  },
+  {
+    "survival_s": 81.84999999999664,
+    "death": true,
+    "seed": 302960823,
+    "episode_steps": 1228,
+    "update": 40
+  },
+  {
+    "survival_s": 65.5333333333309,
+    "death": true,
+    "seed": 747405149,
+    "episode_steps": 983,
+    "update": 40
+  },
+  {
+    "survival_s": 99.38333333332898,
+    "death": true,
+    "seed": 1044458194,
+    "episode_steps": 1491,
+    "update": 41
+  },
+  {
+    "survival_s": 95.16666666666255,
+    "death": true,
+    "seed": 649666224,
+    "episode_steps": 1428,
+    "update": 41
+  },
+  {
+    "survival_s": 75.09999999999702,
+    "death": true,
+    "seed": 630196635,
+    "episode_steps": 1127,
+    "update": 41
+  },
+  {
+    "survival_s": 73.63333333333044,
+    "death": true,
+    "seed": 2107678275,
+    "episode_steps": 1105,
+    "update": 41
+  },
+  {
+    "survival_s": 78.68333333333015,
+    "death": true,
+    "seed": 1038196851,
+    "episode_steps": 1181,
+    "update": 41
+  },
+  {
+    "survival_s": 85.83333333332975,
+    "death": true,
+    "seed": 649049240,
+    "episode_steps": 1288,
+    "update": 41
+  },
+  {
+    "survival_s": 98.06666666666239,
+    "death": true,
+    "seed": 1699402686,
+    "episode_steps": 1471,
+    "update": 41
+  },
+  {
+    "survival_s": 83.26666666666323,
+    "death": true,
+    "seed": 267631367,
+    "episode_steps": 1249,
+    "update": 41
+  },
+  {
+    "survival_s": 102.24999999999548,
+    "death": true,
+    "seed": 226940992,
+    "episode_steps": 1534,
+    "update": 41
+  },
+  {
+    "survival_s": 91.78333333332941,
+    "death": true,
+    "seed": 728661096,
+    "episode_steps": 1377,
+    "update": 41
+  },
+  {
+    "survival_s": 96.56666666666247,
+    "death": true,
+    "seed": 996202667,
+    "episode_steps": 1449,
+    "update": 41
+  },
+  {
+    "survival_s": 70.86666666666393,
+    "death": true,
+    "seed": 1545859269,
+    "episode_steps": 1063,
+    "update": 41
+  },
+  {
+    "survival_s": 67.18333333333081,
+    "death": true,
+    "seed": 1315779697,
+    "episode_steps": 1008,
+    "update": 41
+  },
+  {
+    "survival_s": 82.18333333332995,
+    "death": true,
+    "seed": 1816119987,
+    "episode_steps": 1233,
+    "update": 41
+  },
+  {
+    "survival_s": 89.44999999999621,
+    "death": true,
+    "seed": 101279246,
+    "episode_steps": 1342,
+    "update": 41
+  },
+  {
+    "survival_s": 72.96666666666381,
+    "death": true,
+    "seed": 81050242,
+    "episode_steps": 1095,
+    "update": 41
+  },
+  {
+    "survival_s": 118.68333333332788,
+    "death": true,
+    "seed": 656537305,
+    "episode_steps": 1781,
+    "update": 41
+  },
+  {
+    "survival_s": 85.68333333332976,
+    "death": true,
+    "seed": 1358792677,
+    "episode_steps": 1286,
+    "update": 41
+  },
+  {
+    "survival_s": 77.44999999999689,
+    "death": true,
+    "seed": 1403869793,
+    "episode_steps": 1162,
+    "update": 41
+  },
+  {
+    "survival_s": 69.84999999999732,
+    "death": true,
+    "seed": 1676237257,
+    "episode_steps": 1048,
+    "update": 42
+  },
+  {
+    "survival_s": 74.46666666666373,
+    "death": true,
+    "seed": 447876512,
+    "episode_steps": 1117,
+    "update": 42
+  },
+  {
+    "survival_s": 73.63333333333044,
+    "death": true,
+    "seed": 724391441,
+    "episode_steps": 1105,
+    "update": 42
+  },
+  {
+    "survival_s": 84.2999999999965,
+    "death": true,
+    "seed": 2117762864,
+    "episode_steps": 1265,
+    "update": 42
+  },
+  {
+    "survival_s": 76.91666666666359,
+    "death": true,
+    "seed": 1362604281,
+    "episode_steps": 1154,
+    "update": 42
+  },
+  {
+    "survival_s": 76.31666666666362,
+    "death": true,
+    "seed": 73508460,
+    "episode_steps": 1145,
+    "update": 42
+  },
+  {
+    "survival_s": 65.4833333333309,
+    "death": true,
+    "seed": 1931751106,
+    "episode_steps": 983,
+    "update": 42
+  },
+  {
+    "survival_s": 72.0999999999972,
+    "death": true,
+    "seed": 1771972470,
+    "episode_steps": 1082,
+    "update": 42
+  },
+  {
+    "survival_s": 88.19999999999628,
+    "death": true,
+    "seed": 734154509,
+    "episode_steps": 1323,
+    "update": 42
+  },
+  {
+    "survival_s": 84.58333333332982,
+    "death": true,
+    "seed": 1100695302,
+    "episode_steps": 1269,
+    "update": 42
+  },
+  {
+    "survival_s": 74.49999999999706,
+    "death": true,
+    "seed": 1118887391,
+    "episode_steps": 1118,
+    "update": 42
+  },
+  {
+    "survival_s": 75.74999999999699,
+    "death": true,
+    "seed": 416337705,
+    "episode_steps": 1137,
+    "update": 42
+  },
+  {
+    "survival_s": 94.64999999999591,
+    "death": true,
+    "seed": 426681883,
+    "episode_steps": 1420,
+    "update": 42
+  },
+  {
+    "survival_s": 80.01666666666341,
+    "death": true,
+    "seed": 1758059382,
+    "episode_steps": 1201,
+    "update": 42
+  },
+  {
+    "survival_s": 80.01666666666341,
+    "death": true,
+    "seed": 1170828977,
+    "episode_steps": 1201,
+    "update": 42
+  },
+  {
+    "survival_s": 103.58333333332874,
+    "death": true,
+    "seed": 527828938,
+    "episode_steps": 1554,
+    "update": 42
+  },
+  {
+    "survival_s": 73.71666666666377,
+    "death": true,
+    "seed": 1826927683,
+    "episode_steps": 1106,
+    "update": 42
+  },
+  {
+    "survival_s": 64.86666666666427,
+    "death": true,
+    "seed": 1280006522,
+    "episode_steps": 973,
+    "update": 42
+  },
+  {
+    "survival_s": 77.23333333333024,
+    "death": true,
+    "seed": 1941225013,
+    "episode_steps": 1159,
+    "update": 43
+  },
+  {
+    "survival_s": 74.9666666666637,
+    "death": true,
+    "seed": 275056815,
+    "episode_steps": 1125,
+    "update": 43
+  },
+  {
+    "survival_s": 80.58333333333005,
+    "death": true,
+    "seed": 63228340,
+    "episode_steps": 1209,
+    "update": 43
+  },
+  {
+    "survival_s": 98.99999999999567,
+    "death": true,
+    "seed": 1454324726,
+    "episode_steps": 1485,
+    "update": 43
+  },
+  {
+    "survival_s": 77.7833333333302,
+    "death": true,
+    "seed": 180670707,
+    "episode_steps": 1167,
+    "update": 43
+  },
+  {
+    "survival_s": 83.43333333332988,
+    "death": true,
+    "seed": 1896203417,
+    "episode_steps": 1252,
+    "update": 43
+  },
+  {
+    "survival_s": 69.14999999999736,
+    "death": true,
+    "seed": 395124426,
+    "episode_steps": 1038,
+    "update": 43
+  },
+  {
+    "survival_s": 63.899999999997654,
+    "death": true,
+    "seed": 331027953,
+    "episode_steps": 959,
+    "update": 43
+  },
+  {
+    "survival_s": 80.91666666666336,
+    "death": true,
+    "seed": 2087298283,
+    "episode_steps": 1214,
+    "update": 43
+  },
+  {
+    "survival_s": 79.11666666666346,
+    "death": true,
+    "seed": 1508746466,
+    "episode_steps": 1187,
+    "update": 43
+  },
+  {
+    "survival_s": 74.89999999999704,
+    "death": true,
+    "seed": 974609154,
+    "episode_steps": 1124,
+    "update": 43
+  },
+  {
+    "survival_s": 79.36666666666345,
+    "death": true,
+    "seed": 557299241,
+    "episode_steps": 1191,
+    "update": 43
+  },
+  {
+    "survival_s": 77.43333333333022,
+    "death": true,
+    "seed": 807609024,
+    "episode_steps": 1162,
+    "update": 43
+  },
+  {
+    "survival_s": 107.71666666666184,
+    "death": true,
+    "seed": 1701038093,
+    "episode_steps": 1616,
+    "update": 43
+  },
+  {
+    "survival_s": 125.2833333333275,
+    "death": true,
+    "seed": 1392430826,
+    "episode_steps": 1880,
+    "update": 43
+  },
+  {
+    "survival_s": 73.28333333333046,
+    "death": true,
+    "seed": 1416306911,
+    "episode_steps": 1100,
+    "update": 43
+  },
+  {
+    "survival_s": 90.31666666666283,
+    "death": true,
+    "seed": 35536208,
+    "episode_steps": 1355,
+    "update": 44
+  },
+  {
+    "survival_s": 75.04999999999703,
+    "death": true,
+    "seed": 1866801649,
+    "episode_steps": 1126,
+    "update": 44
+  },
+  {
+    "survival_s": 92.0333333333294,
+    "death": true,
+    "seed": 76061801,
+    "episode_steps": 1381,
+    "update": 44
+  },
+  {
+    "survival_s": 81.11666666666335,
+    "death": true,
+    "seed": 545410945,
+    "episode_steps": 1217,
+    "update": 44
+  },
+  {
+    "survival_s": 84.23333333332984,
+    "death": true,
+    "seed": 1743081324,
+    "episode_steps": 1264,
+    "update": 44
+  },
+  {
+    "survival_s": 107.18333333332853,
+    "death": true,
+    "seed": 813081441,
+    "episode_steps": 1608,
+    "update": 44
+  },
+  {
+    "survival_s": 72.54999999999717,
+    "death": true,
+    "seed": 977141949,
+    "episode_steps": 1089,
+    "update": 44
+  },
+  {
+    "survival_s": 97.61666666666241,
+    "death": true,
+    "seed": 1947880819,
+    "episode_steps": 1465,
+    "update": 44
+  },
+  {
+    "survival_s": 73.7999999999971,
+    "death": true,
+    "seed": 330031099,
+    "episode_steps": 1107,
+    "update": 44
+  },
+  {
+    "survival_s": 86.86666666666302,
+    "death": true,
+    "seed": 837286837,
+    "episode_steps": 1303,
+    "update": 44
+  },
+  {
+    "survival_s": 78.54999999999683,
+    "death": true,
+    "seed": 919116172,
+    "episode_steps": 1179,
+    "update": 44
+  },
+  {
+    "survival_s": 109.5333333333284,
+    "death": true,
+    "seed": 1050253332,
+    "episode_steps": 1643,
+    "update": 44
+  },
+  {
+    "survival_s": 81.98333333332997,
+    "death": true,
+    "seed": 1986275908,
+    "episode_steps": 1230,
+    "update": 44
+  },
+  {
+    "survival_s": 78.31666666666351,
+    "death": true,
+    "seed": 1945434873,
+    "episode_steps": 1175,
+    "update": 44
+  },
+  {
+    "survival_s": 84.04999999999652,
+    "death": true,
+    "seed": 1691055257,
+    "episode_steps": 1261,
+    "update": 45
+  },
+  {
+    "survival_s": 68.34999999999741,
+    "death": true,
+    "seed": 968406605,
+    "episode_steps": 1026,
+    "update": 45
+  },
+  {
+    "survival_s": 69.68333333333067,
+    "death": true,
+    "seed": 410183117,
+    "episode_steps": 1046,
+    "update": 45
+  },
+  {
+    "survival_s": 72.28333333333052,
+    "death": true,
+    "seed": 1961165731,
+    "episode_steps": 1085,
+    "update": 45
+  },
+  {
+    "survival_s": 101.3166666666622,
+    "death": true,
+    "seed": 2141814037,
+    "episode_steps": 1520,
+    "update": 45
+  },
+  {
+    "survival_s": 95.09999999999589,
+    "death": true,
+    "seed": 1147332789,
+    "episode_steps": 1427,
+    "update": 45
+  },
+  {
+    "survival_s": 107.04999999999521,
+    "death": true,
+    "seed": 115315640,
+    "episode_steps": 1606,
+    "update": 45
+  },
+  {
+    "survival_s": 73.03333333333048,
+    "death": true,
+    "seed": 1919121082,
+    "episode_steps": 1096,
+    "update": 45
+  },
+  {
+    "survival_s": 72.56666666666383,
+    "death": true,
+    "seed": 2077562224,
+    "episode_steps": 1089,
+    "update": 45
+  },
+  {
+    "survival_s": 84.86666666666314,
+    "death": true,
+    "seed": 167867198,
+    "episode_steps": 1273,
+    "update": 45
+  },
+  {
+    "survival_s": 79.19999999999679,
+    "death": true,
+    "seed": 1590331403,
+    "episode_steps": 1188,
+    "update": 45
+  },
+  {
+    "survival_s": 91.58333333332942,
+    "death": true,
+    "seed": 263872893,
+    "episode_steps": 1374,
+    "update": 45
+  },
+  {
+    "survival_s": 79.0499999999968,
+    "death": true,
+    "seed": 1792023460,
+    "episode_steps": 1186,
+    "update": 45
+  },
+  {
+    "survival_s": 79.84999999999675,
+    "death": true,
+    "seed": 1283447633,
+    "episode_steps": 1198,
+    "update": 45
+  },
+  {
+    "survival_s": 69.88333333333065,
+    "death": true,
+    "seed": 2125122690,
+    "episode_steps": 1049,
+    "update": 45
+  },
+  {
+    "survival_s": 65.34999999999758,
+    "death": true,
+    "seed": 797884720,
+    "episode_steps": 981,
+    "update": 45
+  },
+  {
+    "survival_s": 84.9833333333298,
+    "death": true,
+    "seed": 1066488078,
+    "episode_steps": 1275,
+    "update": 45
+  },
+  {
+    "survival_s": 127.19999999999406,
+    "death": true,
+    "seed": 1350718024,
+    "episode_steps": 1908,
+    "update": 45
+  },
+  {
+    "survival_s": 87.81666666666297,
+    "death": true,
+    "seed": 1236855426,
+    "episode_steps": 1318,
+    "update": 45
+  },
+  {
+    "survival_s": 79.03333333333013,
+    "death": true,
+    "seed": 837666394,
+    "episode_steps": 1186,
+    "update": 45
+  },
+  {
+    "survival_s": 78.26666666666351,
+    "death": true,
+    "seed": 1165223866,
+    "episode_steps": 1174,
+    "update": 46
+  },
+  {
+    "survival_s": 86.69999999999636,
+    "death": true,
+    "seed": 1656758419,
+    "episode_steps": 1301,
+    "update": 46
+  },
+  {
+    "survival_s": 78.58333333333016,
+    "death": true,
+    "seed": 543297353,
+    "episode_steps": 1179,
+    "update": 46
+  },
+  {
+    "survival_s": 81.94999999999663,
+    "death": true,
+    "seed": 10641464,
+    "episode_steps": 1230,
+    "update": 46
+  },
+  {
+    "survival_s": 69.0833333333307,
+    "death": true,
+    "seed": 3718166,
+    "episode_steps": 1037,
+    "update": 46
+  },
+  {
+    "survival_s": 75.91666666666364,
+    "death": true,
+    "seed": 362262216,
+    "episode_steps": 1139,
+    "update": 46
+  },
+  {
+    "survival_s": 80.3166666666634,
+    "death": true,
+    "seed": 324006925,
+    "episode_steps": 1205,
+    "update": 46
+  },
+  {
+    "survival_s": 180.00000000003539,
+    "death": false,
+    "seed": 1234378377,
+    "episode_steps": 2700,
+    "update": 46
+  },
+  {
+    "survival_s": 69.98333333333065,
+    "death": true,
+    "seed": 1579079440,
+    "episode_steps": 1050,
+    "update": 46
+  },
+  {
+    "survival_s": 88.23333333332961,
+    "death": true,
+    "seed": 118267005,
+    "episode_steps": 1324,
+    "update": 46
+  },
+  {
+    "survival_s": 104.53333333332868,
+    "death": true,
+    "seed": 911607157,
+    "episode_steps": 1568,
+    "update": 46
+  },
+  {
+    "survival_s": 75.46666666666367,
+    "death": true,
+    "seed": 2075829627,
+    "episode_steps": 1132,
+    "update": 46
+  },
+  {
+    "survival_s": 72.73333333333049,
+    "death": true,
+    "seed": 376429003,
+    "episode_steps": 1091,
+    "update": 46
+  },
+  {
+    "survival_s": 79.16666666666346,
+    "death": true,
+    "seed": 1013793049,
+    "episode_steps": 1188,
+    "update": 46
+  },
+  {
+    "survival_s": 72.16666666666386,
+    "death": true,
+    "seed": 2132176775,
+    "episode_steps": 1083,
+    "update": 46
+  },
+  {
+    "survival_s": 69.38333333333068,
+    "death": true,
+    "seed": 63281648,
+    "episode_steps": 1041,
+    "update": 46
+  },
+  {
+    "survival_s": 76.84999999999692,
+    "death": true,
+    "seed": 1980907876,
+    "episode_steps": 1153,
+    "update": 46
+  },
+  {
+    "survival_s": 64.71666666666428,
+    "death": true,
+    "seed": 535978118,
+    "episode_steps": 971,
+    "update": 46
+  },
+  {
+    "survival_s": 70.38333333333063,
+    "death": true,
+    "seed": 1975375369,
+    "episode_steps": 1056,
+    "update": 46
+  },
+  {
+    "survival_s": 78.21666666666351,
+    "death": true,
+    "seed": 1616331458,
+    "episode_steps": 1174,
+    "update": 46
+  },
+  {
+    "survival_s": 76.74999999999693,
+    "death": true,
+    "seed": 918358793,
+    "episode_steps": 1152,
+    "update": 46
+  },
+  {
+    "survival_s": 73.29999999999713,
+    "death": true,
+    "seed": 290711484,
+    "episode_steps": 1100,
+    "update": 46
+  },
+  {
+    "survival_s": 80.54999999999671,
+    "death": true,
+    "seed": 391121982,
+    "episode_steps": 1209,
+    "update": 47
+  },
+  {
+    "survival_s": 81.9166666666633,
+    "death": true,
+    "seed": 1619604077,
+    "episode_steps": 1229,
+    "update": 47
+  },
+  {
+    "survival_s": 77.99999999999686,
+    "death": true,
+    "seed": 1078776495,
+    "episode_steps": 1170,
+    "update": 47
+  },
+  {
+    "survival_s": 78.69999999999682,
+    "death": true,
+    "seed": 1723867826,
+    "episode_steps": 1181,
+    "update": 47
+  },
+  {
+    "survival_s": 84.63333333332982,
+    "death": true,
+    "seed": 960902873,
+    "episode_steps": 1270,
+    "update": 47
+  },
+  {
+    "survival_s": 87.53333333332965,
+    "death": true,
+    "seed": 1883831548,
+    "episode_steps": 1313,
+    "update": 47
+  },
+  {
+    "survival_s": 101.3666666666622,
+    "death": true,
+    "seed": 1973253137,
+    "episode_steps": 1521,
+    "update": 47
+  },
+  {
+    "survival_s": 78.9999999999968,
+    "death": true,
+    "seed": 367454081,
+    "episode_steps": 1185,
+    "update": 47
+  },
+  {
+    "survival_s": 63.01666666666437,
+    "death": true,
+    "seed": 1584098696,
+    "episode_steps": 946,
+    "update": 47
+  },
+  {
+    "survival_s": 85.13333333332979,
+    "death": true,
+    "seed": 1253404087,
+    "episode_steps": 1277,
+    "update": 47
+  },
+  {
+    "survival_s": 89.03333333332957,
+    "death": true,
+    "seed": 61341457,
+    "episode_steps": 1336,
+    "update": 47
+  },
+  {
+    "survival_s": 82.5999999999966,
+    "death": true,
+    "seed": 1528734236,
+    "episode_steps": 1239,
+    "update": 47
+  },
+  {
+    "survival_s": 89.33333333332955,
+    "death": true,
+    "seed": 1528089614,
+    "episode_steps": 1340,
+    "update": 47
+  },
+  {
+    "survival_s": 75.06666666666369,
+    "death": true,
+    "seed": 71059653,
+    "episode_steps": 1126,
+    "update": 47
+  },
+  {
+    "survival_s": 77.06666666666358,
+    "death": true,
+    "seed": 1616425889,
+    "episode_steps": 1156,
+    "update": 47
+  },
+  {
+    "survival_s": 76.14999999999696,
+    "death": true,
+    "seed": 1678662676,
+    "episode_steps": 1143,
+    "update": 48
+  },
+  {
+    "survival_s": 103.7499999999954,
+    "death": true,
+    "seed": 1374665882,
+    "episode_steps": 1557,
+    "update": 48
+  },
+  {
+    "survival_s": 75.86666666666365,
+    "death": true,
+    "seed": 1892961629,
+    "episode_steps": 1138,
+    "update": 48
+  },
+  {
+    "survival_s": 95.64999999999586,
+    "death": true,
+    "seed": 543361083,
+    "episode_steps": 1435,
+    "update": 48
+  },
+  {
+    "survival_s": 85.21666666666312,
+    "death": true,
+    "seed": 1719086729,
+    "episode_steps": 1279,
+    "update": 48
+  },
+  {
+    "survival_s": 77.44999999999689,
+    "death": true,
+    "seed": 217500940,
+    "episode_steps": 1162,
+    "update": 48
+  },
+  {
+    "survival_s": 86.11666666666306,
+    "death": true,
+    "seed": 614565297,
+    "episode_steps": 1292,
+    "update": 48
+  },
+  {
+    "survival_s": 77.71666666666354,
+    "death": true,
+    "seed": 433123652,
+    "episode_steps": 1166,
+    "update": 48
+  },
+  {
+    "survival_s": 87.69999999999631,
+    "death": true,
+    "seed": 1623121770,
+    "episode_steps": 1316,
+    "update": 48
+  },
+  {
+    "survival_s": 99.59999999999563,
+    "death": true,
+    "seed": 1989895440,
+    "episode_steps": 1494,
+    "update": 48
+  },
+  {
+    "survival_s": 72.79999999999715,
+    "death": true,
+    "seed": 1467338271,
+    "episode_steps": 1092,
+    "update": 48
+  },
+  {
+    "survival_s": 73.61666666666378,
+    "death": true,
+    "seed": 108662073,
+    "episode_steps": 1105,
+    "update": 48
+  },
+  {
+    "survival_s": 69.48333333333068,
+    "death": true,
+    "seed": 321589219,
+    "episode_steps": 1043,
+    "update": 48
+  },
+  {
+    "survival_s": 83.19999999999656,
+    "death": true,
+    "seed": 1403973951,
+    "episode_steps": 1248,
+    "update": 48
+  },
+  {
+    "survival_s": 95.94999999999584,
+    "death": true,
+    "seed": 1175432804,
+    "episode_steps": 1440,
+    "update": 48
+  },
+  {
+    "survival_s": 79.39999999999678,
+    "death": true,
+    "seed": 1546426626,
+    "episode_steps": 1191,
+    "update": 48
+  },
+  {
+    "survival_s": 66.01666666666421,
+    "death": true,
+    "seed": 41917882,
+    "episode_steps": 991,
+    "update": 48
+  },
+  {
+    "survival_s": 95.63333333332919,
+    "death": true,
+    "seed": 1586739874,
+    "episode_steps": 1435,
+    "update": 48
+  },
+  {
+    "survival_s": 71.66666666666389,
+    "death": true,
+    "seed": 1153969438,
+    "episode_steps": 1075,
+    "update": 48
+  },
+  {
+    "survival_s": 76.54999999999694,
+    "death": true,
+    "seed": 1202129642,
+    "episode_steps": 1149,
+    "update": 49
+  },
+  {
+    "survival_s": 75.96666666666364,
+    "death": true,
+    "seed": 1760966517,
+    "episode_steps": 1140,
+    "update": 49
+  },
+  {
+    "survival_s": 85.49999999999643,
+    "death": true,
+    "seed": 197104279,
+    "episode_steps": 1283,
+    "update": 49
+  },
+  {
+    "survival_s": 73.58333333333044,
+    "death": true,
+    "seed": 723439034,
+    "episode_steps": 1104,
+    "update": 49
+  },
+  {
+    "survival_s": 78.16666666666352,
+    "death": true,
+    "seed": 1283513974,
+    "episode_steps": 1173,
+    "update": 49
+  },
+  {
+    "survival_s": 71.81666666666388,
+    "death": true,
+    "seed": 814715588,
+    "episode_steps": 1078,
+    "update": 49
+  },
+  {
+    "survival_s": 77.79999999999687,
+    "death": true,
+    "seed": 954750854,
+    "episode_steps": 1167,
+    "update": 49
+  },
+  {
+    "survival_s": 76.6166666666636,
+    "death": true,
+    "seed": 630615433,
+    "episode_steps": 1150,
+    "update": 49
+  },
+  {
+    "survival_s": 105.13333333332865,
+    "death": true,
+    "seed": 333251087,
+    "episode_steps": 1577,
+    "update": 49
+  },
+  {
+    "survival_s": 70.7833333333306,
+    "death": true,
+    "seed": 1402406503,
+    "episode_steps": 1062,
+    "update": 49
+  },
+  {
+    "survival_s": 83.1333333333299,
+    "death": true,
+    "seed": 1942093151,
+    "episode_steps": 1247,
+    "update": 49
+  },
+  {
+    "survival_s": 75.73333333333032,
+    "death": true,
+    "seed": 1750836619,
+    "episode_steps": 1136,
+    "update": 49
+  },
+  {
+    "survival_s": 75.21666666666368,
+    "death": true,
+    "seed": 1413716861,
+    "episode_steps": 1129,
+    "update": 49
+  },
+  {
+    "survival_s": 72.5333333333305,
+    "death": true,
+    "seed": 818767457,
+    "episode_steps": 1088,
+    "update": 49
+  },
+  {
+    "survival_s": 84.03333333332985,
+    "death": true,
+    "seed": 230697558,
+    "episode_steps": 1261,
+    "update": 49
+  },
+  {
+    "survival_s": 93.53333333332931,
+    "death": true,
+    "seed": 1680242341,
+    "episode_steps": 1403,
+    "update": 49
+  },
+  {
+    "survival_s": 87.33333333332966,
+    "death": true,
+    "seed": 1058874593,
+    "episode_steps": 1310,
+    "update": 49
+  },
+  {
+    "survival_s": 94.01666666666262,
+    "death": true,
+    "seed": 1451815456,
+    "episode_steps": 1411,
+    "update": 49
+  },
+  {
+    "survival_s": 102.36666666666214,
+    "death": true,
+    "seed": 820726551,
+    "episode_steps": 1536,
+    "update": 50
+  },
+  {
+    "survival_s": 109.31666666666175,
+    "death": true,
+    "seed": 492450541,
+    "episode_steps": 1640,
+    "update": 50
+  },
+  {
+    "survival_s": 84.79999999999647,
+    "death": true,
+    "seed": 1074509650,
+    "episode_steps": 1272,
+    "update": 50
+  },
+  {
+    "survival_s": 86.64999999999637,
+    "death": true,
+    "seed": 1309902795,
+    "episode_steps": 1300,
+    "update": 50
+  },
+  {
+    "survival_s": 73.89999999999709,
+    "death": true,
+    "seed": 390905545,
+    "episode_steps": 1109,
+    "update": 50
+  },
+  {
+    "survival_s": 75.58333333333033,
+    "death": true,
+    "seed": 67389956,
+    "episode_steps": 1134,
+    "update": 50
+  },
+  {
+    "survival_s": 66.7499999999975,
+    "death": true,
+    "seed": 723998785,
+    "episode_steps": 1002,
+    "update": 50
+  },
+  {
+    "survival_s": 74.56666666666372,
+    "death": true,
+    "seed": 849145583,
+    "episode_steps": 1119,
+    "update": 50
+  },
+  {
+    "survival_s": 73.78333333333043,
+    "death": true,
+    "seed": 69349551,
+    "episode_steps": 1107,
+    "update": 50
+  },
+  {
+    "survival_s": 76.41666666666362,
+    "death": true,
+    "seed": 1875439353,
+    "episode_steps": 1147,
+    "update": 50
+  },
+  {
+    "survival_s": 76.29999999999696,
+    "death": true,
+    "seed": 847795377,
+    "episode_steps": 1145,
+    "update": 50
+  },
+  {
+    "survival_s": 69.83333333333066,
+    "death": true,
+    "seed": 915766595,
+    "episode_steps": 1048,
+    "update": 50
+  },
+  {
+    "survival_s": 84.01666666666318,
+    "death": true,
+    "seed": 803226439,
+    "episode_steps": 1261,
+    "update": 50
+  },
+  {
+    "survival_s": 78.9499999999968,
+    "death": true,
+    "seed": 1600238159,
+    "episode_steps": 1185,
+    "update": 50
+  },
+  {
+    "survival_s": 96.7499999999958,
+    "death": true,
+    "seed": 833916251,
+    "episode_steps": 1452,
+    "update": 50
+  },
+  {
+    "survival_s": 66.0666666666642,
+    "death": true,
+    "seed": 1272827759,
+    "episode_steps": 991,
+    "update": 50
+  },
+  {
+    "survival_s": 76.09999999999697,
+    "death": true,
+    "seed": 1971096317,
+    "episode_steps": 1142,
+    "update": 50
+  },
+  {
+    "survival_s": 138.883333333336,
+    "death": true,
+    "seed": 1521531383,
+    "episode_steps": 2084,
+    "update": 50
+  },
+  {
+    "survival_s": 63.08333333333103,
+    "death": true,
+    "seed": 1929548770,
+    "episode_steps": 947,
+    "update": 50
+  },
+  {
+    "survival_s": 77.21666666666357,
+    "death": true,
+    "seed": 1234424648,
+    "episode_steps": 1159,
+    "update": 50
+  },
+  {
+    "survival_s": 77.8833333333302,
+    "death": true,
+    "seed": 195809042,
+    "episode_steps": 1169,
+    "update": 51
+  },
+  {
+    "survival_s": 73.58333333333044,
+    "death": true,
+    "seed": 1349400405,
+    "episode_steps": 1104,
+    "update": 51
+  },
+  {
+    "survival_s": 90.24999999999616,
+    "death": true,
+    "seed": 1818805657,
+    "episode_steps": 1354,
+    "update": 51
+  },
+  {
+    "survival_s": 93.66666666666264,
+    "death": true,
+    "seed": 1861073970,
+    "episode_steps": 1405,
+    "update": 51
+  },
+  {
+    "survival_s": 71.43333333333057,
+    "death": true,
+    "seed": 339813594,
+    "episode_steps": 1072,
+    "update": 51
+  },
+  {
+    "survival_s": 78.49999999999683,
+    "death": true,
+    "seed": 445109325,
+    "episode_steps": 1178,
+    "update": 51
+  },
+  {
+    "survival_s": 78.53333333333016,
+    "death": true,
+    "seed": 1522398412,
+    "episode_steps": 1178,
+    "update": 51
+  },
+  {
+    "survival_s": 84.9333333333298,
+    "death": true,
+    "seed": 953202498,
+    "episode_steps": 1274,
+    "update": 51
+  },
+  {
+    "survival_s": 91.84999999999607,
+    "death": true,
+    "seed": 2026747006,
+    "episode_steps": 1378,
+    "update": 51
+  },
+  {
+    "survival_s": 81.9666666666633,
+    "death": true,
+    "seed": 862574026,
+    "episode_steps": 1230,
+    "update": 51
+  },
+  {
+    "survival_s": 92.78333333332935,
+    "death": true,
+    "seed": 1608612155,
+    "episode_steps": 1392,
+    "update": 51
+  },
+  {
+    "survival_s": 85.91666666666308,
+    "death": true,
+    "seed": 1833089968,
+    "episode_steps": 1289,
+    "update": 51
+  },
+  {
+    "survival_s": 82.34999999999661,
+    "death": true,
+    "seed": 672033671,
+    "episode_steps": 1236,
+    "update": 51
+  },
+  {
+    "survival_s": 73.49999999999712,
+    "death": true,
+    "seed": 1091538806,
+    "episode_steps": 1103,
+    "update": 51
+  },
+  {
+    "survival_s": 77.2499999999969,
+    "death": true,
+    "seed": 40593741,
+    "episode_steps": 1159,
+    "update": 51
+  },
+  {
+    "survival_s": 83.86666666666319,
+    "death": true,
+    "seed": 1591119689,
+    "episode_steps": 1258,
+    "update": 51
+  },
+  {
+    "survival_s": 69.99999999999731,
+    "death": true,
+    "seed": 1758933499,
+    "episode_steps": 1050,
+    "update": 52
+  },
+  {
+    "survival_s": 102.98333333332877,
+    "death": true,
+    "seed": 969678141,
+    "episode_steps": 1545,
+    "update": 52
+  },
+  {
+    "survival_s": 87.08333333332968,
+    "death": true,
+    "seed": 971315205,
+    "episode_steps": 1307,
+    "update": 52
+  },
+  {
+    "survival_s": 78.23333333333018,
+    "death": true,
+    "seed": 844989464,
+    "episode_steps": 1174,
+    "update": 52
+  },
+  {
+    "survival_s": 81.48333333333,
+    "death": true,
+    "seed": 1817317036,
+    "episode_steps": 1223,
+    "update": 52
+  },
+  {
+    "survival_s": 94.8999999999959,
+    "death": true,
+    "seed": 1997559064,
+    "episode_steps": 1424,
+    "update": 52
+  },
+  {
+    "survival_s": 87.88333333332963,
+    "death": true,
+    "seed": 1225138259,
+    "episode_steps": 1319,
+    "update": 52
+  },
+  {
+    "survival_s": 100.54999999999558,
+    "death": true,
+    "seed": 1526647087,
+    "episode_steps": 1509,
+    "update": 52
+  },
+  {
+    "survival_s": 77.36666666666356,
+    "death": true,
+    "seed": 1175981922,
+    "episode_steps": 1161,
+    "update": 52
+  },
+  {
+    "survival_s": 86.5833333333297,
+    "death": true,
+    "seed": 605446058,
+    "episode_steps": 1299,
+    "update": 52
+  },
+  {
+    "survival_s": 81.93333333332997,
+    "death": true,
+    "seed": 997851943,
+    "episode_steps": 1229,
+    "update": 52
+  },
+  {
+    "survival_s": 76.48333333333028,
+    "death": true,
+    "seed": 935820403,
+    "episode_steps": 1148,
+    "update": 52
+  },
+  {
+    "survival_s": 93.61666666666264,
+    "death": true,
+    "seed": 432775434,
+    "episode_steps": 1405,
+    "update": 52
+  },
+  {
+    "survival_s": 74.9166666666637,
+    "death": true,
+    "seed": 1957597665,
+    "episode_steps": 1124,
+    "update": 52
+  },
+  {
+    "survival_s": 87.8499999999963,
+    "death": true,
+    "seed": 43490577,
+    "episode_steps": 1318,
+    "update": 52
+  },
+  {
+    "survival_s": 94.81666666666257,
+    "death": true,
+    "seed": 2032394023,
+    "episode_steps": 1423,
+    "update": 52
+  },
+  {
+    "survival_s": 90.16666666666283,
+    "death": true,
+    "seed": 892594146,
+    "episode_steps": 1353,
+    "update": 52
+  },
+  {
+    "survival_s": 63.433333333331014,
+    "death": true,
+    "seed": 165309228,
+    "episode_steps": 952,
+    "update": 53
+  },
+  {
+    "survival_s": 69.86666666666399,
+    "death": true,
+    "seed": 1437468245,
+    "episode_steps": 1048,
+    "update": 53
+  },
+  {
+    "survival_s": 81.38333333333,
+    "death": true,
+    "seed": 708367518,
+    "episode_steps": 1221,
+    "update": 53
+  },
+  {
+    "survival_s": 92.58333333332936,
+    "death": true,
+    "seed": 890400782,
+    "episode_steps": 1389,
+    "update": 53
+  },
+  {
+    "survival_s": 92.78333333332935,
+    "death": true,
+    "seed": 393428889,
+    "episode_steps": 1392,
+    "update": 53
+  },
+  {
+    "survival_s": 77.2499999999969,
+    "death": true,
+    "seed": 1364357052,
+    "episode_steps": 1159,
+    "update": 53
+  },
+  {
+    "survival_s": 86.76666666666303,
+    "death": true,
+    "seed": 748741285,
+    "episode_steps": 1302,
+    "update": 53
+  },
+  {
+    "survival_s": 71.91666666666387,
+    "death": true,
+    "seed": 1888501427,
+    "episode_steps": 1079,
+    "update": 53
+  },
+  {
+    "survival_s": 79.64999999999677,
+    "death": true,
+    "seed": 283687776,
+    "episode_steps": 1195,
+    "update": 53
+  },
+  {
+    "survival_s": 77.21666666666357,
+    "death": true,
+    "seed": 136698689,
+    "episode_steps": 1159,
+    "update": 53
+  },
+  {
+    "survival_s": 87.68333333332964,
+    "death": true,
+    "seed": 398004069,
+    "episode_steps": 1316,
+    "update": 53
+  },
+  {
+    "survival_s": 74.41666666666373,
+    "death": true,
+    "seed": 329688397,
+    "episode_steps": 1117,
+    "update": 53
+  },
+  {
+    "survival_s": 75.18333333333035,
+    "death": true,
+    "seed": 281362518,
+    "episode_steps": 1128,
+    "update": 53
+  },
+  {
+    "survival_s": 94.1666666666626,
+    "death": true,
+    "seed": 990704839,
+    "episode_steps": 1413,
+    "update": 53
+  },
+  {
+    "survival_s": 76.96666666666358,
+    "death": true,
+    "seed": 1533120781,
+    "episode_steps": 1155,
+    "update": 53
+  },
+  {
+    "survival_s": 135.2999999999998,
+    "death": true,
+    "seed": 449637188,
+    "episode_steps": 2030,
+    "update": 53
+  },
+  {
+    "survival_s": 93.7333333333293,
+    "death": true,
+    "seed": 1734697276,
+    "episode_steps": 1406,
+    "update": 53
+  },
+  {
+    "survival_s": 65.11666666666426,
+    "death": true,
+    "seed": 101139192,
+    "episode_steps": 977,
+    "update": 53
+  },
+  {
+    "survival_s": 78.39999999999684,
+    "death": true,
+    "seed": 847358288,
+    "episode_steps": 1176,
+    "update": 53
+  },
+  {
+    "survival_s": 89.26666666666289,
+    "death": true,
+    "seed": 1157446320,
+    "episode_steps": 1339,
+    "update": 53
+  },
+  {
+    "survival_s": 66.23333333333086,
+    "death": true,
+    "seed": 425614928,
+    "episode_steps": 994,
+    "update": 53
+  },
+  {
+    "survival_s": 86.11666666666306,
+    "death": true,
+    "seed": 844968661,
+    "episode_steps": 1292,
+    "update": 54
+  },
+  {
+    "survival_s": 99.06666666666233,
+    "death": true,
+    "seed": 775309085,
+    "episode_steps": 1486,
+    "update": 54
+  },
+  {
+    "survival_s": 74.36666666666373,
+    "death": true,
+    "seed": 1100940640,
+    "episode_steps": 1116,
+    "update": 54
+  },
+  {
+    "survival_s": 77.63333333333021,
+    "death": true,
+    "seed": 2028880609,
+    "episode_steps": 1165,
+    "update": 54
+  },
+  {
+    "survival_s": 75.88333333333031,
+    "death": true,
+    "seed": 1805926115,
+    "episode_steps": 1139,
+    "update": 54
+  },
+  {
+    "survival_s": 82.14999999999662,
+    "death": true,
+    "seed": 856358630,
+    "episode_steps": 1233,
+    "update": 54
+  },
+  {
+    "survival_s": 84.68333333332981,
+    "death": true,
+    "seed": 1492178403,
+    "episode_steps": 1271,
+    "update": 54
+  },
+  {
+    "survival_s": 85.88333333332974,
+    "death": true,
+    "seed": 916736215,
+    "episode_steps": 1289,
+    "update": 54
+  },
+  {
+    "survival_s": 90.1333333333295,
+    "death": true,
+    "seed": 1013969353,
+    "episode_steps": 1352,
+    "update": 54
+  },
+  {
+    "survival_s": 81.9666666666633,
+    "death": true,
+    "seed": 120042346,
+    "episode_steps": 1230,
+    "update": 54
+  },
+  {
+    "survival_s": 88.14999999999628,
+    "death": true,
+    "seed": 854242485,
+    "episode_steps": 1323,
+    "update": 54
+  },
+  {
+    "survival_s": 75.38333333333034,
+    "death": true,
+    "seed": 837375933,
+    "episode_steps": 1131,
+    "update": 54
+  },
+  {
+    "survival_s": 96.46666666666248,
+    "death": true,
+    "seed": 1269291531,
+    "episode_steps": 1447,
+    "update": 54
+  },
+  {
+    "survival_s": 89.0166666666629,
+    "death": true,
+    "seed": 2079197146,
+    "episode_steps": 1336,
+    "update": 54
+  },
+  {
+    "survival_s": 75.48333333333034,
+    "death": true,
+    "seed": 182888909,
+    "episode_steps": 1133,
+    "update": 55
+  },
+  {
+    "survival_s": 90.44999999999615,
+    "death": true,
+    "seed": 1705892976,
+    "episode_steps": 1357,
+    "update": 55
+  },
+  {
+    "survival_s": 109.5833333333284,
+    "death": true,
+    "seed": 1712257894,
+    "episode_steps": 1644,
+    "update": 55
+  },
+  {
+    "survival_s": 79.18333333333013,
+    "death": true,
+    "seed": 1282132570,
+    "episode_steps": 1188,
+    "update": 55
+  },
+  {
+    "survival_s": 69.84999999999732,
+    "death": true,
+    "seed": 1252068922,
+    "episode_steps": 1048,
+    "update": 55
+  },
+  {
+    "survival_s": 78.84999999999681,
+    "death": true,
+    "seed": 777508515,
+    "episode_steps": 1183,
+    "update": 55
+  },
+  {
+    "survival_s": 98.96666666666233,
+    "death": true,
+    "seed": 672370306,
+    "episode_steps": 1485,
+    "update": 55
+  },
+  {
+    "survival_s": 69.14999999999736,
+    "death": true,
+    "seed": 1095908633,
+    "episode_steps": 1038,
+    "update": 55
+  },
+  {
+    "survival_s": 85.69999999999642,
+    "death": true,
+    "seed": 549486962,
+    "episode_steps": 1286,
+    "update": 55
+  },
+  {
+    "survival_s": 98.01666666666239,
+    "death": true,
+    "seed": 1796196737,
+    "episode_steps": 1471,
+    "update": 55
+  },
+  {
+    "survival_s": 81.68333333332998,
+    "death": true,
+    "seed": 531995003,
+    "episode_steps": 1226,
+    "update": 55
+  },
+  {
+    "survival_s": 93.41666666666265,
+    "death": true,
+    "seed": 1943918567,
+    "episode_steps": 1402,
+    "update": 56
+  },
+  {
+    "survival_s": 84.9833333333298,
+    "death": true,
+    "seed": 662482697,
+    "episode_steps": 1275,
+    "update": 56
+  },
+  {
+    "survival_s": 64.06666666666432,
+    "death": true,
+    "seed": 1869371752,
+    "episode_steps": 961,
+    "update": 56
+  },
+  {
+    "survival_s": 79.46666666666344,
+    "death": true,
+    "seed": 1313539728,
+    "episode_steps": 1192,
+    "update": 56
+  },
+  {
+    "survival_s": 82.39999999999661,
+    "death": true,
+    "seed": 281032789,
+    "episode_steps": 1236,
+    "update": 56
+  },
+  {
+    "survival_s": 84.33333333332983,
+    "death": true,
+    "seed": 1883052493,
+    "episode_steps": 1265,
+    "update": 56
+  },
+  {
+    "survival_s": 84.9833333333298,
+    "death": true,
+    "seed": 442840206,
+    "episode_steps": 1275,
+    "update": 56
+  },
+  {
+    "survival_s": 66.88333333333082,
+    "death": true,
+    "seed": 1230489805,
+    "episode_steps": 1004,
+    "update": 56
+  },
+  {
+    "survival_s": 74.29999999999707,
+    "death": true,
+    "seed": 273242433,
+    "episode_steps": 1115,
+    "update": 56
+  },
+  {
+    "survival_s": 82.71666666666326,
+    "death": true,
+    "seed": 311014666,
+    "episode_steps": 1241,
+    "update": 56
+  },
+  {
+    "survival_s": 76.29999999999696,
+    "death": true,
+    "seed": 273237162,
+    "episode_steps": 1145,
+    "update": 56
+  },
+  {
+    "survival_s": 74.76666666666371,
+    "death": true,
+    "seed": 1467208866,
+    "episode_steps": 1122,
+    "update": 56
+  },
+  {
+    "survival_s": 72.46666666666384,
+    "death": true,
+    "seed": 701882185,
+    "episode_steps": 1087,
+    "update": 56
+  },
+  {
+    "survival_s": 68.11666666666409,
+    "death": true,
+    "seed": 1600517052,
+    "episode_steps": 1022,
+    "update": 56
+  },
+  {
+    "survival_s": 75.83333333333032,
+    "death": true,
+    "seed": 63841823,
+    "episode_steps": 1138,
+    "update": 56
+  },
+  {
+    "survival_s": 76.04999999999697,
+    "death": true,
+    "seed": 1956306027,
+    "episode_steps": 1141,
+    "update": 56
+  },
+  {
+    "survival_s": 89.16666666666289,
+    "death": true,
+    "seed": 636462754,
+    "episode_steps": 1338,
+    "update": 56
+  },
+  {
+    "survival_s": 66.7499999999975,
+    "death": true,
+    "seed": 941559373,
+    "episode_steps": 1002,
+    "update": 56
+  },
+  {
+    "survival_s": 73.38333333333046,
+    "death": true,
+    "seed": 907520025,
+    "episode_steps": 1101,
+    "update": 56
+  },
+  {
+    "survival_s": 77.56666666666355,
+    "death": true,
+    "seed": 366730056,
+    "episode_steps": 1164,
+    "update": 56
+  },
+  {
+    "survival_s": 67.44999999999746,
+    "death": true,
+    "seed": 104080592,
+    "episode_steps": 1012,
+    "update": 57
+  },
+  {
+    "survival_s": 84.33333333332983,
+    "death": true,
+    "seed": 1978353825,
+    "episode_steps": 1265,
+    "update": 57
+  },
+  {
+    "survival_s": 71.43333333333057,
+    "death": true,
+    "seed": 1398443121,
+    "episode_steps": 1072,
+    "update": 57
+  },
+  {
+    "survival_s": 81.89999999999664,
+    "death": true,
+    "seed": 1754660399,
+    "episode_steps": 1229,
+    "update": 57
+  },
+  {
+    "survival_s": 125.74999999999415,
+    "death": true,
+    "seed": 871664513,
+    "episode_steps": 1887,
+    "update": 57
+  },
+  {
+    "survival_s": 70.03333333333065,
+    "death": true,
+    "seed": 799276913,
+    "episode_steps": 1051,
+    "update": 57
+  },
+  {
+    "survival_s": 80.46666666666339,
+    "death": true,
+    "seed": 1353745126,
+    "episode_steps": 1207,
+    "update": 57
+  },
+  {
+    "survival_s": 104.19999999999537,
+    "death": true,
+    "seed": 1481709823,
+    "episode_steps": 1563,
+    "update": 57
+  },
+  {
+    "survival_s": 79.33333333333012,
+    "death": true,
+    "seed": 577773957,
+    "episode_steps": 1190,
+    "update": 57
+  },
+  {
+    "survival_s": 75.66666666666366,
+    "death": true,
+    "seed": 327313881,
+    "episode_steps": 1135,
+    "update": 57
+  },
+  {
+    "survival_s": 78.23333333333018,
+    "death": true,
+    "seed": 523678555,
+    "episode_steps": 1174,
+    "update": 57
+  },
+  {
+    "survival_s": 67.63333333333078,
+    "death": true,
+    "seed": 1363170696,
+    "episode_steps": 1015,
+    "update": 57
+  },
+  {
+    "survival_s": 112.38333333332824,
+    "death": true,
+    "seed": 1898481462,
+    "episode_steps": 1686,
+    "update": 57
+  },
+  {
+    "survival_s": 72.41666666666384,
+    "death": true,
+    "seed": 28060314,
+    "episode_steps": 1087,
+    "update": 57
+  },
+  {
+    "survival_s": 78.69999999999682,
+    "death": true,
+    "seed": 1430282151,
+    "episode_steps": 1181,
+    "update": 57
+  },
+  {
+    "survival_s": 69.58333333333067,
+    "death": true,
+    "seed": 1826271978,
+    "episode_steps": 1044,
+    "update": 57
+  },
+  {
+    "survival_s": 79.71666666666343,
+    "death": true,
+    "seed": 2057620523,
+    "episode_steps": 1196,
+    "update": 57
+  },
+  {
+    "survival_s": 75.93333333333031,
+    "death": true,
+    "seed": 1141451203,
+    "episode_steps": 1139,
+    "update": 57
+  },
+  {
+    "survival_s": 93.28333333332932,
+    "death": true,
+    "seed": 672399276,
+    "episode_steps": 1400,
+    "update": 57
+  },
+  {
+    "survival_s": 61.66666666666445,
+    "death": true,
+    "seed": 1143857791,
+    "episode_steps": 925,
+    "update": 57
+  },
+  {
+    "survival_s": 74.49999999999706,
+    "death": true,
+    "seed": 23504138,
+    "episode_steps": 1118,
+    "update": 57
+  },
+  {
+    "survival_s": 75.449999999997,
+    "death": true,
+    "seed": 1727394709,
+    "episode_steps": 1132,
+    "update": 58
+  },
+  {
+    "survival_s": 90.93333333332946,
+    "death": true,
+    "seed": 1156467780,
+    "episode_steps": 1364,
+    "update": 58
+  },
+  {
+    "survival_s": 102.21666666666215,
+    "death": true,
+    "seed": 782359933,
+    "episode_steps": 1534,
+    "update": 58
+  },
+  {
+    "survival_s": 80.78333333333003,
+    "death": true,
+    "seed": 330360729,
+    "episode_steps": 1212,
+    "update": 58
+  },
+  {
+    "survival_s": 75.599999999997,
+    "death": true,
+    "seed": 1761636419,
+    "episode_steps": 1134,
+    "update": 58
+  },
+  {
+    "survival_s": 72.31666666666385,
+    "death": true,
+    "seed": 1505322954,
+    "episode_steps": 1085,
+    "update": 58
+  },
+  {
+    "survival_s": 129.59999999999528,
+    "death": true,
+    "seed": 104361400,
+    "episode_steps": 1944,
+    "update": 58
+  },
+  {
+    "survival_s": 92.68333333332936,
+    "death": true,
+    "seed": 642464318,
+    "episode_steps": 1391,
+    "update": 58
+  },
+  {
+    "survival_s": 88.13333333332962,
+    "death": true,
+    "seed": 2120042722,
+    "episode_steps": 1322,
+    "update": 58
+  },
+  {
+    "survival_s": 81.43333333333,
+    "death": true,
+    "seed": 1698490020,
+    "episode_steps": 1222,
+    "update": 58
+  },
+  {
+    "survival_s": 86.86666666666302,
+    "death": true,
+    "seed": 1911049011,
+    "episode_steps": 1303,
+    "update": 58
+  },
+  {
+    "survival_s": 77.66666666666355,
+    "death": true,
+    "seed": 1703588020,
+    "episode_steps": 1165,
+    "update": 58
+  },
+  {
+    "survival_s": 82.11666666666329,
+    "death": true,
+    "seed": 434240748,
+    "episode_steps": 1232,
+    "update": 58
+  },
+  {
+    "survival_s": 67.89999999999743,
+    "death": true,
+    "seed": 1792915070,
+    "episode_steps": 1019,
+    "update": 58
+  },
+  {
+    "survival_s": 84.09999999999651,
+    "death": true,
+    "seed": 1641179315,
+    "episode_steps": 1262,
+    "update": 58
+  },
+  {
+    "survival_s": 76.73333333333026,
+    "death": true,
+    "seed": 1653800389,
+    "episode_steps": 1151,
+    "update": 58
+  },
+  {
+    "survival_s": 74.8166666666637,
+    "death": true,
+    "seed": 725193620,
+    "episode_steps": 1123,
+    "update": 58
+  },
+  {
+    "survival_s": 63.59999999999767,
+    "death": true,
+    "seed": 263069792,
+    "episode_steps": 954,
+    "update": 58
+  },
+  {
+    "survival_s": 73.43333333333045,
+    "death": true,
+    "seed": 961711016,
+    "episode_steps": 1102,
+    "update": 58
+  },
+  {
+    "survival_s": 95.86666666666251,
+    "death": true,
+    "seed": 1890625872,
+    "episode_steps": 1438,
+    "update": 58
+  },
+  {
+    "survival_s": 78.19999999999685,
+    "death": true,
+    "seed": 2061255162,
+    "episode_steps": 1173,
+    "update": 58
+  },
+  {
+    "survival_s": 83.1333333333299,
+    "death": true,
+    "seed": 1091783333,
+    "episode_steps": 1247,
+    "update": 59
+  },
+  {
+    "survival_s": 79.69999999999676,
+    "death": true,
+    "seed": 1880243311,
+    "episode_steps": 1196,
+    "update": 59
+  },
+  {
+    "survival_s": 81.81666666666331,
+    "death": true,
+    "seed": 1033177352,
+    "episode_steps": 1228,
+    "update": 59
+  },
+  {
+    "survival_s": 84.41666666666316,
+    "death": true,
+    "seed": 1613391109,
+    "episode_steps": 1267,
+    "update": 59
+  },
+  {
+    "survival_s": 72.81666666666382,
+    "death": true,
+    "seed": 1545248354,
+    "episode_steps": 1093,
+    "update": 59
+  },
+  {
+    "survival_s": 83.04999999999657,
+    "death": true,
+    "seed": 1191424430,
+    "episode_steps": 1246,
+    "update": 59
+  },
+  {
+    "survival_s": 94.14999999999594,
+    "death": true,
+    "seed": 1431230578,
+    "episode_steps": 1413,
+    "update": 59
+  },
+  {
+    "survival_s": 74.71666666666371,
+    "death": true,
+    "seed": 1015207864,
+    "episode_steps": 1121,
+    "update": 59
+  },
+  {
+    "survival_s": 78.06666666666352,
+    "death": true,
+    "seed": 1518170563,
+    "episode_steps": 1171,
+    "update": 59
+  },
+  {
+    "survival_s": 98.3999999999957,
+    "death": true,
+    "seed": 1835241376,
+    "episode_steps": 1476,
+    "update": 59
+  },
+  {
+    "survival_s": 79.64999999999677,
+    "death": true,
+    "seed": 115600571,
+    "episode_steps": 1195,
+    "update": 59
+  },
+  {
+    "survival_s": 88.21666666666295,
+    "death": true,
+    "seed": 850244928,
+    "episode_steps": 1324,
+    "update": 59
+  },
+  {
+    "survival_s": 95.68333333332919,
+    "death": true,
+    "seed": 1144350694,
+    "episode_steps": 1436,
+    "update": 59
+  },
+  {
+    "survival_s": 75.58333333333033,
+    "death": true,
+    "seed": 1243453667,
+    "episode_steps": 1134,
+    "update": 59
+  },
+  {
+    "survival_s": 62.683333333331056,
+    "death": true,
+    "seed": 1000862065,
+    "episode_steps": 941,
+    "update": 59
+  },
+  {
+    "survival_s": 79.84999999999675,
+    "death": true,
+    "seed": 894354949,
+    "episode_steps": 1198,
+    "update": 60
+  },
+  {
+    "survival_s": 67.26666666666414,
+    "death": true,
+    "seed": 1922405621,
+    "episode_steps": 1009,
+    "update": 60
+  },
+  {
+    "survival_s": 94.3166666666626,
+    "death": true,
+    "seed": 1908944982,
+    "episode_steps": 1415,
+    "update": 60
+  },
+  {
+    "survival_s": 76.89999999999692,
+    "death": true,
+    "seed": 847719555,
+    "episode_steps": 1154,
+    "update": 60
+  },
+  {
+    "survival_s": 82.5999999999966,
+    "death": true,
+    "seed": 877801221,
+    "episode_steps": 1239,
+    "update": 60
+  },
+  {
+    "survival_s": 83.31666666666322,
+    "death": true,
+    "seed": 1659425817,
+    "episode_steps": 1250,
+    "update": 60
+  },
+  {
+    "survival_s": 94.23333333332927,
+    "death": true,
+    "seed": 1157104761,
+    "episode_steps": 1414,
+    "update": 60
+  },
+  {
+    "survival_s": 90.94999999999612,
+    "death": true,
+    "seed": 315379522,
+    "episode_steps": 1365,
+    "update": 60
+  },
+  {
+    "survival_s": 85.5166666666631,
+    "death": true,
+    "seed": 1832289229,
+    "episode_steps": 1283,
+    "update": 60
+  },
+  {
+    "survival_s": 126.34999999999411,
+    "death": true,
+    "seed": 1326842649,
+    "episode_steps": 1896,
+    "update": 60
+  },
+  {
+    "survival_s": 87.78333333332964,
+    "death": true,
+    "seed": 1828006523,
+    "episode_steps": 1317,
+    "update": 60
+  },
+  {
+    "survival_s": 88.44999999999627,
+    "death": true,
+    "seed": 996190411,
+    "episode_steps": 1327,
+    "update": 61
+  },
+  {
+    "survival_s": 88.28333333332961,
+    "death": true,
+    "seed": 1932098725,
+    "episode_steps": 1325,
+    "update": 61
+  },
+  {
+    "survival_s": 77.81666666666354,
+    "death": true,
+    "seed": 984799960,
+    "episode_steps": 1168,
+    "update": 61
+  },
+  {
+    "survival_s": 95.49999999999586,
+    "death": true,
+    "seed": 1287011425,
+    "episode_steps": 1433,
+    "update": 61
+  },
+  {
+    "survival_s": 79.31666666666345,
+    "death": true,
+    "seed": 892237245,
+    "episode_steps": 1190,
+    "update": 61
+  },
+  {
+    "survival_s": 73.51666666666378,
+    "death": true,
+    "seed": 2077118999,
+    "episode_steps": 1103,
+    "update": 61
+  },
+  {
+    "survival_s": 86.53333333332971,
+    "death": true,
+    "seed": 1958836252,
+    "episode_steps": 1298,
+    "update": 61
+  },
+  {
+    "survival_s": 85.13333333332979,
+    "death": true,
+    "seed": 555557498,
+    "episode_steps": 1277,
+    "update": 61
+  },
+  {
+    "survival_s": 82.88333333332992,
+    "death": true,
+    "seed": 201170709,
+    "episode_steps": 1244,
+    "update": 61
+  },
+  {
+    "survival_s": 107.36666666666186,
+    "death": true,
+    "seed": 139777137,
+    "episode_steps": 1611,
+    "update": 61
+  },
+  {
+    "survival_s": 68.31666666666408,
+    "death": true,
+    "seed": 1637664559,
+    "episode_steps": 1025,
+    "update": 61
+  },
+  {
+    "survival_s": 94.48333333332926,
+    "death": true,
+    "seed": 1530084933,
+    "episode_steps": 1418,
+    "update": 61
+  },
+  {
+    "survival_s": 93.91666666666262,
+    "death": true,
+    "seed": 1674728959,
+    "episode_steps": 1409,
+    "update": 61
+  },
+  {
+    "survival_s": 68.78333333333072,
+    "death": true,
+    "seed": 177640885,
+    "episode_steps": 1032,
+    "update": 61
+  },
+  {
+    "survival_s": 87.66666666666298,
+    "death": true,
+    "seed": 822418427,
+    "episode_steps": 1315,
+    "update": 61
+  },
+  {
+    "survival_s": 89.71666666666286,
+    "death": true,
+    "seed": 1221726061,
+    "episode_steps": 1346,
+    "update": 61
+  },
+  {
+    "survival_s": 79.7333333333301,
+    "death": true,
+    "seed": 877126716,
+    "episode_steps": 1196,
+    "update": 61
+  },
+  {
+    "survival_s": 74.34999999999707,
+    "death": true,
+    "seed": 314803295,
+    "episode_steps": 1116,
+    "update": 61
+  },
+  {
+    "survival_s": 68.51666666666407,
+    "death": true,
+    "seed": 474623415,
+    "episode_steps": 1028,
+    "update": 61
+  },
+  {
+    "survival_s": 69.04999999999737,
+    "death": true,
+    "seed": 1771277380,
+    "episode_steps": 1036,
+    "update": 61
+  },
+  {
+    "survival_s": 75.46666666666367,
+    "death": true,
+    "seed": 1114024171,
+    "episode_steps": 1132,
+    "update": 61
+  },
+  {
+    "survival_s": 66.98333333333082,
+    "death": true,
+    "seed": 1189625788,
+    "episode_steps": 1005,
+    "update": 61
+  },
+  {
+    "survival_s": 87.71666666666297,
+    "death": true,
+    "seed": 1590066920,
+    "episode_steps": 1316,
+    "update": 62
+  },
+  {
+    "survival_s": 100.54999999999558,
+    "death": true,
+    "seed": 860136320,
+    "episode_steps": 1509,
+    "update": 62
+  },
+  {
+    "survival_s": 92.31666666666271,
+    "death": true,
+    "seed": 641302658,
+    "episode_steps": 1385,
+    "update": 62
+  },
+  {
+    "survival_s": 83.11666666666324,
+    "death": true,
+    "seed": 497608602,
+    "episode_steps": 1247,
+    "update": 62
+  },
+  {
+    "survival_s": 80.08333333333007,
+    "death": true,
+    "seed": 1047921419,
+    "episode_steps": 1202,
+    "update": 62
+  },
+  {
+    "survival_s": 85.49999999999643,
+    "death": true,
+    "seed": 400351641,
+    "episode_steps": 1283,
+    "update": 62
+  },
+  {
+    "survival_s": 117.66666666666127,
+    "death": true,
+    "seed": 622400706,
+    "episode_steps": 1765,
+    "update": 62
+  },
+  {
+    "survival_s": 74.51666666666372,
+    "death": true,
+    "seed": 664092857,
+    "episode_steps": 1118,
+    "update": 62
+  },
+  {
+    "survival_s": 89.5999999999962,
+    "death": true,
+    "seed": 1984968767,
+    "episode_steps": 1344,
+    "update": 62
+  },
+  {
+    "survival_s": 84.96666666666313,
+    "death": true,
+    "seed": 1402829456,
+    "episode_steps": 1275,
+    "update": 62
+  },
+  {
+    "survival_s": 75.649999999997,
+    "death": true,
+    "seed": 1106169949,
+    "episode_steps": 1135,
+    "update": 62
+  },
+  {
+    "survival_s": 97.38333333332909,
+    "death": true,
+    "seed": 1362346197,
+    "episode_steps": 1461,
+    "update": 63
+  },
+  {
+    "survival_s": 87.7499999999963,
+    "death": true,
+    "seed": 1661922004,
+    "episode_steps": 1317,
+    "update": 63
+  },
+  {
+    "survival_s": 83.79999999999653,
+    "death": true,
+    "seed": 804469872,
+    "episode_steps": 1257,
+    "update": 63
+  },
+  {
+    "survival_s": 93.51666666666264,
+    "death": true,
+    "seed": 107764158,
+    "episode_steps": 1403,
+    "update": 63
+  },
+  {
+    "survival_s": 77.2499999999969,
+    "death": true,
+    "seed": 490629272,
+    "episode_steps": 1159,
+    "update": 63
+  },
+  {
+    "survival_s": 98.79999999999568,
+    "death": true,
+    "seed": 1249416322,
+    "episode_steps": 1482,
+    "update": 63
+  },
+  {
+    "survival_s": 88.84999999999624,
+    "death": true,
+    "seed": 1892146942,
+    "episode_steps": 1333,
+    "update": 63
+  },
+  {
+    "survival_s": 72.11666666666386,
+    "death": true,
+    "seed": 991677325,
+    "episode_steps": 1082,
+    "update": 63
+  },
+  {
+    "survival_s": 72.5833333333305,
+    "death": true,
+    "seed": 611960554,
+    "episode_steps": 1089,
+    "update": 63
+  },
+  {
+    "survival_s": 94.1666666666626,
+    "death": true,
+    "seed": 1165327678,
+    "episode_steps": 1413,
+    "update": 63
+  },
+  {
+    "survival_s": 74.49999999999706,
+    "death": true,
+    "seed": 204655220,
+    "episode_steps": 1118,
+    "update": 63
+  },
+  {
+    "survival_s": 68.84999999999738,
+    "death": true,
+    "seed": 903477217,
+    "episode_steps": 1033,
+    "update": 63
+  },
+  {
+    "survival_s": 78.04999999999686,
+    "death": true,
+    "seed": 1418892895,
+    "episode_steps": 1171,
+    "update": 63
+  },
+  {
+    "survival_s": 77.01666666666358,
+    "death": true,
+    "seed": 1006460159,
+    "episode_steps": 1156,
+    "update": 63
+  },
+  {
+    "survival_s": 75.29999999999701,
+    "death": true,
+    "seed": 634749955,
+    "episode_steps": 1130,
+    "update": 63
+  },
+  {
+    "survival_s": 70.1499999999973,
+    "death": true,
+    "seed": 1270537512,
+    "episode_steps": 1053,
+    "update": 63
+  },
+  {
+    "survival_s": 92.76666666666269,
+    "death": true,
+    "seed": 1610048881,
+    "episode_steps": 1392,
+    "update": 63
+  },
+  {
+    "survival_s": 77.68333333333021,
+    "death": true,
+    "seed": 1157136722,
+    "episode_steps": 1166,
+    "update": 63
+  },
+  {
+    "survival_s": 84.64999999999648,
+    "death": true,
+    "seed": 210561879,
+    "episode_steps": 1270,
+    "update": 63
+  },
+  {
+    "survival_s": 96.53333333332914,
+    "death": true,
+    "seed": 613181979,
+    "episode_steps": 1448,
+    "update": 63
+  },
+  {
+    "survival_s": 77.63333333333021,
+    "death": true,
+    "seed": 2142401495,
+    "episode_steps": 1165,
+    "update": 64
+  },
+  {
+    "survival_s": 83.54999999999654,
+    "death": true,
+    "seed": 149377844,
+    "episode_steps": 1254,
+    "update": 64
+  },
+  {
+    "survival_s": 71.5166666666639,
+    "death": true,
+    "seed": 140073597,
+    "episode_steps": 1073,
+    "update": 64
+  },
+  {
+    "survival_s": 90.98333333332945,
+    "death": true,
+    "seed": 1937388199,
+    "episode_steps": 1365,
+    "update": 64
+  },
+  {
+    "survival_s": 80.2166666666634,
+    "death": true,
+    "seed": 393915281,
+    "episode_steps": 1204,
+    "update": 64
+  },
+  {
+    "survival_s": 65.78333333333089,
+    "death": true,
+    "seed": 324667504,
+    "episode_steps": 987,
+    "update": 64
+  },
+  {
+    "survival_s": 76.46666666666361,
+    "death": true,
+    "seed": 361844761,
+    "episode_steps": 1147,
+    "update": 64
+  },
+  {
+    "survival_s": 71.93333333333054,
+    "death": true,
+    "seed": 468352415,
+    "episode_steps": 1079,
+    "update": 64
+  },
+  {
+    "survival_s": 86.26666666666306,
+    "death": true,
+    "seed": 1399556703,
+    "episode_steps": 1294,
+    "update": 64
+  },
+  {
+    "survival_s": 106.19999999999526,
+    "death": true,
+    "seed": 1052050150,
+    "episode_steps": 1593,
+    "update": 64
+  },
+  {
+    "survival_s": 67.36666666666413,
+    "death": true,
+    "seed": 1715785320,
+    "episode_steps": 1011,
+    "update": 64
+  },
+  {
+    "survival_s": 105.51666666666196,
+    "death": true,
+    "seed": 1154055171,
+    "episode_steps": 1583,
+    "update": 64
+  },
+  {
+    "survival_s": 79.41666666666345,
+    "death": true,
+    "seed": 1893805652,
+    "episode_steps": 1192,
+    "update": 64
+  },
+  {
+    "survival_s": 104.1833333333287,
+    "death": true,
+    "seed": 19798125,
+    "episode_steps": 1563,
+    "update": 65
+  },
+  {
+    "survival_s": 84.8833333333298,
+    "death": true,
+    "seed": 90880053,
+    "episode_steps": 1274,
+    "update": 65
+  },
+  {
+    "survival_s": 77.49999999999689,
+    "death": true,
+    "seed": 872944142,
+    "episode_steps": 1163,
+    "update": 65
+  },
+  {
+    "survival_s": 75.76666666666365,
+    "death": true,
+    "seed": 1237540256,
+    "episode_steps": 1137,
+    "update": 65
+  },
+  {
+    "survival_s": 91.94999999999607,
+    "death": true,
+    "seed": 1163909362,
+    "episode_steps": 1380,
+    "update": 65
+  },
+  {
+    "survival_s": 89.44999999999621,
+    "death": true,
+    "seed": 854121190,
+    "episode_steps": 1342,
+    "update": 65
+  },
+  {
+    "survival_s": 104.866666666662,
+    "death": true,
+    "seed": 673629146,
+    "episode_steps": 1573,
+    "update": 65
+  },
+  {
+    "survival_s": 84.01666666666318,
+    "death": true,
+    "seed": 165901900,
+    "episode_steps": 1261,
+    "update": 65
+  },
+  {
+    "survival_s": 96.29999999999582,
+    "death": true,
+    "seed": 1375162171,
+    "episode_steps": 1445,
+    "update": 65
+  },
+  {
+    "survival_s": 78.58333333333016,
+    "death": true,
+    "seed": 2062219675,
+    "episode_steps": 1179,
+    "update": 65
+  },
+  {
+    "survival_s": 70.26666666666397,
+    "death": true,
+    "seed": 1960698918,
+    "episode_steps": 1054,
+    "update": 66
+  },
+  {
+    "survival_s": 93.199999999996,
+    "death": true,
+    "seed": 1019270632,
+    "episode_steps": 1398,
+    "update": 66
+  },
+  {
+    "survival_s": 108.38333333332847,
+    "death": true,
+    "seed": 1109114670,
+    "episode_steps": 1626,
+    "update": 66
+  },
+  {
+    "survival_s": 143.16666666667274,
+    "death": true,
+    "seed": 1285729956,
+    "episode_steps": 2148,
+    "update": 66
+  },
+  {
+    "survival_s": 94.78333333332924,
+    "death": true,
+    "seed": 1644861299,
+    "episode_steps": 1422,
+    "update": 66
+  },
+  {
+    "survival_s": 78.3666666666635,
+    "death": true,
+    "seed": 803655808,
+    "episode_steps": 1176,
+    "update": 66
+  },
+  {
+    "survival_s": 87.06666666666301,
+    "death": true,
+    "seed": 819520985,
+    "episode_steps": 1306,
+    "update": 66
+  },
+  {
+    "survival_s": 72.51666666666384,
+    "death": true,
+    "seed": 1117680548,
+    "episode_steps": 1088,
+    "update": 66
+  },
+  {
+    "survival_s": 130.01666666666227,
+    "death": true,
+    "seed": 481411191,
+    "episode_steps": 1951,
+    "update": 66
+  },
+  {
+    "survival_s": 78.11666666666352,
+    "death": true,
+    "seed": 806156656,
+    "episode_steps": 1172,
+    "update": 66
+  },
+  {
+    "survival_s": 78.28333333333018,
+    "death": true,
+    "seed": 2020541952,
+    "episode_steps": 1175,
+    "update": 66
+  },
+  {
+    "survival_s": 104.78333333332867,
+    "death": true,
+    "seed": 437271624,
+    "episode_steps": 1572,
+    "update": 66
+  },
+  {
+    "survival_s": 72.6333333333305,
+    "death": true,
+    "seed": 694747676,
+    "episode_steps": 1090,
+    "update": 66
+  },
+  {
+    "survival_s": 79.11666666666346,
+    "death": true,
+    "seed": 404453985,
+    "episode_steps": 1187,
+    "update": 66
+  },
+  {
+    "survival_s": 119.13333333332785,
+    "death": true,
+    "seed": 1594240829,
+    "episode_steps": 1787,
+    "update": 67
+  },
+  {
+    "survival_s": 73.94999999999709,
+    "death": true,
+    "seed": 970669472,
+    "episode_steps": 1110,
+    "update": 67
+  },
+  {
+    "survival_s": 73.68333333333044,
+    "death": true,
+    "seed": 974121539,
+    "episode_steps": 1106,
+    "update": 67
+  },
+  {
+    "survival_s": 98.58333333332902,
+    "death": true,
+    "seed": 401569573,
+    "episode_steps": 1479,
+    "update": 67
+  },
+  {
+    "survival_s": 75.66666666666366,
+    "death": true,
+    "seed": 874973061,
+    "episode_steps": 1135,
+    "update": 67
+  },
+  {
+    "survival_s": 92.76666666666269,
+    "death": true,
+    "seed": 829867711,
+    "episode_steps": 1392,
+    "update": 67
+  },
+  {
+    "survival_s": 68.51666666666407,
+    "death": true,
+    "seed": 2089374945,
+    "episode_steps": 1028,
+    "update": 67
+  },
+  {
+    "survival_s": 75.53333333333033,
+    "death": true,
+    "seed": 638831464,
+    "episode_steps": 1133,
+    "update": 67
+  },
+  {
+    "survival_s": 90.73333333332947,
+    "death": true,
+    "seed": 1831365882,
+    "episode_steps": 1361,
+    "update": 67
+  },
+  {
+    "survival_s": 80.98333333333002,
+    "death": true,
+    "seed": 1915347890,
+    "episode_steps": 1215,
+    "update": 67
+  },
+  {
+    "survival_s": 76.94999999999692,
+    "death": true,
+    "seed": 1689897506,
+    "episode_steps": 1155,
+    "update": 67
+  },
+  {
+    "survival_s": 66.19999999999753,
+    "death": true,
+    "seed": 827809226,
+    "episode_steps": 993,
+    "update": 67
+  },
+  {
+    "survival_s": 72.36666666666385,
+    "death": true,
+    "seed": 1368773313,
+    "episode_steps": 1086,
+    "update": 67
+  },
+  {
+    "survival_s": 90.79999999999613,
+    "death": true,
+    "seed": 2109740678,
+    "episode_steps": 1362,
+    "update": 67
+  },
+  {
+    "survival_s": 84.96666666666313,
+    "death": true,
+    "seed": 230268638,
+    "episode_steps": 1275,
+    "update": 67
+  },
+  {
+    "survival_s": 111.98333333332826,
+    "death": true,
+    "seed": 719419075,
+    "episode_steps": 1680,
+    "update": 67
+  },
+  {
+    "survival_s": 79.06666666666347,
+    "death": true,
+    "seed": 1281978376,
+    "episode_steps": 1186,
+    "update": 67
+  },
+  {
+    "survival_s": 84.09999999999651,
+    "death": true,
+    "seed": 1091340885,
+    "episode_steps": 1262,
+    "update": 67
+  },
+  {
+    "survival_s": 75.549999999997,
+    "death": true,
+    "seed": 703588146,
+    "episode_steps": 1134,
+    "update": 67
+  },
+  {
+    "survival_s": 102.91666666666211,
+    "death": true,
+    "seed": 1158611320,
+    "episode_steps": 1544,
+    "update": 67
+  },
+  {
+    "survival_s": 71.11666666666392,
+    "death": true,
+    "seed": 222394439,
+    "episode_steps": 1067,
+    "update": 67
+  },
+  {
+    "survival_s": 97.43333333332909,
+    "death": true,
+    "seed": 906333826,
+    "episode_steps": 1462,
+    "update": 67
+  },
+  {
+    "survival_s": 75.53333333333033,
+    "death": true,
+    "seed": 892128798,
+    "episode_steps": 1133,
+    "update": 67
+  },
+  {
+    "survival_s": 64.18333333333098,
+    "death": true,
+    "seed": 1610791211,
+    "episode_steps": 963,
+    "update": 67
+  },
+  {
+    "survival_s": 80.13333333333007,
+    "death": true,
+    "seed": 196664277,
+    "episode_steps": 1202,
+    "update": 68
+  },
+  {
+    "survival_s": 79.43333333333011,
+    "death": true,
+    "seed": 531735246,
+    "episode_steps": 1192,
+    "update": 68
+  },
+  {
+    "survival_s": 73.0666666666638,
+    "death": true,
+    "seed": 81776104,
+    "episode_steps": 1096,
+    "update": 68
+  },
+  {
+    "survival_s": 93.16666666666266,
+    "death": true,
+    "seed": 2014761311,
+    "episode_steps": 1398,
+    "update": 68
+  },
+  {
+    "survival_s": 96.13333333332916,
+    "death": true,
+    "seed": 876785331,
+    "episode_steps": 1442,
+    "update": 68
+  },
+  {
+    "survival_s": 76.28333333333029,
+    "death": true,
+    "seed": 928475179,
+    "episode_steps": 1145,
+    "update": 68
+  },
+  {
+    "survival_s": 67.58333333333078,
+    "death": true,
+    "seed": 2036385487,
+    "episode_steps": 1014,
+    "update": 68
+  },
+  {
+    "survival_s": 73.14999999999714,
+    "death": true,
+    "seed": 76050267,
+    "episode_steps": 1098,
+    "update": 68
+  },
+  {
+    "survival_s": 89.18333333332956,
+    "death": true,
+    "seed": 2081588801,
+    "episode_steps": 1338,
+    "update": 68
+  },
+  {
+    "survival_s": 75.66666666666366,
+    "death": true,
+    "seed": 443947779,
+    "episode_steps": 1135,
+    "update": 68
+  },
+  {
+    "survival_s": 85.01666666666313,
+    "death": true,
+    "seed": 458083880,
+    "episode_steps": 1276,
+    "update": 68
+  },
+  {
+    "survival_s": 89.94999999999618,
+    "death": true,
+    "seed": 381136932,
+    "episode_steps": 1350,
+    "update": 68
+  },
+  {
+    "survival_s": 74.09999999999708,
+    "death": true,
+    "seed": 2102602157,
+    "episode_steps": 1112,
+    "update": 68
+  },
+  {
+    "survival_s": 86.18333333332973,
+    "death": true,
+    "seed": 79928958,
+    "episode_steps": 1293,
+    "update": 68
+  },
+  {
+    "survival_s": 102.81666666666212,
+    "death": true,
+    "seed": 88121827,
+    "episode_steps": 1543,
+    "update": 68
+  },
+  {
+    "survival_s": 87.66666666666298,
+    "death": true,
+    "seed": 400846085,
+    "episode_steps": 1315,
+    "update": 68
+  },
+  {
+    "survival_s": 71.83333333333054,
+    "death": true,
+    "seed": 2107068573,
+    "episode_steps": 1078,
+    "update": 68
+  },
+  {
+    "survival_s": 75.51666666666367,
+    "death": true,
+    "seed": 1105656996,
+    "episode_steps": 1133,
+    "update": 68
+  },
+  {
+    "survival_s": 87.9499999999963,
+    "death": true,
+    "seed": 1262178937,
+    "episode_steps": 1320,
+    "update": 69
+  },
+  {
+    "survival_s": 71.06666666666392,
+    "death": true,
+    "seed": 1492407036,
+    "episode_steps": 1066,
+    "update": 69
+  },
+  {
+    "survival_s": 90.88333333332946,
+    "death": true,
+    "seed": 628904829,
+    "episode_steps": 1364,
+    "update": 69
+  },
+  {
+    "survival_s": 93.11666666666267,
+    "death": true,
+    "seed": 1693371297,
+    "episode_steps": 1397,
+    "update": 69
+  },
+  {
+    "survival_s": 99.76666666666229,
+    "death": true,
+    "seed": 1853763024,
+    "episode_steps": 1497,
+    "update": 69
+  },
+  {
+    "survival_s": 81.61666666666332,
+    "death": true,
+    "seed": 2112918404,
+    "episode_steps": 1225,
+    "update": 69
+  },
+  {
+    "survival_s": 74.51666666666372,
+    "death": true,
+    "seed": 1977338961,
+    "episode_steps": 1118,
+    "update": 69
+  },
+  {
+    "survival_s": 73.56666666666378,
+    "death": true,
+    "seed": 531073813,
+    "episode_steps": 1104,
+    "update": 69
+  },
+  {
+    "survival_s": 79.03333333333013,
+    "death": true,
+    "seed": 492251439,
+    "episode_steps": 1186,
+    "update": 69
+  },
+  {
+    "survival_s": 80.81666666666337,
+    "death": true,
+    "seed": 2011034404,
+    "episode_steps": 1213,
+    "update": 69
+  },
+  {
+    "survival_s": 72.28333333333052,
+    "death": true,
+    "seed": 859735714,
+    "episode_steps": 1085,
+    "update": 69
+  },
+  {
+    "survival_s": 105.86666666666194,
+    "death": true,
+    "seed": 1016573834,
+    "episode_steps": 1588,
+    "update": 69
+  },
+  {
+    "survival_s": 69.53333333333067,
+    "death": true,
+    "seed": 2041600646,
+    "episode_steps": 1043,
+    "update": 69
+  },
+  {
+    "survival_s": 91.79999999999607,
+    "death": true,
+    "seed": 1169273189,
+    "episode_steps": 1377,
+    "update": 69
+  },
+  {
+    "survival_s": 71.18333333333058,
+    "death": true,
+    "seed": 816259517,
+    "episode_steps": 1068,
+    "update": 69
+  },
+  {
+    "survival_s": 72.24999999999719,
+    "death": true,
+    "seed": 1875298099,
+    "episode_steps": 1084,
+    "update": 69
+  },
+  {
+    "survival_s": 70.96666666666393,
+    "death": true,
+    "seed": 926134757,
+    "episode_steps": 1065,
+    "update": 70
+  },
+  {
+    "survival_s": 68.99999999999737,
+    "death": true,
+    "seed": 1001077255,
+    "episode_steps": 1035,
+    "update": 70
+  },
+  {
+    "survival_s": 83.51666666666321,
+    "death": true,
+    "seed": 1859228146,
+    "episode_steps": 1253,
+    "update": 70
+  },
+  {
+    "survival_s": 72.88333333333048,
+    "death": true,
+    "seed": 191944466,
+    "episode_steps": 1094,
+    "update": 70
+  },
+  {
+    "survival_s": 75.98333333333031,
+    "death": true,
+    "seed": 2014149045,
+    "episode_steps": 1140,
+    "update": 70
+  },
+  {
+    "survival_s": 63.51666666666434,
+    "death": true,
+    "seed": 1767453117,
+    "episode_steps": 953,
+    "update": 70
+  },
+  {
+    "survival_s": 75.26666666666368,
+    "death": true,
+    "seed": 305629196,
+    "episode_steps": 1129,
+    "update": 70
+  },
+  {
+    "survival_s": 79.34999999999678,
+    "death": true,
+    "seed": 1051024721,
+    "episode_steps": 1191,
+    "update": 70
+  },
+  {
+    "survival_s": 97.74999999999574,
+    "death": true,
+    "seed": 1004999530,
+    "episode_steps": 1467,
+    "update": 70
+  },
+  {
+    "survival_s": 76.44999999999695,
+    "death": true,
+    "seed": 2033138893,
+    "episode_steps": 1147,
+    "update": 70
+  },
+  {
+    "survival_s": 96.96666666666245,
+    "death": true,
+    "seed": 1492579348,
+    "episode_steps": 1455,
+    "update": 70
+  },
+  {
+    "survival_s": 72.6333333333305,
+    "death": true,
+    "seed": 654412381,
+    "episode_steps": 1090,
+    "update": 70
+  },
+  {
+    "survival_s": 118.2833333333279,
+    "death": true,
+    "seed": 110577596,
+    "episode_steps": 1775,
+    "update": 70
+  },
+  {
+    "survival_s": 109.08333333332843,
+    "death": true,
+    "seed": 138013295,
+    "episode_steps": 1637,
+    "update": 70
+  },
+  {
+    "survival_s": 102.46666666666214,
+    "death": true,
+    "seed": 209375635,
+    "episode_steps": 1537,
+    "update": 70
+  },
+  {
+    "survival_s": 66.36666666666419,
+    "death": true,
+    "seed": 2006556751,
+    "episode_steps": 996,
+    "update": 70
+  },
+  {
+    "survival_s": 74.49999999999706,
+    "death": true,
+    "seed": 502799656,
+    "episode_steps": 1118,
+    "update": 70
+  },
+  {
+    "survival_s": 70.38333333333063,
+    "death": true,
+    "seed": 1270681930,
+    "episode_steps": 1056,
+    "update": 70
+  },
+  {
+    "survival_s": 94.69999999999591,
+    "death": true,
+    "seed": 770479729,
+    "episode_steps": 1421,
+    "update": 70
+  },
+  {
+    "survival_s": 128.0833333333274,
+    "death": true,
+    "seed": 1588379200,
+    "episode_steps": 1922,
+    "update": 70
+  },
+  {
+    "survival_s": 90.14999999999617,
+    "death": true,
+    "seed": 1569444430,
+    "episode_steps": 1353,
+    "update": 70
+  },
+  {
+    "survival_s": 76.16666666666363,
+    "death": true,
+    "seed": 476006659,
+    "episode_steps": 1143,
+    "update": 71
+  },
+  {
+    "survival_s": 74.49999999999706,
+    "death": true,
+    "seed": 1190689379,
+    "episode_steps": 1118,
+    "update": 71
+  },
+  {
+    "survival_s": 78.98333333333014,
+    "death": true,
+    "seed": 526904580,
+    "episode_steps": 1185,
+    "update": 71
+  },
+  {
+    "survival_s": 83.2333333333299,
+    "death": true,
+    "seed": 110992366,
+    "episode_steps": 1249,
+    "update": 71
+  },
+  {
+    "survival_s": 73.73333333333044,
+    "death": true,
+    "seed": 2105079995,
+    "episode_steps": 1106,
+    "update": 71
+  },
+  {
+    "survival_s": 72.23333333333052,
+    "death": true,
+    "seed": 1915052852,
+    "episode_steps": 1084,
+    "update": 71
+  },
+  {
+    "survival_s": 101.58333333332885,
+    "death": true,
+    "seed": 153258915,
+    "episode_steps": 1524,
+    "update": 71
+  },
+  {
+    "survival_s": 77.76666666666354,
+    "death": true,
+    "seed": 1896675531,
+    "episode_steps": 1167,
+    "update": 71
+  },
+  {
+    "survival_s": 77.36666666666356,
+    "death": true,
+    "seed": 949877171,
+    "episode_steps": 1161,
+    "update": 71
+  },
+  {
+    "survival_s": 71.44999999999723,
+    "death": true,
+    "seed": 1258009018,
+    "episode_steps": 1072,
+    "update": 71
+  },
+  {
+    "survival_s": 77.94999999999686,
+    "death": true,
+    "seed": 1513432551,
+    "episode_steps": 1170,
+    "update": 71
+  },
+  {
+    "survival_s": 76.74999999999693,
+    "death": true,
+    "seed": 104959427,
+    "episode_steps": 1152,
+    "update": 71
+  },
+  {
+    "survival_s": 67.06666666666415,
+    "death": true,
+    "seed": 1325560531,
+    "episode_steps": 1006,
+    "update": 71
+  },
+  {
+    "survival_s": 69.38333333333068,
+    "death": true,
+    "seed": 473496561,
+    "episode_steps": 1041,
+    "update": 71
+  },
+  {
+    "survival_s": 76.56666666666361,
+    "death": true,
+    "seed": 856685676,
+    "episode_steps": 1149,
+    "update": 71
+  },
+  {
+    "survival_s": 83.63333333332987,
+    "death": true,
+    "seed": 160064478,
+    "episode_steps": 1255,
+    "update": 71
+  },
+  {
+    "survival_s": 74.29999999999707,
+    "death": true,
+    "seed": 1371693633,
+    "episode_steps": 1115,
+    "update": 71
+  },
+  {
+    "survival_s": 71.66666666666389,
+    "death": true,
+    "seed": 1697414878,
+    "episode_steps": 1075,
+    "update": 71
+  },
+  {
+    "survival_s": 94.64999999999591,
+    "death": true,
+    "seed": 24411612,
+    "episode_steps": 1420,
+    "update": 71
+  },
+  {
+    "survival_s": 77.71666666666354,
+    "death": true,
+    "seed": 1081535998,
+    "episode_steps": 1166,
+    "update": 71
+  },
+  {
+    "survival_s": 75.34999999999701,
+    "death": true,
+    "seed": 2037035928,
+    "episode_steps": 1131,
+    "update": 71
+  },
+  {
+    "survival_s": 70.91666666666393,
+    "death": true,
+    "seed": 1923479980,
+    "episode_steps": 1064,
+    "update": 72
+  },
+  {
+    "survival_s": 80.29999999999673,
+    "death": true,
+    "seed": 388802161,
+    "episode_steps": 1205,
+    "update": 72
+  },
+  {
+    "survival_s": 82.36666666666328,
+    "death": true,
+    "seed": 525363430,
+    "episode_steps": 1236,
+    "update": 72
+  },
+  {
+    "survival_s": 109.06666666666176,
+    "death": true,
+    "seed": 1991229106,
+    "episode_steps": 1636,
+    "update": 72
+  },
+  {
+    "survival_s": 62.566666666664396,
+    "death": true,
+    "seed": 1138886285,
+    "episode_steps": 939,
+    "update": 72
+  },
+  {
+    "survival_s": 74.29999999999707,
+    "death": true,
+    "seed": 765352464,
+    "episode_steps": 1115,
+    "update": 72
+  },
+  {
+    "survival_s": 76.31666666666362,
+    "death": true,
+    "seed": 690368961,
+    "episode_steps": 1145,
+    "update": 72
+  },
+  {
+    "survival_s": 68.26666666666408,
+    "death": true,
+    "seed": 1097888425,
+    "episode_steps": 1024,
+    "update": 72
+  },
+  {
+    "survival_s": 71.16666666666391,
+    "death": true,
+    "seed": 272780880,
+    "episode_steps": 1068,
+    "update": 72
+  },
+  {
+    "survival_s": 78.63333333333016,
+    "death": true,
+    "seed": 1810641279,
+    "episode_steps": 1180,
+    "update": 72
+  },
+  {
+    "survival_s": 82.79999999999659,
+    "death": true,
+    "seed": 592213248,
+    "episode_steps": 1242,
+    "update": 72
+  },
+  {
+    "survival_s": 80.68333333333004,
+    "death": true,
+    "seed": 570581574,
+    "episode_steps": 1211,
+    "update": 72
+  },
+  {
+    "survival_s": 78.91666666666347,
+    "death": true,
+    "seed": 3870248,
+    "episode_steps": 1184,
+    "update": 72
+  },
+  {
+    "survival_s": 75.549999999997,
+    "death": true,
+    "seed": 1409426130,
+    "episode_steps": 1134,
+    "update": 72
+  },
+  {
+    "survival_s": 76.28333333333029,
+    "death": true,
+    "seed": 90060017,
+    "episode_steps": 1145,
+    "update": 72
+  },
+  {
+    "survival_s": 74.41666666666373,
+    "death": true,
+    "seed": 1122386920,
+    "episode_steps": 1117,
+    "update": 72
+  },
+  {
+    "survival_s": 77.36666666666356,
+    "death": true,
+    "seed": 128051937,
+    "episode_steps": 1161,
+    "update": 72
+  },
+  {
+    "survival_s": 79.46666666666344,
+    "death": true,
+    "seed": 827963426,
+    "episode_steps": 1192,
+    "update": 72
+  },
+  {
+    "survival_s": 81.19999999999668,
+    "death": true,
+    "seed": 2093548190,
+    "episode_steps": 1218,
+    "update": 72
+  },
+  {
+    "survival_s": 70.96666666666393,
+    "death": true,
+    "seed": 90373385,
+    "episode_steps": 1065,
+    "update": 72
+  },
+  {
+    "survival_s": 69.716666666664,
+    "death": true,
+    "seed": 28958011,
+    "episode_steps": 1046,
+    "update": 72
+  },
+  {
+    "survival_s": 80.63333333333004,
+    "death": true,
+    "seed": 1829060017,
+    "episode_steps": 1210,
+    "update": 72
+  },
+  {
+    "survival_s": 71.71666666666388,
+    "death": true,
+    "seed": 2119827089,
+    "episode_steps": 1076,
+    "update": 73
+  },
+  {
+    "survival_s": 72.21666666666385,
+    "death": true,
+    "seed": 266046016,
+    "episode_steps": 1084,
+    "update": 73
+  },
+  {
+    "survival_s": 77.06666666666358,
+    "death": true,
+    "seed": 2015639766,
+    "episode_steps": 1156,
+    "update": 73
+  },
+  {
+    "survival_s": 75.83333333333032,
+    "death": true,
+    "seed": 18005639,
+    "episode_steps": 1138,
+    "update": 73
+  },
+  {
+    "survival_s": 67.39999999999746,
+    "death": true,
+    "seed": 152016340,
+    "episode_steps": 1011,
+    "update": 73
+  },
+  {
+    "survival_s": 64.03333333333099,
+    "death": true,
+    "seed": 781878461,
+    "episode_steps": 961,
+    "update": 73
+  },
+  {
+    "survival_s": 81.49999999999666,
+    "death": true,
+    "seed": 386403626,
+    "episode_steps": 1223,
+    "update": 73
+  },
+  {
+    "survival_s": 76.54999999999694,
+    "death": true,
+    "seed": 663235432,
+    "episode_steps": 1149,
+    "update": 73
+  },
+  {
+    "survival_s": 76.69999999999693,
+    "death": true,
+    "seed": 1159910222,
+    "episode_steps": 1151,
+    "update": 73
+  },
+  {
+    "survival_s": 71.66666666666389,
+    "death": true,
+    "seed": 269470823,
+    "episode_steps": 1075,
+    "update": 73
+  },
+  {
+    "survival_s": 77.9333333333302,
+    "death": true,
+    "seed": 532166,
+    "episode_steps": 1169,
+    "update": 73
+  },
+  {
+    "survival_s": 113.46666666666151,
+    "death": true,
+    "seed": 2053025814,
+    "episode_steps": 1702,
+    "update": 73
+  },
+  {
+    "survival_s": 71.5166666666639,
+    "death": true,
+    "seed": 860044867,
+    "episode_steps": 1073,
+    "update": 73
+  },
+  {
+    "survival_s": 65.51666666666424,
+    "death": true,
+    "seed": 1725202233,
+    "episode_steps": 983,
+    "update": 73
+  },
+  {
+    "survival_s": 96.73333333332913,
+    "death": true,
+    "seed": 1223778015,
+    "episode_steps": 1451,
+    "update": 73
+  },
+  {
+    "survival_s": 78.68333333333015,
+    "death": true,
+    "seed": 551239327,
+    "episode_steps": 1181,
+    "update": 73
+  },
+  {
+    "survival_s": 84.76666666666314,
+    "death": true,
+    "seed": 349945394,
+    "episode_steps": 1272,
+    "update": 73
+  },
+  {
+    "survival_s": 67.2333333333308,
+    "death": true,
+    "seed": 779229114,
+    "episode_steps": 1009,
+    "update": 73
+  },
+  {
+    "survival_s": 79.38333333333011,
+    "death": true,
+    "seed": 1556327918,
+    "episode_steps": 1191,
+    "update": 74
+  },
+  {
+    "survival_s": 105.61666666666196,
+    "death": true,
+    "seed": 701182458,
+    "episode_steps": 1585,
+    "update": 74
+  },
+  {
+    "survival_s": 74.49999999999706,
+    "death": true,
+    "seed": 619928963,
+    "episode_steps": 1118,
+    "update": 74
+  },
+  {
+    "survival_s": 79.64999999999677,
+    "death": true,
+    "seed": 2048356183,
+    "episode_steps": 1195,
+    "update": 74
+  },
+  {
+    "survival_s": 114.43333333332812,
+    "death": true,
+    "seed": 1594817427,
+    "episode_steps": 1717,
+    "update": 74
+  },
+  {
+    "survival_s": 76.7166666666636,
+    "death": true,
+    "seed": 2007958870,
+    "episode_steps": 1151,
+    "update": 74
+  },
+  {
+    "survival_s": 94.13333333332928,
+    "death": true,
+    "seed": 1193609585,
+    "episode_steps": 1412,
+    "update": 74
+  },
+  {
+    "survival_s": 76.46666666666361,
+    "death": true,
+    "seed": 694158439,
+    "episode_steps": 1147,
+    "update": 74
+  },
+  {
+    "survival_s": 81.74999999999665,
+    "death": true,
+    "seed": 443309971,
+    "episode_steps": 1227,
+    "update": 74
+  },
+  {
+    "survival_s": 121.58333333332772,
+    "death": true,
+    "seed": 2007849830,
+    "episode_steps": 1824,
+    "update": 74
+  },
+  {
+    "survival_s": 96.99999999999578,
+    "death": true,
+    "seed": 1521598797,
+    "episode_steps": 1455,
+    "update": 74
+  },
+  {
+    "survival_s": 82.61666666666326,
+    "death": true,
+    "seed": 557756009,
+    "episode_steps": 1240,
+    "update": 74
+  },
+  {
+    "survival_s": 73.88333333333043,
+    "death": true,
+    "seed": 528235517,
+    "episode_steps": 1109,
+    "update": 74
+  },
+  {
+    "survival_s": 97.31666666666243,
+    "death": true,
+    "seed": 1119231677,
+    "episode_steps": 1460,
+    "update": 74
+  },
+  {
+    "survival_s": 74.71666666666371,
+    "death": true,
+    "seed": 438522501,
+    "episode_steps": 1121,
+    "update": 74
+  },
+  {
+    "survival_s": 77.61666666666355,
+    "death": true,
+    "seed": 497844264,
+    "episode_steps": 1165,
+    "update": 75
+  },
+  {
+    "survival_s": 104.14999999999537,
+    "death": true,
+    "seed": 1879354530,
+    "episode_steps": 1563,
+    "update": 75
+  },
+  {
+    "survival_s": 74.69999999999705,
+    "death": true,
+    "seed": 994518995,
+    "episode_steps": 1121,
+    "update": 75
+  },
+  {
+    "survival_s": 87.216666666663,
+    "death": true,
+    "seed": 248556330,
+    "episode_steps": 1309,
+    "update": 75
+  },
+  {
+    "survival_s": 73.53333333333045,
+    "death": true,
+    "seed": 1438247440,
+    "episode_steps": 1103,
+    "update": 75
+  },
+  {
+    "survival_s": 80.64999999999671,
+    "death": true,
+    "seed": 577723151,
+    "episode_steps": 1210,
+    "update": 75
+  },
+  {
+    "survival_s": 75.06666666666369,
+    "death": true,
+    "seed": 1945808928,
+    "episode_steps": 1126,
+    "update": 75
+  },
+  {
+    "survival_s": 99.39999999999564,
+    "death": true,
+    "seed": 699191470,
+    "episode_steps": 1491,
+    "update": 75
+  },
+  {
+    "survival_s": 74.46666666666373,
+    "death": true,
+    "seed": 144325229,
+    "episode_steps": 1117,
+    "update": 75
+  },
+  {
+    "survival_s": 67.69999999999744,
+    "death": true,
+    "seed": 1338581305,
+    "episode_steps": 1016,
+    "update": 75
+  },
+  {
+    "survival_s": 84.56666666666315,
+    "death": true,
+    "seed": 1329228443,
+    "episode_steps": 1269,
+    "update": 75
+  },
+  {
+    "survival_s": 93.91666666666262,
+    "death": true,
+    "seed": 1274288559,
+    "episode_steps": 1409,
+    "update": 75
+  },
+  {
+    "survival_s": 127.89999999999402,
+    "death": true,
+    "seed": 1566901051,
+    "episode_steps": 1919,
+    "update": 75
+  },
+  {
+    "survival_s": 101.63333333332885,
+    "death": true,
+    "seed": 1242623996,
+    "episode_steps": 1525,
+    "update": 75
+  },
+  {
+    "survival_s": 85.24999999999645,
+    "death": true,
+    "seed": 889493408,
+    "episode_steps": 1279,
+    "update": 75
+  },
+  {
+    "survival_s": 75.28333333333035,
+    "death": true,
+    "seed": 1132607403,
+    "episode_steps": 1130,
+    "update": 75
+  },
+  {
+    "survival_s": 70.11666666666397,
+    "death": true,
+    "seed": 1882221019,
+    "episode_steps": 1052,
+    "update": 75
+  },
+  {
+    "survival_s": 77.51666666666355,
+    "death": true,
+    "seed": 159749252,
+    "episode_steps": 1163,
+    "update": 76
+  },
+  {
+    "survival_s": 77.44999999999689,
+    "death": true,
+    "seed": 1318154940,
+    "episode_steps": 1162,
+    "update": 76
+  },
+  {
+    "survival_s": 77.63333333333021,
+    "death": true,
+    "seed": 255854930,
+    "episode_steps": 1165,
+    "update": 76
+  },
+  {
+    "survival_s": 70.8333333333306,
+    "death": true,
+    "seed": 1024862974,
+    "episode_steps": 1063,
+    "update": 76
+  },
+  {
+    "survival_s": 89.58333333332953,
+    "death": true,
+    "seed": 205287819,
+    "episode_steps": 1344,
+    "update": 76
+  },
+  {
+    "survival_s": 78.01666666666353,
+    "death": true,
+    "seed": 1397752071,
+    "episode_steps": 1171,
+    "update": 76
+  },
+  {
+    "survival_s": 75.26666666666368,
+    "death": true,
+    "seed": 1692021340,
+    "episode_steps": 1129,
+    "update": 76
+  },
+  {
+    "survival_s": 72.24999999999719,
+    "death": true,
+    "seed": 1181225831,
+    "episode_steps": 1084,
+    "update": 76
+  },
+  {
+    "survival_s": 77.14999999999691,
+    "death": true,
+    "seed": 1854962212,
+    "episode_steps": 1158,
+    "update": 76
+  },
+  {
+    "survival_s": 78.64999999999682,
+    "death": true,
+    "seed": 1707263300,
+    "episode_steps": 1180,
+    "update": 76
+  },
+  {
+    "survival_s": 85.93333333332974,
+    "death": true,
+    "seed": 2071688110,
+    "episode_steps": 1289,
+    "update": 76
+  },
+  {
+    "survival_s": 89.44999999999621,
+    "death": true,
+    "seed": 1708974085,
+    "episode_steps": 1342,
+    "update": 76
+  },
+  {
+    "survival_s": 100.43333333332892,
+    "death": true,
+    "seed": 1010301086,
+    "episode_steps": 1507,
+    "update": 76
+  },
+  {
+    "survival_s": 86.0999999999964,
+    "death": true,
+    "seed": 210665177,
+    "episode_steps": 1292,
+    "update": 76
+  },
+  {
+    "survival_s": 72.6333333333305,
+    "death": true,
+    "seed": 754097378,
+    "episode_steps": 1090,
+    "update": 76
+  },
+  {
+    "survival_s": 81.03333333333002,
+    "death": true,
+    "seed": 2122251712,
+    "episode_steps": 1216,
+    "update": 76
+  },
+  {
+    "survival_s": 72.56666666666383,
+    "death": true,
+    "seed": 128496317,
+    "episode_steps": 1089,
+    "update": 76
+  },
+  {
+    "survival_s": 81.71666666666331,
+    "death": true,
+    "seed": 1692380320,
+    "episode_steps": 1226,
+    "update": 76
+  },
+  {
+    "survival_s": 76.41666666666362,
+    "death": true,
+    "seed": 225089609,
+    "episode_steps": 1147,
+    "update": 76
+  },
+  {
+    "survival_s": 72.64999999999716,
+    "death": true,
+    "seed": 761354872,
+    "episode_steps": 1090,
+    "update": 76
+  },
+  {
+    "survival_s": 84.44999999999649,
+    "death": true,
+    "seed": 625860232,
+    "episode_steps": 1267,
+    "update": 76
+  },
+  {
+    "survival_s": 82.0666666666633,
+    "death": true,
+    "seed": 2112057568,
+    "episode_steps": 1231,
+    "update": 77
+  },
+  {
+    "survival_s": 95.73333333332918,
+    "death": true,
+    "seed": 1064316258,
+    "episode_steps": 1436,
+    "update": 77
+  },
+  {
+    "survival_s": 83.2333333333299,
+    "death": true,
+    "seed": 1367783382,
+    "episode_steps": 1249,
+    "update": 77
+  },
+  {
+    "survival_s": 110.68333333332833,
+    "death": true,
+    "seed": 56761001,
+    "episode_steps": 1661,
+    "update": 77
+  },
+  {
+    "survival_s": 68.48333333333073,
+    "death": true,
+    "seed": 1254189176,
+    "episode_steps": 1028,
+    "update": 77
+  },
+  {
+    "survival_s": 83.49999999999655,
+    "death": true,
+    "seed": 2068353698,
+    "episode_steps": 1253,
+    "update": 77
+  },
+  {
+    "survival_s": 82.91666666666325,
+    "death": true,
+    "seed": 290860273,
+    "episode_steps": 1244,
+    "update": 77
+  },
+  {
+    "survival_s": 75.39999999999701,
+    "death": true,
+    "seed": 692677957,
+    "episode_steps": 1131,
+    "update": 77
+  },
+  {
+    "survival_s": 84.53333333332982,
+    "death": true,
+    "seed": 551008820,
+    "episode_steps": 1268,
+    "update": 77
+  },
+  {
+    "survival_s": 85.98333333332974,
+    "death": true,
+    "seed": 986039757,
+    "episode_steps": 1290,
+    "update": 77
+  },
+  {
+    "survival_s": 70.69999999999727,
+    "death": true,
+    "seed": 862806060,
+    "episode_steps": 1061,
+    "update": 77
+  },
+  {
+    "survival_s": 77.49999999999689,
+    "death": true,
+    "seed": 32237541,
+    "episode_steps": 1163,
+    "update": 77
+  },
+  {
+    "survival_s": 80.1666666666634,
+    "death": true,
+    "seed": 392646699,
+    "episode_steps": 1203,
+    "update": 77
+  },
+  {
+    "survival_s": 80.08333333333007,
+    "death": true,
+    "seed": 1685968905,
+    "episode_steps": 1202,
+    "update": 77
+  },
+  {
+    "survival_s": 79.1499999999968,
+    "death": true,
+    "seed": 91472674,
+    "episode_steps": 1188,
+    "update": 77
+  },
+  {
+    "survival_s": 98.64999999999569,
+    "death": true,
+    "seed": 1697424355,
+    "episode_steps": 1480,
+    "update": 78
+  },
+  {
+    "survival_s": 80.41666666666339,
+    "death": true,
+    "seed": 192475786,
+    "episode_steps": 1207,
+    "update": 78
+  },
+  {
+    "survival_s": 111.2833333333283,
+    "death": true,
+    "seed": 1717107742,
+    "episode_steps": 1670,
+    "update": 78
+  },
+  {
+    "survival_s": 65.84999999999755,
+    "death": true,
+    "seed": 855417541,
+    "episode_steps": 988,
+    "update": 78
+  },
+  {
+    "survival_s": 81.98333333332997,
+    "death": true,
+    "seed": 1383919838,
+    "episode_steps": 1230,
+    "update": 78
+  },
+  {
+    "survival_s": 70.49999999999729,
+    "death": true,
+    "seed": 225544941,
+    "episode_steps": 1058,
+    "update": 78
+  },
+  {
+    "survival_s": 90.34999999999616,
+    "death": true,
+    "seed": 1970058585,
+    "episode_steps": 1356,
+    "update": 78
+  },
+  {
+    "survival_s": 84.51666666666316,
+    "death": true,
+    "seed": 453354142,
+    "episode_steps": 1268,
+    "update": 78
+  },
+  {
+    "survival_s": 98.31666666666237,
+    "death": true,
+    "seed": 191607055,
+    "episode_steps": 1475,
+    "update": 78
+  },
+  {
+    "survival_s": 74.64999999999705,
+    "death": true,
+    "seed": 1434642896,
+    "episode_steps": 1120,
+    "update": 78
+  },
+  {
+    "survival_s": 72.21666666666385,
+    "death": true,
+    "seed": 671036370,
+    "episode_steps": 1084,
+    "update": 78
+  },
+  {
+    "survival_s": 142.83333333333914,
+    "death": true,
+    "seed": 1534923766,
+    "episode_steps": 2143,
+    "update": 78
+  },
+  {
+    "survival_s": 84.41666666666316,
+    "death": true,
+    "seed": 1698780647,
+    "episode_steps": 1267,
+    "update": 78
+  },
+  {
+    "survival_s": 69.38333333333068,
+    "death": true,
+    "seed": 1684525019,
+    "episode_steps": 1041,
+    "update": 78
+  },
+  {
+    "survival_s": 79.06666666666347,
+    "death": true,
+    "seed": 1353207164,
+    "episode_steps": 1186,
+    "update": 79
+  },
+  {
+    "survival_s": 72.5833333333305,
+    "death": true,
+    "seed": 184983220,
+    "episode_steps": 1089,
+    "update": 79
+  },
+  {
+    "survival_s": 83.16666666666323,
+    "death": true,
+    "seed": 1871205041,
+    "episode_steps": 1248,
+    "update": 79
+  },
+  {
+    "survival_s": 108.38333333332847,
+    "death": true,
+    "seed": 687651005,
+    "episode_steps": 1626,
+    "update": 79
+  },
+  {
+    "survival_s": 76.98333333333025,
+    "death": true,
+    "seed": 872552458,
+    "episode_steps": 1155,
+    "update": 79
+  },
+  {
+    "survival_s": 92.39999999999604,
+    "death": true,
+    "seed": 153403707,
+    "episode_steps": 1386,
+    "update": 79
+  },
+  {
+    "survival_s": 88.71666666666292,
+    "death": true,
+    "seed": 1756327496,
+    "episode_steps": 1331,
+    "update": 79
+  },
+  {
+    "survival_s": 97.3333333333291,
+    "death": true,
+    "seed": 1546309245,
+    "episode_steps": 1460,
+    "update": 79
+  },
+  {
+    "survival_s": 68.34999999999741,
+    "death": true,
+    "seed": 387031189,
+    "episode_steps": 1026,
+    "update": 79
+  },
+  {
+    "survival_s": 83.06666666666324,
+    "death": true,
+    "seed": 974097741,
+    "episode_steps": 1246,
+    "update": 79
+  },
+  {
+    "survival_s": 112.29999999999491,
+    "death": true,
+    "seed": 146611131,
+    "episode_steps": 1685,
+    "update": 79
+  },
+  {
+    "survival_s": 75.06666666666369,
+    "death": true,
+    "seed": 1564856619,
+    "episode_steps": 1126,
+    "update": 79
+  },
+  {
+    "survival_s": 70.48333333333062,
+    "death": true,
+    "seed": 1822708690,
+    "episode_steps": 1058,
+    "update": 79
+  },
+  {
+    "survival_s": 70.3499999999973,
+    "death": true,
+    "seed": 782205067,
+    "episode_steps": 1056,
+    "update": 79
+  },
+  {
+    "survival_s": 84.08333333332985,
+    "death": true,
+    "seed": 1682365160,
+    "episode_steps": 1262,
+    "update": 79
+  },
+  {
+    "survival_s": 72.44999999999717,
+    "death": true,
+    "seed": 1259499853,
+    "episode_steps": 1087,
+    "update": 79
+  },
+  {
+    "survival_s": 70.81666666666393,
+    "death": true,
+    "seed": 1093831043,
+    "episode_steps": 1063,
+    "update": 79
+  },
+  {
+    "survival_s": 79.24999999999679,
+    "death": true,
+    "seed": 2133304354,
+    "episode_steps": 1189,
+    "update": 79
+  },
+  {
+    "survival_s": 71.53333333333056,
+    "death": true,
+    "seed": 1086444296,
+    "episode_steps": 1073,
+    "update": 79
+  },
+  {
+    "survival_s": 71.71666666666388,
+    "death": true,
+    "seed": 1633277784,
+    "episode_steps": 1076,
+    "update": 79
+  },
+  {
+    "survival_s": 91.8833333333294,
+    "death": true,
+    "seed": 1868744527,
+    "episode_steps": 1379,
+    "update": 80
+  },
+  {
+    "survival_s": 79.7333333333301,
+    "death": true,
+    "seed": 145760471,
+    "episode_steps": 1196,
+    "update": 80
+  },
+  {
+    "survival_s": 110.1666666666617,
+    "death": true,
+    "seed": 21368521,
+    "episode_steps": 1653,
+    "update": 80
+  },
+  {
+    "survival_s": 96.5499999999958,
+    "death": true,
+    "seed": 1720215939,
+    "episode_steps": 1449,
+    "update": 80
+  },
+  {
+    "survival_s": 86.34999999999638,
+    "death": true,
+    "seed": 235497613,
+    "episode_steps": 1296,
+    "update": 80
+  },
+  {
+    "survival_s": 107.38333333332852,
+    "death": true,
+    "seed": 451523024,
+    "episode_steps": 1611,
+    "update": 80
+  },
+  {
+    "survival_s": 79.1499999999968,
+    "death": true,
+    "seed": 1668603332,
+    "episode_steps": 1188,
+    "update": 80
+  },
+  {
+    "survival_s": 71.56666666666389,
+    "death": true,
+    "seed": 1321859737,
+    "episode_steps": 1074,
+    "update": 80
+  },
+  {
+    "survival_s": 78.13333333333019,
+    "death": true,
+    "seed": 926044783,
+    "episode_steps": 1172,
+    "update": 80
+  },
+  {
+    "survival_s": 77.96666666666353,
+    "death": true,
+    "seed": 1120003391,
+    "episode_steps": 1170,
+    "update": 80
+  },
+  {
+    "survival_s": 110.73333333332833,
+    "death": true,
+    "seed": 1952980285,
+    "episode_steps": 1661,
+    "update": 80
+  },
+  {
+    "survival_s": 80.44999999999672,
+    "death": true,
+    "seed": 1689998865,
+    "episode_steps": 1207,
+    "update": 80
+  },
+  {
+    "survival_s": 71.49999999999723,
+    "death": true,
+    "seed": 1531069823,
+    "episode_steps": 1073,
+    "update": 80
+  },
+  {
+    "survival_s": 66.73333333333083,
+    "death": true,
+    "seed": 1861876367,
+    "episode_steps": 1001,
+    "update": 80
+  },
+  {
+    "survival_s": 68.9833333333307,
+    "death": true,
+    "seed": 1920475150,
+    "episode_steps": 1035,
+    "update": 81
+  },
+  {
+    "survival_s": 97.58333333332908,
+    "death": true,
+    "seed": 411269354,
+    "episode_steps": 1464,
+    "update": 81
+  },
+  {
+    "survival_s": 90.56666666666281,
+    "death": true,
+    "seed": 1636639303,
+    "episode_steps": 1359,
+    "update": 81
+  },
+  {
+    "survival_s": 71.4166666666639,
+    "death": true,
+    "seed": 474977057,
+    "episode_steps": 1072,
+    "update": 81
+  },
+  {
+    "survival_s": 77.7833333333302,
+    "death": true,
+    "seed": 730697380,
+    "episode_steps": 1167,
+    "update": 81
+  },
+  {
+    "survival_s": 99.86666666666228,
+    "death": true,
+    "seed": 749093474,
+    "episode_steps": 1498,
+    "update": 81
+  },
+  {
+    "survival_s": 89.36666666666288,
+    "death": true,
+    "seed": 813327764,
+    "episode_steps": 1341,
+    "update": 81
+  },
+  {
+    "survival_s": 74.9666666666637,
+    "death": true,
+    "seed": 1655160129,
+    "episode_steps": 1125,
+    "update": 81
+  },
+  {
+    "survival_s": 76.28333333333029,
+    "death": true,
+    "seed": 991950794,
+    "episode_steps": 1145,
+    "update": 81
+  },
+  {
+    "survival_s": 76.51666666666361,
+    "death": true,
+    "seed": 2024343249,
+    "episode_steps": 1148,
+    "update": 81
+  },
+  {
+    "survival_s": 89.76666666666286,
+    "death": true,
+    "seed": 1058624264,
+    "episode_steps": 1347,
+    "update": 81
+  },
+  {
+    "survival_s": 99.98333333332894,
+    "death": true,
+    "seed": 2015935573,
+    "episode_steps": 1500,
+    "update": 81
+  },
+  {
+    "survival_s": 81.03333333333002,
+    "death": true,
+    "seed": 2032663429,
+    "episode_steps": 1216,
+    "update": 81
+  },
+  {
+    "survival_s": 112.71666666666155,
+    "death": true,
+    "seed": 528887335,
+    "episode_steps": 1691,
+    "update": 81
+  },
+  {
+    "survival_s": 86.0499999999964,
+    "death": true,
+    "seed": 1909187781,
+    "episode_steps": 1291,
+    "update": 81
+  },
+  {
+    "survival_s": 79.84999999999675,
+    "death": true,
+    "seed": 1693895092,
+    "episode_steps": 1198,
+    "update": 81
+  },
+  {
+    "survival_s": 91.49999999999609,
+    "death": true,
+    "seed": 1889498750,
+    "episode_steps": 1373,
+    "update": 81
+  },
+  {
+    "survival_s": 71.29999999999724,
+    "death": true,
+    "seed": 793999115,
+    "episode_steps": 1070,
+    "update": 81
+  },
+  {
+    "survival_s": 77.3999999999969,
+    "death": true,
+    "seed": 1651262026,
+    "episode_steps": 1161,
+    "update": 82
+  },
+  {
+    "survival_s": 85.08333333332979,
+    "death": true,
+    "seed": 753491571,
+    "episode_steps": 1277,
+    "update": 82
+  },
+  {
+    "survival_s": 88.41666666666293,
+    "death": true,
+    "seed": 1521875122,
+    "episode_steps": 1327,
+    "update": 82
+  },
+  {
+    "survival_s": 84.61666666666315,
+    "death": true,
+    "seed": 223806189,
+    "episode_steps": 1270,
+    "update": 82
+  },
+  {
+    "survival_s": 71.39999999999723,
+    "death": true,
+    "seed": 1252017590,
+    "episode_steps": 1071,
+    "update": 82
+  },
+  {
+    "survival_s": 93.74999999999596,
+    "death": true,
+    "seed": 1762987620,
+    "episode_steps": 1407,
+    "update": 82
+  },
+  {
+    "survival_s": 88.3833333333296,
+    "death": true,
+    "seed": 1079984931,
+    "episode_steps": 1326,
+    "update": 82
+  },
+  {
+    "survival_s": 116.08333333332803,
+    "death": true,
+    "seed": 853319698,
+    "episode_steps": 1742,
+    "update": 82
+  },
+  {
+    "survival_s": 82.19999999999662,
+    "death": true,
+    "seed": 542923243,
+    "episode_steps": 1233,
+    "update": 82
+  },
+  {
+    "survival_s": 73.63333333333044,
+    "death": true,
+    "seed": 1352486346,
+    "episode_steps": 1105,
+    "update": 82
+  },
+  {
+    "survival_s": 62.533333333331065,
+    "death": true,
+    "seed": 1223954737,
+    "episode_steps": 938,
+    "update": 82
+  },
+  {
+    "survival_s": 78.59999999999683,
+    "death": true,
+    "seed": 1408021597,
+    "episode_steps": 1179,
+    "update": 82
+  },
+  {
+    "survival_s": 88.5333333333296,
+    "death": true,
+    "seed": 973874198,
+    "episode_steps": 1328,
+    "update": 82
+  },
+  {
+    "survival_s": 72.14999999999719,
+    "death": true,
+    "seed": 2068059926,
+    "episode_steps": 1083,
+    "update": 82
+  },
+  {
+    "survival_s": 89.13333333332956,
+    "death": true,
+    "seed": 2045711091,
+    "episode_steps": 1337,
+    "update": 82
+  },
+  {
+    "survival_s": 77.09999999999691,
+    "death": true,
+    "seed": 396259016,
+    "episode_steps": 1157,
+    "update": 82
+  },
+  {
+    "survival_s": 79.08333333333013,
+    "death": true,
+    "seed": 77170563,
+    "episode_steps": 1187,
+    "update": 82
+  },
+  {
+    "survival_s": 74.93333333333037,
+    "death": true,
+    "seed": 197329381,
+    "episode_steps": 1124,
+    "update": 82
+  },
+  {
+    "survival_s": 99.14999999999566,
+    "death": true,
+    "seed": 1746002263,
+    "episode_steps": 1488,
+    "update": 83
+  },
+  {
+    "survival_s": 89.28333333332955,
+    "death": true,
+    "seed": 947289058,
+    "episode_steps": 1340,
+    "update": 83
+  },
+  {
+    "survival_s": 79.39999999999678,
+    "death": true,
+    "seed": 814916977,
+    "episode_steps": 1191,
+    "update": 83
+  },
+  {
+    "survival_s": 77.9833333333302,
+    "death": true,
+    "seed": 171351907,
+    "episode_steps": 1170,
+    "update": 83
+  },
+  {
+    "survival_s": 82.28333333332995,
+    "death": true,
+    "seed": 1575394720,
+    "episode_steps": 1235,
+    "update": 83
+  },
+  {
+    "survival_s": 83.0333333333299,
+    "death": true,
+    "seed": 878652487,
+    "episode_steps": 1246,
+    "update": 83
+  },
+  {
+    "survival_s": 77.53333333333022,
+    "death": true,
+    "seed": 1646670167,
+    "episode_steps": 1163,
+    "update": 83
+  },
+  {
+    "survival_s": 94.8499999999959,
+    "death": true,
+    "seed": 1653393371,
+    "episode_steps": 1423,
+    "update": 83
+  },
+  {
+    "survival_s": 65.68333333333089,
+    "death": true,
+    "seed": 464980880,
+    "episode_steps": 986,
+    "update": 83
+  },
+  {
+    "survival_s": 72.01666666666387,
+    "death": true,
+    "seed": 1927220240,
+    "episode_steps": 1081,
+    "update": 83
+  },
+  {
+    "survival_s": 77.9833333333302,
+    "death": true,
+    "seed": 355243750,
+    "episode_steps": 1170,
+    "update": 83
+  },
+  {
+    "survival_s": 91.13333333332945,
+    "death": true,
+    "seed": 2037039882,
+    "episode_steps": 1367,
+    "update": 83
+  },
+  {
+    "survival_s": 97.64999999999574,
+    "death": true,
+    "seed": 2077218049,
+    "episode_steps": 1465,
+    "update": 83
+  },
+  {
+    "survival_s": 86.99999999999635,
+    "death": true,
+    "seed": 1494273202,
+    "episode_steps": 1305,
+    "update": 83
+  },
+  {
+    "survival_s": 78.66666666666349,
+    "death": true,
+    "seed": 958245339,
+    "episode_steps": 1180,
+    "update": 84
+  },
+  {
+    "survival_s": 67.88333333333077,
+    "death": true,
+    "seed": 1234916320,
+    "episode_steps": 1019,
+    "update": 84
+  },
+  {
+    "survival_s": 93.08333333332934,
+    "death": true,
+    "seed": 99236691,
+    "episode_steps": 1397,
+    "update": 84
+  },
+  {
+    "survival_s": 66.73333333333083,
+    "death": true,
+    "seed": 1718178468,
+    "episode_steps": 1001,
+    "update": 84
+  },
+  {
+    "survival_s": 88.56666666666293,
+    "death": true,
+    "seed": 1511895635,
+    "episode_steps": 1329,
+    "update": 84
+  },
+  {
+    "survival_s": 103.1666666666621,
+    "death": true,
+    "seed": 1553920398,
+    "episode_steps": 1548,
+    "update": 84
+  },
+  {
+    "survival_s": 96.34999999999582,
+    "death": true,
+    "seed": 257060744,
+    "episode_steps": 1446,
+    "update": 84
+  },
+  {
+    "survival_s": 79.23333333333012,
+    "death": true,
+    "seed": 1477915262,
+    "episode_steps": 1189,
+    "update": 84
+  },
+  {
+    "survival_s": 78.9999999999968,
+    "death": true,
+    "seed": 1912361231,
+    "episode_steps": 1185,
+    "update": 84
+  },
+  {
+    "survival_s": 92.0333333333294,
+    "death": true,
+    "seed": 116608541,
+    "episode_steps": 1381,
+    "update": 84
+  },
+  {
+    "survival_s": 96.5999999999958,
+    "death": true,
+    "seed": 652952997,
+    "episode_steps": 1449,
+    "update": 84
+  },
+  {
+    "survival_s": 83.54999999999654,
+    "death": true,
+    "seed": 1633286532,
+    "episode_steps": 1254,
+    "update": 84
+  },
+  {
+    "survival_s": 98.16666666666238,
+    "death": true,
+    "seed": 1260698962,
+    "episode_steps": 1473,
+    "update": 84
+  },
+  {
+    "survival_s": 76.1833333333303,
+    "death": true,
+    "seed": 2043913708,
+    "episode_steps": 1143,
+    "update": 84
+  },
+  {
+    "survival_s": 78.11666666666352,
+    "death": true,
+    "seed": 899428897,
+    "episode_steps": 1172,
+    "update": 84
+  }
+]

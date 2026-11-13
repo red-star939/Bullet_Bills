@@ -1,0 +1,14 @@
+[
+  {
+    "update": 1,
+    "steps": 4096,
+    "recent_mean_s": 76.27962962962658,
+    "loss": 1.4130445718765259,
+    "clip_fraction": 0.0064697265625,
+    "collect_s": 78.2,
+    "h2d_s": 0.003,
+    "optimize_s": 0.264,
+    "bc_coef": 0.0,
+    "elapsed_since_log_s": 78.47
+  }
+]

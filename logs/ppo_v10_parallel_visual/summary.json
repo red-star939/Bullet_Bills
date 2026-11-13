@@ -1,0 +1,10 @@
+{
+  "model": "models2/bullet_bill_ppo_v10_v41_parallel_best.pt",
+  "seeds": [
+    3082571
+  ],
+  "mean_s": 34.9999999999993,
+  "median_s": 34.9999999999993,
+  "reached_120": 0,
+  "reached_150": 0
+}

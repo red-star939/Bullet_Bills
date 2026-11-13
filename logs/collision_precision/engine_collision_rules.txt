@@ -1,0 +1,390 @@
+ENGINE SOURCE ROOT: C:\Users\USER\Desktop\HONG_LB\mario_pj\.venv\Lib\site-packages\kymnasium\envs\bullet_bill
+These are actual installed source excerpts, not model assumptions.
+
+===== env.py =====
+
+--- env.py:18-115 __init__ ---
+  18:     def __init__(
+  19:             self,
+  20:             game_duration: float,
+  21:             init_spawn_interval: float,
+  22:             min_spawn_interval: float,
+  23:             max_spawns: int,
+  24:             stage: int = 1,
+  25:             continuous_action: bool = False,
+  26:             max_spawn_duration: float = 0.0,
+  27:             frame_skip: int = 4,
+  28:             render_mode: RenderMode = 'human',
+  29:             obs_type: ObsType = 'default'
+  30:     ):
+  31:         self.render_mode = render_mode
+  32:         self.obs_type = obs_type
+  33:         self.should_render = self.render_mode != 'none' or self.obs_type == 'image'
+  34:         self.stage = stage
+  35:         self.continuous_action = continuous_action
+  36:         self.max_spawn_duration = min(max_spawn_duration, game_duration) if max_spawn_duration else game_duration
+  37:         self.frame_skip = frame_skip
+  38:         self.game_duration = game_duration
+  39:         self.init_spawn_interval = init_spawn_interval
+  40:         self.min_spawn_interval = min_spawn_interval
+  41:         self.max_spawns = max_spawns
+  42:         self._time_elapsed = 0
+  43:         self._timer = 0
+  44:         self._spawn_interval = init_spawn_interval
+  45:         self._game_state: Literal['init', 'playing', 'game_over', 'cleared'] = 'init'
+  46: 
+  47:         sprite = pygame.image.load(PATH_SPRITE)
+  48:         sprite.set_colorkey(SPRITE_COLOR_KEY)
+  49:         sprite = pygame.transform.scale(
+  50:             sprite,
+  51:             (sprite.get_width() * SCALE, sprite.get_height() * SCALE)
+  52:         )
+  53:         self._sprite = sprite
+  54:         self._mario_images = Mario.load_images(sprite)
+  55:         self._bullet_bill_images = BulletBill.load_images(sprite)
+  56:         self._star_images = Star.load_images(sprite)
+  57: 
+  58:         self._screen = None
+  59:         self._game_surface = None
+  60:         self._status_surface = None
+  61:         self._font = None
+  62:         self._clock = pygame.time.Clock()
+  63: 
+  64:         self._tiled_map = parse_tmx(ASSET_DIR / f'stage-{self.stage}.tmx')
+  65:         self._background_layer = self._tiled_map.find_tile_layer('background')
+  66:         self._object_layer = self._tiled_map.find_tile_layer('object')
+  67:         self._tile_size = int(self._tiled_map.tile_size.width)
+  68:         self._first_gids = sorted(self._tiled_map.tilesets) or [1]
+  69:         self._tile_set_width = self._sprite.get_width() // GAME_TILE_SIZE
+  70: 
+  71:         self.width = int(self._tiled_map.map_size.width * GAME_TILE_SIZE)
+  72:         self.height = int(self._tiled_map.map_size.height * GAME_TILE_SIZE)
+  73:         self._screen_size = (self.width, self.height)
+  74: 
+  75:         self._character_sprites = Group()
+  76:         self._background_sprites = Group()
+  77:         self._static_sprites = Group()
+  78: 
+  79:         self._mario: Mario | None = None
+  80:         self._bullet_bills: List[BulletBill] = []
+  81:         self._stars: List[Star] = []
+  82:         self._platforms: List[WorldObjects] = []
+  83:         self._platform_grid: dict[tuple[int, int], WorldObjects] = {}
+  84:         self._nearby_platform_cache_key: tuple[int, int, int, int] | None = None
+  85:         self._nearby_platform_cache: List[WorldObjects] = []
+  86:         self._mario_spawn_position: Tuple[int, int] | None = None
+  87:         self._star_spawn_positions: List[Tuple[int, int]] = []
+  88: 
+  89:         self._n_star = sum(
+  90:             gid != 0 and self._local_tile_id(gid) == SpriteId.star
+  91:             for row in self._object_layer.data
+  92:             for gid in row
+  93: 
+  94:         )
+  95:         self._build_static_stage()
+  96:         self._reset_dynamic_stage()
+  97: 
+  98:         if self.obs_type == 'default':
+  99:             self.observation_space = gym.spaces.Dict({
+ 100:                 "mario": gym.spaces.Box(low=-np.inf, high=np.inf, shape=(8,)),
+ 101:                 "bullet_bills": gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self.max_spawns, 5)),
+ 102:                 "stars": gym.spaces.Box(low=-np.inf, high=np.inf, shape=(self._n_star, 4)),
+ 103:             })
+ 104:         else:
+ 105:             self.observation_space = gym.spaces.Box(low=0, high=255, shape=(self.height, self.width, 3), dtype=np.uint8)
+ 106: 
+ 107:         if self.continuous_action:
+ 108:             self.action_space = gym.spaces.Box(
+ 109:                 low=np.array([-1.0, 0.0], dtype=np.float32),
+ 110:                 high=np.array([1.0, 1.0], dtype=np.float32),
+ 111:                 shape=(2,),
+ 112:                 dtype=np.float32,
+ 113:             )
+ 114:         else:
+ 115:             self.action_space = gym.spaces.Discrete(len(Action))
+
+--- env.py:117-157 render ---
+ 117:     def render(self):
+ 118:         if not self.should_render:
+ 119:             return None
+ 120: 
+ 121:         dt = 1.0 / FPS
+ 122: 
+ 123:         if self._screen is None:
+ 124:             pygame.init()
+ 125:             if self.render_mode == "human":
+ 126:                 pygame.display.init()
+ 127:                 self._screen = pygame.display.set_mode((self.width, self.height + STATUS_HEIGHT))
+ 128:                 if self.spec is not None:
+ 129:                     pygame.display.set_caption(self.spec.id)
+ 130:             else:
+ 131:                 self._screen = pygame.Surface((self.width, self.height + STATUS_HEIGHT), pygame.SRCALPHA)
+ 132:             self._game_surface = self._screen.subsurface((0, 0, self.width, self.height))
+ 133:             self._status_surface = self._screen.subsurface((0, self.height, self.width, STATUS_HEIGHT))
+ 134: 
+ 135:         self._character_sprites.update(dt)
+ 136: 
+ 137:         assert self._game_surface is not None, "Game surface must be initialized before rendering"
+ 138: 
+ 139:         self._game_surface.fill(Colors.SKY_BLUE)
+ 140: 
+ 141:         self._background_sprites.draw(self._game_surface)
+ 142:         self._static_sprites.draw(self._game_surface)
+ 143:         self._character_sprites.draw(self._game_surface)
+ 144: 
+ 145:         if self._game_state == 'cleared':
+ 146:             self._draw_status("Game Clear!", Colors.BLUE)
+ 147:         elif self._game_state == 'game_over':
+ 148:             self._draw_status(f"Game Over! You survived for {self._time_elapsed:.2f} seconds", Colors.RED)
+ 149:         else:
+ 150:             self._draw_status(f"Time elapsed: {self._time_elapsed:.2f} seconds", Colors.BLACK)
+ 151: 
+ 152:         if self.render_mode == "human":
+ 153:             pygame.event.pump()
+ 154:             self._clock.tick(FPS)
+ 155:             pygame.display.flip()
+ 156:             return None
+ 157:         return None
+
+--- env.py:185-195 step ---
+ 185:     def step(self, action):
+ 186:         action_force = self._action_to_force(action)
+ 187: 
+ 188:         for _ in range(self.frame_skip):
+ 189:             if self._step_internal(action_force):
+ 190:                 break
+ 191: 
+ 192:         terminated = self._game_state in ('cleared', 'game_over')
+ 193:         truncated = False
+ 194: 
+ 195:         return self._generate_obs(), 0.0, terminated, truncated, self._generate_info()
+
+--- env.py:409-465 _step_internal ---
+ 409:     def _step_internal(self, action: Tuple[float, float]):
+ 410:         assert self._mario is not None
+ 411: 
+ 412:         dt = 1.0 / FPS
+ 413: 
+ 414:         self._timer += dt
+ 415:         self._time_elapsed += dt
+ 416: 
+ 417:         if self._time_elapsed >= self.game_duration:
+ 418:             self._game_state = 'cleared'
+ 419:             if self.should_render:
+ 420:                     self.render()
+ 421:             return True
+ 422: 
+ 423:         self._mario.apply_force(action)
+ 424: 
+ 425:         if self._timer >= self._spawn_interval:
+ 426:             self._timer = 0
+ 427:             self._spawn_bullet_bill()
+ 428: 
+ 429:         self._spawn_interval = self.init_spawn_interval * (
+ 430:                 self.min_spawn_interval / self.init_spawn_interval
+ 431:         ) ** (self._time_elapsed / self.max_spawn_duration)
+ 432: 
+ 433:         self._mario.tick_frame(dt=dt, screen_size=self._screen_size, platforms=self._nearby_platforms())
+ 434:         for bullet in self._bullet_bills:
+ 435:             bullet.tick_frame(dt=dt, screen_size=self._screen_size)
+ 436: 
+ 437:         self._mario.check_star_collision(self._stars)
+ 438:         self._mario.check_bullet_collision(self._bullet_bills)
+ 439: 
+ 440:         active_bullets = []
+ 441:         for bullet in self._bullet_bills:
+ 442:             if bullet.state_ == 'oob':
+ 443:                 bullet.kill()
+ 444:             else:
+ 445:                 active_bullets.append(bullet)
+ 446:         self._bullet_bills = active_bullets
+ 447: 
+ 448:         active_stars = []
+ 449:         for star in self._stars:
+ 450:             if star.active_:
+ 451:                 active_stars.append(star)
+ 452:             else:
+ 453:                 star.kill()
+ 454:         self._stars = active_stars
+ 455: 
+ 456:         if not self._mario.active_:
+ 457:             self._game_state = 'game_over'
+ 458:             if self.should_render:
+ 459:                 self.render()
+ 460:             return True
+ 461: 
+ 462:         if self.should_render:
+ 463:             self.render()
+ 464: 
+ 465:         return False
+
+===== objs.py =====
+
+--- objs.py:103-104 invincible_ ---
+ 103:     def invincible_(self):
+ 104:         return self._is_invincible
+
+--- objs.py:126-137 apply_force ---
+ 126:     def apply_force(self, force: Tuple[float, float]):
+ 127:         fx, fy = force
+ 128: 
+ 129:         if self._is_grounded:
+ 130:             fx = max(-MARIO_MAX_MOVING_FORCE, min(MARIO_MAX_MOVING_FORCE, float(fx)))
+ 131:         else:
+ 132:             fx = max(-MARIO_MAX_FLOATING_FORCE, min(MARIO_MAX_FLOATING_FORCE, float(fx)))
+ 133:         self._velocity.x += fx
+ 134: 
+ 135:         if self._is_grounded and fy < 0:
+ 136:             self._velocity.y = max(-MARIO_JUMPING_FORCE, min(0, float(fy)))
+ 137:             self._is_grounded = False
+
+--- objs.py:139-190 tick_frame ---
+ 139:     def tick_frame(self, dt: float, screen_size: Tuple[int, int], platforms: List['WorldObjects'], *args, **kwargs):
+ 140:         if self._is_grounded:
+ 141:             self._velocity.x = max(-MARIO_GROUND_MAX_SPEED, min(MARIO_GROUND_MAX_SPEED, self._velocity.x))
+ 142:         else:
+ 143:             self._velocity.x = max(-MARIO_AIR_MAX_SPEED, min(MARIO_AIR_MAX_SPEED, self._velocity.x))
+ 144:         self._velocity.y += MARIO_GRAVITY * dt
+ 145: 
+ 146:         if self._velocity.x > 0:
+ 147:             self._is_right = True
+ 148:         elif self._velocity.x < 0:
+ 149:             self._is_right = False
+ 150: 
+ 151:         if abs(self._velocity.x) < MARIO_IDLE_THRESHOLD:
+ 152:             self._velocity.x = 0.0
+ 153: 
+ 154:         self.rect.x += int(self._velocity.x * dt)
+ 155:         self.rect.left = max(0, self.rect.left)
+ 156:         self.rect.right = min(screen_size[0], self.rect.right)
+ 157: 
+ 158:         self._velocity.x *= MARIO_FRICTION
+ 159: 
+ 160:         for platform in platforms:
+ 161:             if self.rect.colliderect(platform.rect):
+ 162:                 if self._velocity.x > 0:
+ 163:                     self.rect.right = platform.rect.left
+ 164:                 elif self._velocity.x < 0:
+ 165:                     self.rect.left = platform.rect.right
+ 166:         self.rect.y += int(self._velocity.y * dt)
+ 167:         self._is_grounded = False
+ 168: 
+ 169:         for platform in platforms:
+ 170:             if self.rect.colliderect(platform.rect):
+ 171:                 if self._velocity.y > 0:
+ 172:                     self.rect.bottom = platform.rect.top
+ 173:                     self._velocity.y = 0
+ 174:                     self._is_grounded = True
+ 175:                 elif self._velocity.y < 0:
+ 176:                     self.rect.top = platform.rect.bottom
+ 177:                     self._velocity.y = 0
+ 178: 
+ 179:         if not self._is_grounded and self._velocity.y >= 0:
+ 180:             self.set_grounded_from_platforms(platforms)
+ 181: 
+ 182:         if self._is_invincible:
+ 183:             if self._invincible_timer > 0:
+ 184:                 self._invincible_timer -= dt
+ 185:             else:
+ 186:                 self._is_invincible = False
+ 187:                 self._invincible_timer = 0
+ 188: 
+ 189:         if self.rect.bottom > screen_size[1]:
+ 190:             self._active = False
+
+--- objs.py:226-242 check_platform_collision ---
+ 226:     def check_platform_collision(self, platforms: List['WorldObjects']):
+ 227:         self._is_grounded = False
+ 228: 
+ 229:         for platform in platforms:
+ 230:             if self.rect.colliderect(platform.rect):
+ 231:                 if self._velocity.x > 0:
+ 232:                     self.rect.right = platform.rect.left
+ 233:                 elif self._velocity.x < 0:
+ 234:                     self.rect.left = platform.rect.right
+ 235: 
+ 236:                 if self._velocity.y > 0:
+ 237:                     self.rect.bottom = platform.rect.top
+ 238:                     self._velocity.y = 0
+ 239:                     self._is_grounded = True
+ 240:                 elif self._velocity.y < 0:
+ 241:                     self.rect.top = platform.rect.bottom
+ 242:                     self._velocity.y = 0
+
+--- objs.py:244-250 check_star_collision ---
+ 244:     def check_star_collision(self, stars: List['Star']):
+ 245:         for star in stars:
+ 246:             if self.rect.colliderect(star.rect):
+ 247:                 self._is_invincible = True
+ 248:                 self._invincible_timer += MARIO_INVINCIBLE_TIME
+ 249:                 star.active_ = False
+ 250:                 break
+
+--- objs.py:252-262 check_bullet_collision ---
+ 252:     def check_bullet_collision(self, bullets: List['BulletBill']):
+ 253:         for bullet in bullets:
+ 254:             if self.rect.colliderect(bullet.rect):
+ 255:                 if bullet.state_ == 'active':
+ 256:                     if self._velocity.y > 0 and self.rect.bottom < bullet.rect.centery:
+ 257:                         self._velocity.y = -MARIO_HOP_FORCE
+ 258:                         bullet.state_ = 'fallen'
+ 259:                     elif self._is_invincible:
+ 260:                         bullet.state_ = 'fallen'
+ 261:                     else:
+ 262:                         self._active = False
+
+--- objs.py:299-312 tick_frame ---
+ 299:     def tick_frame(self, dt: float, screen_size: Tuple[int, int], *args, **kwargs):
+ 300:         if self._state == 'active':
+ 301:             self.rect.centerx += int(self._velocity * dt)
+ 302:         elif self._state == 'fallen':
+ 303:             self.rect.centery += int(BULLET_BILL_FALLEN_SPEED * dt)
+ 304: 
+ 305:         if self._state == 'active':
+ 306:             if self._velocity > 0 and self.rect.left > screen_size[0]:
+ 307:                 self._state = 'oob'
+ 308:             elif self._velocity < 0 and self.rect.right < 0:
+ 309:                 self._state = 'oob'
+ 310:         elif self._state == 'fallen':
+ 311:             if self.rect.top > screen_size[1]:
+ 312:                 self._state = 'oob'
+
+===== consts.py =====
+   5:     mario = 0
+  17:     jump = 3
+  18:     left_jump = 4
+  19:     right_jump = 5
+  21: FPS = 60
+  28: MARIO_IDLE_THRESHOLD = 10.0
+  29: MARIO_GROUND_MAX_SPEED = 750.0
+  30: MARIO_AIR_MAX_SPEED = 500.0
+  31: MARIO_MIN_ANIM_INTERVAL, MARIO_MAX_ANIM_INTERVAL = 0.005, 0.1
+  32: MARIO_INVINCIBLE_TIME = 10.0
+  33: MARIO_INVINCIBLE_ANIM_INTERVAL = 0.05
+  34: MARIO_FRICTION = 0.90
+  35: MARIO_INVINCIBLE_FRAMES = 4
+  36: MARIO_GRAVITY = 2000.0
+  38: MARIO_DEFAULT_MOVING_FORCE = 75.0
+  39: MARIO_MAX_MOVING_FORCE = 100.0
+  40: MARIO_DEFAULT_FLOATING_FORCE = 50.0
+  41: MARIO_MAX_FLOATING_FORCE = 75.0
+  42: MARIO_JUMPING_FORCE = 1000.0
+  43: MARIO_HOP_FORCE = 500.0
+  45: MARIO_COLOR_SKIN = 234, 158, 34
+  46: MARIO_COLOR_SHIRT = 181, 49, 32
+  47: MARIO_COLOR_INNER = 107, 109, 0
+  49: MARIO_COLOR_SKIN_LIGHT = 254, 204, 197
+  50: MARIO_COLOR_SKIN_WHITE = 255, 254, 255
+  52: MARIO_COLOR_SHIRT_GREEN = 12, 147, 0
+  53: MARIO_COLOR_SHIRT_RED = 181, 49, 32
+  54: MARIO_COLOR_SHIRT_BLACK = 0, 0, 0
+  56: MARIO_COLOR_INNER_ORANGE = 234, 158, 34
+  57: MARIO_COLOR_INNER_BROWN = 153, 78, 0
+  59: BULLET_BILL_MIN_SPEED = 200.0
+  60: BULLET_BILL_MAX_SPEED = 300.0
+  61: BULLET_BILL_FALLEN_SPEED = 700.0
+  69: OFFSET_MARIO_STAND = 0, 0
+  70: OFFSET_MARIO_WALK = [(16, 0), (32, 0), (48, 0)]
+  71: OFFSET_MARIO_JUMP = 64, 0
+  72: OFFSET_MARIO_DEAD = 160, 0
+  74: OFFSET_BULLET_BILL = 96, 16

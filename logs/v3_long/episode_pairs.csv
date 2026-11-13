@@ -1,0 +1,17 @@
+split,episode,seed,v2_time_s,v3_time_s,delta_s,v2_state,v3_state,v2_terminal,v3_terminal,v2_decisions,v3_decisions,v2_ms_decision,v3_ms_decision,v3_overrides,v3_recovery_probes
+reference,0,3110390117,35.083333,17.65,-17.433333,game_over,game_over,terminated,terminated,527,265,19.4515,130.4874,10,11075
+reference,1,1602613270,19.5,19.5,0.0,game_over,game_over,terminated,terminated,293,293,20.1249,113.7794,5,9457
+reference,2,2342295393,61.783333,25.366667,-36.416666,game_over,game_over,terminated,terminated,927,381,20.1186,149.7196,8,17507
+reference,3,2290256741,21.966667,10.383333,-11.583334,game_over,game_over,terminated,terminated,330,156,18.4845,149.5001,2,7698
+reference,4,2548657789,31.85,22.166667,-9.683333,game_over,game_over,terminated,terminated,478,333,19.1047,101.4143,11,12811
+reference,5,3135006523,62.45,41.75,-20.7,game_over,game_over,terminated,terminated,937,627,20.1764,137.0667,31,26911
+reference,6,957047139,35.566667,13.65,-21.916667,game_over,game_over,terminated,terminated,534,205,22.3799,119.4881,9,8167
+reference,7,883596516,29.1,74.0,44.9,game_over,game_over,terminated,terminated,437,1110,21.0053,156.34,78,54316
+reference,8,4080529553,55.016667,37.966667,-17.05,game_over,game_over,terminated,terminated,826,570,20.624,141.6651,51,25638
+reference,9,886208027,35.833333,51.933333,16.1,game_over,game_over,terminated,terminated,538,779,19.5158,127.4977,53,33165
+holdout,0,4159992305,32.65,14.683333,-17.966667,game_over,game_over,terminated,terminated,490,221,20.049,120.3169,2,9387
+holdout,1,1483504453,4.2,4.2,0.0,game_over,game_over,terminated,terminated,63,63,17.0858,76.4685,0,1455
+holdout,2,1968272180,53.683333,36.866667,-16.816666,game_over,game_over,terminated,terminated,806,553,20.3662,105.742,27,20663
+holdout,3,474753180,46.4,58.366667,11.966667,game_over,game_over,terminated,terminated,696,876,21.8682,132.9632,68,34992
+holdout,4,3235421126,59.1,26.15,-32.95,game_over,game_over,terminated,terminated,887,393,20.6147,128.9587,13,16845
+holdout,5,184078831,54.5,15.7,-38.8,game_over,game_over,terminated,terminated,818,236,21.3694,129.5145,4,10332

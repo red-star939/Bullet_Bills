@@ -1,0 +1,6 @@
+episode,seed,step,time_s,mario_y,visible_bullets,min_ttc_s,v1_action,v2_proposal,v1_reason,v2_reason,v3_reason,v3_overridden,plans_examined,route_gain_px,active_audit
+5,20261114,686,45.733333,541.0,13,0.20617387955682198,"[-1.0, 1.0]","[-0.5, 1.0]",no_verified_better_ascent,verified_two_phase_ascent,shadow_only,0,18,92.0,null
+5,20261114,853,56.866667,648.0,19,0.21052631578947367,"[1.0, 0.0]","[-0.5, 0.0]",interval_gate,known_world_baseline_incomplete_candidate_complete,shadow_only,0,18,0.0,null
+5,20261114,993,66.2,648.0,21,0.25789671134170916,"[1.0, 0.0]","[-0.5, 0.0]",baseline_uncertain_or_lethal,known_world_baseline_incomplete_candidate_complete,shadow_only,0,18,0.0,null
+5,20261114,1023,68.2,509.0,21,4.9944444444444445,"[-1.0, 1.0]","[-0.5, 1.0]",baseline_uncertain_or_lethal,known_world_baseline_incomplete_candidate_complete,shadow_only,0,18,138.0,null
+5,20261114,1028,68.533333,450.0,22,2.3047619047619046,"[-1.0, 1.0]","[0.0, 1.0]",baseline_uncertain_or_lethal,verified_two_phase_ascent,shadow_only,0,18,154.0,null

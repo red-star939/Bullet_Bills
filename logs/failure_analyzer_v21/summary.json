@@ -1,0 +1,41 @@
+{
+  "episodes": 100,
+  "deaths": 100,
+  "censored_or_non_death": 0,
+  "label_counts": {
+    "bullet_collision": 45,
+    "fall_out_of_bounds": 55
+  },
+  "mean_observed_time_s": 17.70849999999996,
+  "schema_version": "2.1",
+  "engine_evidence_counts": {
+    "ambiguous_multiple_fatal_overlaps": 1,
+    "no_engine_contact_audit": 55,
+    "unique_fatal_overlap": 44
+  },
+  "fatal_projectiles_matched": 44,
+  "fatal_projectiles_visible_before_last_action": 6,
+  "known_world_alternative_available_at_terminal": 18,
+  "physical_death_cause_counts": {
+    "bullet_collision": 45,
+    "fall_out_of_bounds": 55
+  },
+  "policy_failure_diagnostic_counts": {
+    "alternative_predicted_safe_but_not_verified": 18,
+    "selected_predicted_lethal_action": 82
+  },
+  "fatal_engine_identity_link_counts": {
+    "multiple_observation_track_ids_for_one_engine_object": 22,
+    "not_available": 56,
+    "unique_engine_identity_and_observed_track": 22
+  },
+  "configuration": {
+    "episodes": 100,
+    "steps": 900,
+    "seed": 20261106,
+    "horizon_steps": 8,
+    "history_seconds": 2.0,
+    "report_every": 10,
+    "out": "logs/failure_analyzer_v21"
+  }
+}
