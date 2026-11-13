@@ -1,0 +1,56 @@
+{
+  "model": "real\\model_v4\\model_v4_500k.pt",
+  "model_steps": 500000,
+  "trained": true,
+  "mode": "human",
+  "device": "cpu",
+  "stochastic": false,
+  "requested_episodes": 5,
+  "completed_episodes": 3,
+  "mean_survival_s": 4.338888888888879,
+  "min_survival_s": 4.049999999999991,
+  "max_survival_s": 4.9166666666666545,
+  "reached_80": 0,
+  "reached_100": 0,
+  "reached_120": 0,
+  "reached_150": 0,
+  "results": [
+    {
+      "episode": 1,
+      "seed": 452483223,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 4.006056100000023
+    },
+    {
+      "episode": 2,
+      "seed": 1695653105,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 4.0204208000004655
+    },
+    {
+      "episode": 3,
+      "seed": 1085084613,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 4.9957359
+    },
+    {
+      "episode": 4,
+      "seed": 441224510,
+      "survival_s": 0.6000000000000002,
+      "time_source": "time_elapsed",
+      "steps": 9,
+      "status": "user_quit",
+      "wall_s": 0.6010784000000058
+    }
+  ],
+  "created_at_utc": "2026-11-12T11:09:13.826336+00:00"
+}

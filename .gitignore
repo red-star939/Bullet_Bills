@@ -9,10 +9,6 @@ venv/
 ENV/
 env/
 
-# Logs
-logs/
-*.log
-
 # Editor / IDE
 .vscode/
 .idea/
@@ -23,3 +19,5 @@ logs/
 Thumbs.db
 .DS_Store
 
+# Root redundant directory (identical to real/v)
+/v/

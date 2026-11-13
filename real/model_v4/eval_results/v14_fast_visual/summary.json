@@ -1,0 +1,8 @@
+{
+  "model": "real\\model_v4\\model_v14_fast_final.pt",
+  "episodes": 5,
+  "deterministic": true,
+  "mean_survival_s": 21.64666666666643,
+  "reached120": 0,
+  "reached150": 0
+}

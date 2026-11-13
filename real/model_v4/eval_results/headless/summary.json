@@ -1,0 +1,290 @@
+{
+  "model": "real\\model_v4\\model_v4_initial_50k.pt",
+  "model_steps": 50000,
+  "trained": true,
+  "mode": "none",
+  "device": "cpu",
+  "stochastic": false,
+  "requested_episodes": 30,
+  "completed_episodes": 30,
+  "mean_survival_s": 4.808888888888878,
+  "min_survival_s": 4.049999999999991,
+  "max_survival_s": 8.11666666666665,
+  "reached_80": 0,
+  "reached_100": 0,
+  "reached_120": 0,
+  "reached_150": 0,
+  "results": [
+    {
+      "episode": 1,
+      "seed": 754866841,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.020161299999926996
+    },
+    {
+      "episode": 2,
+      "seed": 1363167176,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.02079390000017156
+    },
+    {
+      "episode": 3,
+      "seed": 772445216,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.024793699999918317
+    },
+    {
+      "episode": 4,
+      "seed": 1479761956,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.019371599999885802
+    },
+    {
+      "episode": 5,
+      "seed": 1112361624,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.03723810000019512
+    },
+    {
+      "episode": 6,
+      "seed": 401967065,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.06859570000005988
+    },
+    {
+      "episode": 7,
+      "seed": 990154705,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.026206099999853905
+    },
+    {
+      "episode": 8,
+      "seed": 2053020328,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.020659799999975803
+    },
+    {
+      "episode": 9,
+      "seed": 624960802,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.024402999999892927
+    },
+    {
+      "episode": 10,
+      "seed": 851390392,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.02420720000009169
+    },
+    {
+      "episode": 11,
+      "seed": 1804664079,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.023558800000046176
+    },
+    {
+      "episode": 12,
+      "seed": 427003789,
+      "survival_s": 5.449999999999986,
+      "time_source": "time_elapsed",
+      "steps": 82,
+      "status": "terminated",
+      "wall_s": 0.026467199999842705
+    },
+    {
+      "episode": 13,
+      "seed": 1157524634,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.019418800000039482
+    },
+    {
+      "episode": 14,
+      "seed": 1842106015,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.020553800000016054
+    },
+    {
+      "episode": 15,
+      "seed": 1892868682,
+      "survival_s": 8.11666666666665,
+      "time_source": "time_elapsed",
+      "steps": 122,
+      "status": "terminated",
+      "wall_s": 0.037577799999780837
+    },
+    {
+      "episode": 16,
+      "seed": 23194639,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.02194420000023456
+    },
+    {
+      "episode": 17,
+      "seed": 1402752798,
+      "survival_s": 4.099999999999991,
+      "time_source": "time_elapsed",
+      "steps": 62,
+      "status": "terminated",
+      "wall_s": 0.01889949999986129
+    },
+    {
+      "episode": 18,
+      "seed": 355524906,
+      "survival_s": 8.11666666666665,
+      "time_source": "time_elapsed",
+      "steps": 122,
+      "status": "terminated",
+      "wall_s": 0.043263800000204355
+    },
+    {
+      "episode": 19,
+      "seed": 1609637957,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.020999399999709567
+    },
+    {
+      "episode": 20,
+      "seed": 1262624215,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.024153299999852607
+    },
+    {
+      "episode": 21,
+      "seed": 1686033140,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.027111500000046362
+    },
+    {
+      "episode": 22,
+      "seed": 1204079398,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.019260200000189798
+    },
+    {
+      "episode": 23,
+      "seed": 816361130,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.02503409999962969
+    },
+    {
+      "episode": 24,
+      "seed": 303944234,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.020139299999755167
+    },
+    {
+      "episode": 25,
+      "seed": 62945022,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 0.02057520000016666
+    },
+    {
+      "episode": 26,
+      "seed": 258445846,
+      "survival_s": 4.083333333333324,
+      "time_source": "time_elapsed",
+      "steps": 62,
+      "status": "terminated",
+      "wall_s": 0.01998520000006465
+    },
+    {
+      "episode": 27,
+      "seed": 1775523364,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.02339620000020659
+    },
+    {
+      "episode": 28,
+      "seed": 1131032553,
+      "survival_s": 6.799999999999981,
+      "time_source": "time_elapsed",
+      "steps": 102,
+      "status": "terminated",
+      "wall_s": 0.03270710000015242
+    },
+    {
+      "episode": 29,
+      "seed": 1247971881,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.023865399999976944
+    },
+    {
+      "episode": 30,
+      "seed": 1331776853,
+      "survival_s": 4.9166666666666545,
+      "time_source": "time_elapsed",
+      "steps": 74,
+      "status": "terminated",
+      "wall_s": 0.025031099999978323
+    }
+  ],
+  "created_at_utc": "2026-11-12T10:47:11.172011+00:00"
+}

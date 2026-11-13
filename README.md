@@ -1,40 +1,76 @@
-# Bullet Bills
+# Bullet Bills — Real Package & Trained Models (`MystaLEE_real_x1`)
 
-슈퍼 마리오 환경(`kymnasium/BulletBill-Continuous-Hard-Stage-2`)에서 킬러(Bullet Bill) 추적, 레인(Lane) 관리 및 충돌 위험도 추정(Risk Estimator)을 수행하는 강화학습/시뮬레이션 환경 프로젝트입니다.
+본 브랜치는 **KNU Advanced RL Competition Round 2: Bullet Bills!** 과제의 실제 제출물 및 학습된 체크포인트(`.pt`) 모델들을 단독으로 관리하기 위한 전용 브랜치입니다.
 
-상세한 구현 현황, 물리 분석 및 아키텍처는 **[Development_Process.md](Development_Process.md)** 문서를 참고하세요.
+---
 
-## 📄 개발 및 구현 현황 문서
-- **[Development_Process.md](Development_Process.md)**: 레인 분류, 포탄 추적(BulletTracker), 1차 TTC 및 위험도 추정 구현 검증 결과와 분석 내용이 상세히 정리되어 있습니다.
+## 🌟 최신 추천 모델 안내
 
-## 프로젝트 구조
+- **최신 모델 파일**: `real/v/checkpoints/v15_100m/model_v15_step16056320.pt`
+- **학습 스텝**: 16,056,320 스텝 (V15 고속 병렬 추가 학습 체크포인트)
+- **평가 성능 (30 에피소드 Deterministic 기준)**:
+  - **평균 생존 시간**: **135.11초**
+  - **120초 도달률**: **19 / 30 회**
+  - **150초 도달률**: **11 / 30 회**
 
-- `models/`: 핵심 로직 모듈
-  - `bullet_tracker.py`: Bullet Bill(킬러) 인식 및 궤적 추적 모듈
-  - `lane_manager.py`: 위험 구간/차선 분할 및 관리
-  - `risk_estimator.py`: 상대 속도 및 거리를 바탕으로 한 충돌 위험도 평가
-- `map_data/`: 맵 배경 및 타일/오브젝트 데이터 (JSON, CSV)
-- `test_*.py`: 모듈별 단위 테스트 및 환경 테스트 스크립트
-- `manual_play.py`: 수동 제어 플레이 스크립트
+---
 
-## 시작하기
+## 📁 디렉토리 구조 및 구성
 
-### 환경 설정
-
-```bash
-# 가상환경 생성 및 활성화
-python -m venv .venv
-source .venv/Scripts/activate  # Windows (PowerShell: .venv\Scripts\Activate.ps1)
-
-# 의존성 설치
-pip install -r requirements.txt
+```text
+real/
+├── submission/                      # [공식 제출 패키지] 지침서 규격 충족 최종 제출 폴더
+│   ├── agent.py                     # [필수 1] YourAgent(kym.Agent) 구현 (Numba 물리 예측 + PPO)
+│   ├── best_model.pt                # [필수 2] 공식 평가용 최우수 가중치 (obs_dim=148, hidden=256)
+│   ├── requirements.txt             # [필수 3] 실행 의존성 목록
+│   ├── evaluate.py                  # 공식 시연용 kym.evaluate() 스크립트 (화면/BGM 활성화)
+│   ├── simulate_eval.py             # 화면 없는 고속 다중 시드 평가 검증 스크립트
+│   └── README_SUBMISSION.md         # 공식 제출 및 발표 요약 가이드
+│
+├── v/                               # [체크포인트 및 평가 결과 저장소]
+│   ├── checkpoints/
+│   │   └── v15_100m/
+│   │       ├── model_v15_step16056320.pt   # ★ 최신 모델 (16M)
+│   │       ├── model_v15_step15052800.pt
+│   │       └── ...
+│   ├── eval_results/
+│   │   └── v15_16m_headless/        # 16M 모델 30에피소드 평가 요약 (평균 135.11초)
+│   │       └── summary.json
+│   ├── model_v14_10m.pt             # V14 10M 베이스라인 가중치
+│   └── model_v15_100m_best.pt       # V15 100M 학습 베스트 가중치
+│
+└── model_v4/                        # [네트워크 아키텍처 및 학습/진단 스크립트]
+    ├── agent_ppo_v14.py / agent_ppo_v15.py  # 버전별 PPO 에이전트 구현
+    ├── train_v15_fast.py            # V15 고속 병렬 추가 학습기
+    ├── model_v4_net.py / model_v41_net.py
+    ├── diagnose_actions_v4.py
+    └── README_V15_FAST_KO.md        # V15 학습 가이드
 ```
 
-### 테스트 실행
+---
 
+## 🚀 빠른 실행 방법
+
+### 1. 공식 제출 모델 평가 (화면 및 사운드)
 ```bash
-python test_agent_env.py
-python test_bullet_tracker.py
-python test_risk_env.py
+cd real/submission
+python evaluate.py
 ```
 
+### 2. 최신 16M 모델(`model_v15_step16056320.pt`) 평가
+`real/submission/agent.py`의 기본 로드 경로를 지정하거나 아래와 같이 실행할 수 있습니다:
+```bash
+python -c "
+import kymnasium as kym
+from real.submission.agent import YourAgent
+
+agent = YourAgent.load('real/v/checkpoints/v15_100m/model_v15_step16056320.pt')
+kym.evaluate(
+    env_id='kymnasium/BulletBill-Continuous-Hard-Stage-2',
+    agent=agent,
+    render_mode='human',
+    bgm=True,
+    seed=42
+)
+"
+```

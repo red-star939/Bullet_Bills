@@ -1,0 +1,82 @@
+{
+  "model": "real\\model_v4\\model_v4_500k.pt",
+  "model_steps": 500000,
+  "seed_base": 731209,
+  "paired_seeds": [
+    1046734009,
+    657082636,
+    1394125187,
+    679175405,
+    849324150
+  ],
+  "episodes_per_mode": 5,
+  "modes": {
+    "deterministic": {
+      "steps": 378,
+      "mu_mean": -0.0045894842801822554,
+      "mu_abs_mean": 0.031084997015241436,
+      "mu_near_zero_pct": 74.07407407407408,
+      "std_mean": 0.5345641374588013,
+      "raw_action_abs_mean": 0.031084997015241436,
+      "sent_action_abs_mean": 0.031084997015241436,
+      "sent_action_neutral_pct": 74.07407407407408,
+      "clipped_pct": 0.0,
+      "actual_dx_abs_mean": 0.0,
+      "actual_dx_zero_pct": 100.0,
+      "actual_dx_available_pct": 100.0,
+      "jump_counts": [
+        0,
+        378,
+        0,
+        0,
+        0
+      ],
+      "jump_fraction": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "jump_entropy_mean": 1.5253542503982624,
+      "feature_nonzero_mean": 19.576719576719576,
+      "mean_survival_s": 5.023333333333321
+    },
+    "stochastic": {
+      "steps": 453,
+      "mu_mean": -0.02985738678763376,
+      "mu_abs_mean": 0.26494751556285107,
+      "mu_near_zero_pct": 5.298013245033113,
+      "std_mean": 0.5345641374588013,
+      "raw_action_abs_mean": 0.4542230034892593,
+      "sent_action_abs_mean": 0.43401736653847806,
+      "sent_action_neutral_pct": 8.167770419426049,
+      "clipped_pct": 8.830022075055188,
+      "actual_dx_abs_mean": 5.428256070640177,
+      "actual_dx_zero_pct": 11.479028697571744,
+      "actual_dx_available_pct": 100.0,
+      "jump_counts": [
+        68,
+        172,
+        93,
+        34,
+        86
+      ],
+      "jump_fraction": [
+        0.15011037527593818,
+        0.37969094922737306,
+        0.2052980132450331,
+        0.07505518763796909,
+        0.18984547461368653
+      ],
+      "jump_entropy_mean": 1.5118545362228326,
+      "feature_nonzero_mean": 22.163355408388522,
+      "mean_survival_s": 6.006666666666652
+    }
+  },
+  "notes": [
+    "This is diagnostics, not a training run.",
+    "Training move_abs is sampled action magnitude; deterministic eval uses policy mu.",
+    "actual_dx is derived from obs['mario'] horizontal box center. Check this observation schema if unavailable."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "model": "v\\checkpoints\\v15_100m\\model_v15_step16056320.pt",
+  "episodes": 30,
+  "deterministic": true,
+  "mean_survival_s": 135.1105555555662,
+  "reached120": 19,
+  "reached150": 11
+}

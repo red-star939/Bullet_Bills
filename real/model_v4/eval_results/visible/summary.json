@@ -1,0 +1,38 @@
+{
+  "model": "real\\model_v4\\model_v4_initial_50k.pt",
+  "model_steps": 50000,
+  "trained": true,
+  "mode": "human",
+  "device": "cpu",
+  "stochastic": false,
+  "requested_episodes": 5,
+  "completed_episodes": 1,
+  "mean_survival_s": 4.049999999999991,
+  "min_survival_s": 4.049999999999991,
+  "max_survival_s": 4.049999999999991,
+  "reached_80": 0,
+  "reached_100": 0,
+  "reached_120": 0,
+  "reached_150": 0,
+  "results": [
+    {
+      "episode": 1,
+      "seed": 754866841,
+      "survival_s": 4.049999999999991,
+      "time_source": "time_elapsed",
+      "steps": 61,
+      "status": "terminated",
+      "wall_s": 4.0127096000001075
+    },
+    {
+      "episode": 2,
+      "seed": 1363167176,
+      "survival_s": 2.3999999999999964,
+      "time_source": "time_elapsed",
+      "steps": 36,
+      "status": "user_quit",
+      "wall_s": 2.402617000000191
+    }
+  ],
+  "created_at_utc": "2026-11-12T10:46:58.796933+00:00"
+}

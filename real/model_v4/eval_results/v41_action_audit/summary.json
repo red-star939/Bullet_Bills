@@ -1,0 +1,22 @@
+{
+  "deterministic": {
+    "episodes": 5,
+    "mean_survival_s": 4.396666666666656,
+    "move_counts": {
+      "0": 0,
+      "1": 331,
+      "2": 0
+    },
+    "mean_abs_dx": 0.0
+  },
+  "stochastic": {
+    "episodes": 5,
+    "mean_survival_s": 2.843333333333328,
+    "move_counts": {
+      "0": 81,
+      "1": 72,
+      "2": 62
+    },
+    "mean_abs_dx": 12.6594214481171
+  }
+}
