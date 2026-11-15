@@ -24,6 +24,7 @@
 final/
 ├── agent_ppo_v15_50m_parallel.py         # [메인] 단일 파일 PPO 에이전트 및 16-Worker 병렬 학습기
 ├── parallel50m_final.pt                  # ★ 최종 50M 스텝 학습 완료 모델 가중치
+├── requirements.txt                      # 실행 및 학습 의존성 목록 (PyTorch, Numba 등)
 ├── eval_200_log.txt                      # 200판 평가 상세 로그
 └── 보조도구/
     ├── agent_ppo_v15_50m_parallel_eval_log.py  # 상세 로깅 및 평가 검증 도구
@@ -33,6 +34,11 @@ final/
 ---
 
 ## 🚀 실행 가이드
+
+### 0. 의존성 설치
+```bash
+pip install -r final/requirements.txt
+```
 
 ### 1. 데모 시연 (화면 렌더링)
 ```bash
